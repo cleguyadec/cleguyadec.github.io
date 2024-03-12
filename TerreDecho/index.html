@@ -54,6 +54,7 @@ _Harmonia:false
 _Verdegrove:false
 _FinSolelhaven:false
 _FinHarmonia:false
+
 --
 [CSS]
 #page article {
@@ -70,7 +71,9 @@ Je me redresse, le sol sous moi est doux, accueillant, mais froid. [[Poursuivre-
 
 
 
-</tw-passagedata><tw-passagedata pid="2" name="Explorer Val-d&#39;Oria, l&#39;éden verdoyant." tags="" position="325,1075" size="100,100">{embed image: &#39;./assets/colline.webp&#39;}
+</tw-passagedata><tw-passagedata pid="2" name="Explorer Val-d&#39;Oria, l&#39;éden verdoyant." tags="" position="325,1075" size="100,100">_PassageAvantTirage: passage.name
+--
+{embed image: &#39;./assets/colline.webp&#39;}
 
 Au sommet de la colline, alors que le soleil commence sa descente vers l&#39;horizon, teintant le ciel de nuances d&#39;or et de pourpre, j&#39;aperçois au loin la silhouette majestueuse de Solelhaven. 
 
@@ -80,8 +83,10 @@ De là où je me tiens je distingue les figures de deux chevaliers et un groupe 
 
 Que vais-je faire ?
 &gt;[[M&#39;approcher pour découvrir la nature de leur échange, offrir mon aide ou mon avis ?-&gt;s&#39;approcher]]
-&gt;[[Continuer ma route laissant derrière moi cet aperçu de la vie locale, pour découvrir par ce que Solelhaven a à m&#39;offrir.-&gt;continuer la route]].
-</tw-passagedata><tw-passagedata pid="3" name="s&#39;approcher" tags="" position="250,1225" size="100,100">[if _irrigation]
+&gt;[[Continuer ma route laissant derrière moi cet aperçu de la vie locale, pour découvrir par ce que Solelhaven a à m&#39;offrir.-&gt;continuer la route]]
+</tw-passagedata><tw-passagedata pid="3" name="s&#39;approcher" tags="" position="250,1225" size="100,100">_PassageAvantTirage: passage.name
+--
+[if _irrigation]
 De nouvelles idées me sont venues et je [[m&#39;empresse d&#39;en faire part au groupe-&gt;ici]].
 
 [else]
@@ -91,13 +96,17 @@ La tension est palpable, mais la conversation est empreinte d&#39;un respect mut
 
 &gt;[[Intervenir pour offrir votre aide ou une suggestion.]]
 &gt;[[Observer silencieusement.]]
-&gt;[[Décider de poursuivre votre chemin sans intervenir.-&gt;continuer la route]]</tw-passagedata><tw-passagedata pid="4" name="continuer la route" tags="" position="475,1200" size="100,100">Je choisi de rester à distance, laissant les chevaliers et les paysans à leur débat. Alors que je reprend la route vers Solelhaven, la curiosité de la scène s&#39;estompe rapidement, remplacée par l&#39;anticipation de ce qui m&#39;attend. La décision de passer mon chemin me plonge dans une introspection sur les choix qui façonnent mon voyage, sur les occasions d&#39;interaction et d&#39;apprentissage que l&#39;on saisit ou que l&#39;on laisse derrière soi. 
+&gt;[[Décider de poursuivre votre chemin sans intervenir.-&gt;continuer la route]]</tw-passagedata><tw-passagedata pid="4" name="continuer la route" tags="" position="475,1200" size="100,100">_PassageAvantTirage: passage.name
+--
+Je choisi de rester à distance, laissant les chevaliers et les paysans à leur débat. Alors que je reprend la route vers Solelhaven, la curiosité de la scène s&#39;estompe rapidement, remplacée par l&#39;anticipation de ce qui m&#39;attend. La décision de passer mon chemin me plonge dans une introspection sur les choix qui façonnent mon voyage, sur les occasions d&#39;interaction et d&#39;apprentissage que l&#39;on saisit ou que l&#39;on laisse derrière soi. 
 
 Trois chemins s&#39;offrent à moi, chacun promettant sa propre aventure alors que les ombres du crépuscule commencent à s&#39;allonger.
 
 &gt;[[Le sentier]]À peine visible, un chemin étroit serpente à travers la dense forêt qui borde la route principale. On raconte que ce sentier abrite des secrets aussi vieux que les Terres d&#39;Echo elles-mêmes, mais le danger y rôde également, surtout la nuit. 
 &gt;[[La route principale-&gt;Voyage tranquille]]Large et pavée, la route principale promet un voyage sans encombre mais plus long. Les patrouilles de chevaliers y sont fréquentes, offrant une certaine sécurité, mais aussi la possibilité de rencontres inattendues avec d&#39;autres voyageurs.
-&gt;[[Le chemin de la rivière]]Suivre le cours tranquille de la rivière pourrait être le choix le plus pittoresque. Les reflets de la lune sur l&#39;eau guideraient votre chemin, mais qui sais quelles créatures viennent s&#39;abreuver à la nuit tombée.</tw-passagedata><tw-passagedata pid="5" name="Observer silencieusement." tags="" position="450,1400" size="100,100">Choisissant de rester en retrait, je me poste à une distance respectueuse, observant silencieusement la scène se dérouler devant moi. L&#39;échange, bien que vif, est empreint d&#39;une évidente bienveillance. Je note la manière dont chaque personne s&#39;exprime et la façon dont les autres écoutent attentivement, un témoignage de la cohésion et du respect mutuel qui semblent régir les interactions dans ce royaume. Cette observation m&#39;offre un aperçu précieux de la culture et des valeurs de Val-d&#39;Oria, soulignant l&#39;importance de la communauté et du dialogue constructif. C&#39;est une leçon silencieuse sur la puissance de l&#39;écoute et du respect dans la résolution des conflits.
+&gt;[[Le chemin de la rivière]]Suivre le cours tranquille de la rivière pourrait être le choix le plus pittoresque. Les reflets de la lune sur l&#39;eau guideraient votre chemin, mais qui sais quelles créatures viennent s&#39;abreuver à la nuit tombée.</tw-passagedata><tw-passagedata pid="5" name="Observer silencieusement." tags="" position="450,1400" size="100,100">_PassageAvantTirage: passage.name
+--
+Choisissant de rester en retrait, je me poste à une distance respectueuse, observant silencieusement la scène se dérouler devant moi. L&#39;échange, bien que vif, est empreint d&#39;une évidente bienveillance. Je note la manière dont chaque personne s&#39;exprime et la façon dont les autres écoutent attentivement, un témoignage de la cohésion et du respect mutuel qui semblent régir les interactions dans ce royaume. Cette observation m&#39;offre un aperçu précieux de la culture et des valeurs de Val-d&#39;Oria, soulignant l&#39;importance de la communauté et du dialogue constructif. C&#39;est une leçon silencieuse sur la puissance de l&#39;écoute et du respect dans la résolution des conflits.
 
 &gt;[[Intervenir pour offrir votre aide ou une suggestion.]] 
 &gt;[[poursuivre votre route ?-&gt;continuer la route]]
@@ -105,7 +114,9 @@ Trois chemins s&#39;offrent à moi, chacun promettant sa propre aventure alors q
 
 
 
-</tw-passagedata><tw-passagedata pid="6" name="ici" tags="" position="225,1550" size="100,100">Après une brève présentation, Joren, le paysan au regard déterminé, explique le cœur du problème : *&quot;La rivière qui alimentait nos champs s&#39;est considérablement réduite ces derniers temps. Nous cherchons des solutions pour maintenir nos cultures irrigées sans épuiser les précieuses réserves d&#39;eau.&quot;*
+</tw-passagedata><tw-passagedata pid="6" name="ici" tags="" position="225,1550" size="100,100">_PassageAvantTirage: passage.name
+--
+Après une brève présentation, Joren, le paysan au regard déterminé, explique le cœur du problème : *&quot;La rivière qui alimentait nos champs s&#39;est considérablement réduite ces derniers temps. Nous cherchons des solutions pour maintenir nos cultures irrigées sans épuiser les précieuses réserves d&#39;eau.&quot;*
 
 &gt;[[Créer un système d&#39;irrigation goutte à goutte-&gt;Système d&#39;irrigation goutte à goutte]]
 &gt;[[Creuser de nouveaux puits]]
@@ -114,6 +125,7 @@ Trois chemins s&#39;offrent à moi, chacun promettant sa propre aventure alors q
 &gt;[[Aucune idée ne me vient en tête-&gt;Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="7" name="Le sentier" tags="" position="800,1375" size="100,100">_RencontreSentierScene:[&#39;Serren&#39;,&#39;l\&#39;Arbre chantant&#39;,&#39;La clairière luminescente&#39;,&#39;Voyage tranquille&#39;]
 _RencontreSentier: _RencontreSentierScene[random.d4-1]
 _ValDoria: _ValDoria +2
+_PassageAvantTirage: passage.name
 --
 Alors que ma décision est prise, mes pas se dirigent vers ce sentier à peine visible, une fine cicatrice dans le tissu vert de la forêt. Les légendes murmurent autour de moi, évoquant des secrets anciens qui se tapissent dans l&#39;ombre des arbres centenaires. 
 
@@ -123,26 +135,31 @@ Je me demande, alors que le crépuscule teinte le ciel de couleurs impossibles, 
 
 &gt;[[Poursuivre ma route-&gt;{_RencontreSentier}]]
 </tw-passagedata><tw-passagedata pid="8" name="Creuser de nouveaux puits" tags="" position="425,1550" size="100,100">_ValDoria: _ValDoria -1
+_PassageAvantTirage: passage.name
 --
 Althea explique doucement, *&quot;Creuser plus de puits risque d&#39;épuiser nos réserves souterraines. Nous devons trouver un équilibre avec la nature, pas seulement prendre ce dont nous avons besoin.&quot;*
 
 &gt;[[Oui je comprend, effectivement, je suis sûr qu&#39;il y a d&#39;autres solutions.-&gt;ici]]
 &gt;[[Essayer de les convaincre-&gt;Creuser des puits 2]] </tw-passagedata><tw-passagedata pid="9" name="Rotation des cultures" tags="" position="400,1725" size="100,100">_ValDoria: _ValDoria -1
+_PassageAvantTirage: passage.name
 --
 *&quot;C&#39;est une pratique intéressante,&quot;* concède Emeryn, *&quot;mais notre terre est communautaire, et une telle rotation pourrait compliquer la gestion partagée des terres.&quot;*
 
 &gt;[[Abandonner l&#39;idée.-&gt;ici]]
 &gt;[[Essayer de les convaincre-&gt;Rotation des cultures 2]] </tw-passagedata><tw-passagedata pid="10" name="Système d&#39;irrigation goutte à goutte" tags="" position="100,1725" size="100,100">_ValDoria: _ValDoria+1
+_PassageAvantTirage: passage.name
 --
 Althea hoche la tête en signe d&#39;approbation. *&quot;Merci {_NomJoueur}, une solution respectueuse de nos principes de conservation. Joren, cela pourrait réellement alléger nos soucis d&#39;eau.&quot;*
 
 &gt;[[Poursuivre la discussion-&gt;ici]]
 &gt;[[Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="11" name="Collecte d&#39;eau de pluie" tags="" position="250,1725" size="100,100">_ValDoria: _ValDoria+1
+_PassageAvantTirage: passage.name
 --
 *&quot;Une excellente idée,&quot;* s&#39;exclame Joren. *&quot;Cela nous permettrait de tirer parti des ressources naturelles sans perturber l&#39;équilibre.&quot;*
 
 &gt;[[Poursuivre la discussion-&gt;ici]]
 &gt;[[Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="12" name="Intervenir pour offrir votre aide ou une suggestion." tags="" position="200,1400" size="100,100">_irrigation: true
+_PassageAvantTirage: passage.name
 --
 Poussé par une curiosité bienveillante et un désir sincère d&#39;aider, je décide de m&#39;avancer vers l&#39;attroupement. Jje capte des fragments de leur conversation, révélant un soucis d&#39;irrigation des champs qui menace la récolte à venir. 
 
@@ -161,7 +178,9 @@ Je m&#39;empresse de répondre {_NomJoueur}. Avant de [[proposer des idées-&gt;
 [else]
 Au moment ou vje m&#39;apprête à répondre, cette question ne me semble plus si anodine...[[*&quot;comment je m&#39;appelle ?&quot;*]]
 
-</tw-passagedata><tw-passagedata pid="13" name="Introduction2" tags="" position="2850,275" size="100,100">{embed image: &#39;./assets/Cover.webp&#39;}
+</tw-passagedata><tw-passagedata pid="13" name="Introduction2" tags="" position="2850,275" size="100,100">_PassageAvantTirage: passage.name
+--
+{embed image: &#39;./assets/Cover.webp&#39;}
 
 La question flotte dans mon esprit embrumé, chaque pensée semble émerger du néant.
 
@@ -184,13 +203,17 @@ Je me lève, mes jambes portent un corps que je ne reconnais pas encore tout à 
 [align center]
 *&quot;Suis-je prêt ?&quot;* 
 
-La question reste sans réponse, mais le voyage commence [[maintenant-&gt;mapp]].</tw-passagedata><tw-passagedata pid="14" name="Naviguer vers les Cités Libres de Miranthia." tags="Temporaire" position="4050,150" size="100,100">L&#39;horizon s&#39;éclaircit à mesure que j&#39;approche des Cités Libres de Miranthia, laissant place à une mosaïque de voiles et de mâts qui dansent au rythme des vagues. C&#39;est un monde de liberté, où le commerce et le savoir circulent aussi librement que les eaux qui entourent ses îles. &quot;Suis-je prêt à naviguer dans cette mer d&#39;opportunités ?&quot; La question me traverse l&#39;esprit alors que les sons du marché, les cris des marchands et le rire des enfants se mêlent en une symphonie de vie. Miranthia s&#39;ouvre devant moi, promesse d&#39;aventure et d&#39;exploration dans le creuset de cultures qui défient le ciel et la mer.
+La question reste sans réponse, mais le voyage commence [[maintenant-&gt;mapp]].</tw-passagedata><tw-passagedata pid="14" name="Naviguer vers les Cités Libres de Miranthia." tags="Temporaire" position="4050,150" size="100,100">_PassageAvantTirage: passage.name
+--
+L&#39;horizon s&#39;éclaircit à mesure que j&#39;approche des Cités Libres de Miranthia, laissant place à une mosaïque de voiles et de mâts qui dansent au rythme des vagues. C&#39;est un monde de liberté, où le commerce et le savoir circulent aussi librement que les eaux qui entourent ses îles. &quot;Suis-je prêt à naviguer dans cette mer d&#39;opportunités ?&quot; La question me traverse l&#39;esprit alors que les sons du marché, les cris des marchands et le rire des enfants se mêlent en une symphonie de vie. Miranthia s&#39;ouvre devant moi, promesse d&#39;aventure et d&#39;exploration dans le creuset de cultures qui défient le ciel et la mer.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="15" name="l&#39;Empire des Ombres." tags="Temporaire" position="4975,1250" size="100,100">L&#39;Empire des Ombres, un monde où la lumière s&#39;incline devant le mystère, est une terre gouvernée par l&#39;énigmatique Conseil des Masques. Dans la cité de Nuitveille, le conseil siège, tissant les fils du destin de l&#39;empire. Ici, les spires et les palais ne se contentent pas d&#39;habiter l&#39;obscurité ; ils semblent flotter, spectres majestueux dans la brume éternelle, témoins silencieux des intrigues tissées en leur sein.
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="15" name="l&#39;Empire des Ombres." tags="Temporaire" position="4975,1250" size="100,100">_PassageAvantTirage: passage.name
+--
+L&#39;Empire des Ombres, un monde où la lumière s&#39;incline devant le mystère, est une terre gouvernée par l&#39;énigmatique Conseil des Masques. Dans la cité de Nuitveille, le conseil siège, tissant les fils du destin de l&#39;empire. Ici, les spires et les palais ne se contentent pas d&#39;habiter l&#39;obscurité ; ils semblent flotter, spectres majestueux dans la brume éternelle, témoins silencieux des intrigues tissées en leur sein.
 
 Chaque masque au conseil est une énigme, une voix sans visage qui parle au nom d&#39;une facette de la société : le commerce qui pulse comme le cœur de l&#39;empire, la magie, veine éthérée parcourant son corps, la défense, son armure invisible. Pourtant, ces identités demeurent cachées, des spectres guidant dans l&#39;ombre, où même l&#39;éclat du pouvoir est assombri par le secret.
 
@@ -200,7 +223,9 @@ Lorsque les murmures s&#39;élèvent en tempête, c&#39;est l&#39;Empereur des O
 &gt;[[Visiter Nuiveille-&gt;Nuitveille]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3525,575" size="100,100">{embed image: &#39;./assets/terres_frontalieres.webp&#39;}
+&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3525,575" size="100,100">_PassageAvantTirage: passage.name
+--
+{embed image: &#39;./assets/terres_frontalieres.webp&#39;}
 
 À peine les limites des Terres Frontalières franchies, une sensation de liberté mêlée d&#39;incertitude m&#39;envahit. 
 
@@ -238,7 +263,9 @@ Sans que je puisse vraiment me l&#39;expliquer, ces destinations résonnent en m
 &gt;[[l&#39;Empire des Ombres.]]
 &gt;[[les Terres Frontalières.]]
 &gt;[[les îles Brumeuses]]
-&gt;[[Je n&#39;ai pas le courage de partir à l&#39;aventure-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="18" name="les îles Brumeuses" tags="Temporaire" position="4950,100" size="100,100">L&#39;arrivée dans les Îles Brumeuses est comme un voyage dans un rêve éveillé, où le monde réel semble se dissoudre lentement dans une mer de brume et de mystère. Le navire avance prudemment, les voiles à peine gonflées par une brise qui semble murmurer des secrets anciens. La mer autour de nous est calme, presque immobile, comme si elle retenait son souffle à l&#39;approche de ce lieu mythique.
+&gt;[[Je n&#39;ai pas le courage de partir à l&#39;aventure-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="18" name="les îles Brumeuses" tags="Temporaire" position="4950,100" size="100,100">_PassageAvantTirage: passage.name
+--
+L&#39;arrivée dans les Îles Brumeuses est comme un voyage dans un rêve éveillé, où le monde réel semble se dissoudre lentement dans une mer de brume et de mystère. Le navire avance prudemment, les voiles à peine gonflées par une brise qui semble murmurer des secrets anciens. La mer autour de nous est calme, presque immobile, comme si elle retenait son souffle à l&#39;approche de ce lieu mythique.
 
 Alors que nous nous enfonçons dans l&#39;épaisseur du brouillard, les contours du monde connu s&#39;estompent, laissant place à une immensité blanche et silencieuse. La lumière du soleil, filtrée à travers la brume, prend une qualité irréelle, plongeant tout dans une lueur douce et fantomatique. Il n&#39;y a plus de haut ni de bas, seulement l&#39;infini étendu de brume dans toutes les directions, enveloppant le navire et mon cœur d&#39;une étreinte froide.
 
@@ -253,6 +280,7 @@ C&#39;est un monde à part, un sanctuaire de mystère et de magie, où chaque ru
 [[La croisée des chemins-&gt;mapp]]
 [[Voguer vers Islevoile-&gt;Islevoile]]
 [[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="19" name="*&quot;comment je m&#39;appelle ?&quot;*" tags="" position="75,1525" size="100,100">_Fragment:_Fragment+1
+_PassageAvantTirage: passage.name
 --
 Un éclat soudain perce l&#39;obscurité de ma mémoire, comme un rayon de soleil à travers les nuages. 
 
@@ -271,6 +299,7 @@ Ce nom, mon nom, devient la clé qui ouvre la porte à mon passé oublié.
 </tw-passagedata><tw-passagedata pid="20" name="Le chemin de la rivière" tags="" position="1575,1175" size="100,100">_RencontreFleuveEmeraudeScene:[&#39;Le concours impromptu de pêche&#39;,&#39;La traversée des nénuphars&#39;,&#39;Verdegrove&#39;,&#39;Voyage tranquille rivière&#39;]
 _RencontreFleuveEmeraude: _RencontreFleuveEmeraudeScene[random.d4-1]
 _ValDoria: _ValDoria +3
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/FleuveEmeraude.webp&#39;}
 
@@ -279,13 +308,17 @@ Le long du Fleuve d&#39;Émeraude, ma route vers Solelhaven prend une tournure i
 &gt;[[Poursuivre ma route-&gt;{_RencontreFleuveEmeraude}]]</tw-passagedata><tw-passagedata pid="21" name="Tirage" tags="" position="325,225" size="100,100">_MajorArcana :[&#39;I THE MAGICIAN&#39;,&#39;II THE HIGH PRIESTESS&#39;,&#39;III THE EMPRESS&#39;,&#39;IV THE EMPEROR&#39;,&#39;V THE HIEROPHANT&#39;,&#39;VI THE LOVERS&#39;,&#39;VII THE CHARIOT&#39;,&#39;VIII STRENGTH&#39;,&#39;IX THE HERMIT&#39;,&#39;X WHEEL OF FORTUNE&#39;,&#39;XI JUSTICE&#39;,&#39;XII THE HANGED MAN&#39;,&#39;XIII DEATH&#39;,&#39;XIV TEMPERANCE&#39;,&#39;XV THE DEVIL&#39;,&#39;XVI THE TOWER&#39;,&#39;XVII THE STAR&#39;,&#39;XVIII THE MOON&#39;,&#39;XIX THE SUN&#39;,&#39;XX JUDGEMENT&#39;,&#39;XXI THE WORLD&#39;]
 
 _Tirage:  my.tarot.deck[random.d20-1]
+config.footer.center: &quot;[[Tirage]]&quot;
 --
 [[{_Tirage}]]
 
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="22" name="caravane de nomades" tags="Temporaire" position="3550,750" size="100,100">Alors que le soleil décline, baignant les Terres Frontalières dans une lumière dorée, je tombe sur une caravane de nomades, leurs tentes éparpillées comme des joyaux sous le ciel crépusculaire. *&quot;Salutations, étranger,&quot;* m&#39;accueille une voix chaleureuse, celle d&#39;une femme dont le visage est marqué par les vents du voyage. Autour de nous, la vie s&#39;agite, un mélange de rires, de chants et de l&#39;odeur envoûtante de plats cuisinés sur des feux ouverts. *&quot;Viens partager notre feu, notre histoire,&quot;*m&#39;invite-t-elle, geste qui semble transcender les mots, une offre d&#39;appartenance et de découverte dans ce monde de passages éphémères.
+[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="22" name="caravane de nomades" tags="Temporaire" position="3550,750" size="100,100">_PassageAvantTirage: passage.name
+--
+Alors que le soleil décline, baignant les Terres Frontalières dans une lumière dorée, je tombe sur une caravane de nomades, leurs tentes éparpillées comme des joyaux sous le ciel crépusculaire. *&quot;Salutations, étranger,&quot;* m&#39;accueille une voix chaleureuse, celle d&#39;une femme dont le visage est marqué par les vents du voyage. Autour de nous, la vie s&#39;agite, un mélange de rires, de chants et de l&#39;odeur envoûtante de plats cuisinés sur des feux ouverts. *&quot;Viens partager notre feu, notre histoire,&quot;* m&#39;invite-t-elle, geste qui semble transcender les mots, une offre d&#39;appartenance et de découverte dans ce monde de passages éphémères.
 
 &gt;[[Prendre place autour du feu-&gt;Ayla]]
 &gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="23" name=" ruines d&#39;un village" tags="Temporaire" position="3700,750" size="100,100">_Fin:4
+_PassageAvantTirage: passage.name
 --
 L&#39;ombre des ruines s&#39;étend devant moi, une toile de souvenirs déchirés peinte sur chaque pierre. Les bâtisses, autrefois vibrant de l&#39;écho joyeux des vies qui les habitaient, ne sont plus que des carcasses décharnées, des vestiges figés dans le temps, témoins silencieux de leur propre déclin. Je m&#39;avance avec précaution, mes pas résonnant dans le silence éloquent qui enveloppait les lieux, un silence brisé seulement par le murmure doux des vents qui caressaient les ruines.
 
@@ -294,7 +327,9 @@ L&#39;ombre des ruines s&#39;étend devant moi, une toile de souvenirs déchiré
 La solitude de cet endroit est si tangible, une présence familière qui m&#39;enveloppe de ses bras invisibles. Pourtant, au-delà de la désolation apparente, il y a une dignité dans cette déchéance, une beauté fragile dans la ruine. Dans chaque fissure, chaque éclat de pierre brisée, je vois le reflet d&#39;une époque révolue, une leçon inscrite dans la poussière des siècles.
 
 &gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] 
-&gt;[[Je pense que ma route finie ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="24" name="Guet des Anciens" tags="" position="3400,750" size="100,100">[if _Eol]
+&gt;[[Je pense que ma route finie ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="24" name="Guet des Anciens" tags="" position="3400,750" size="100,100">_PassageAvantTirage: passage.name
+--
+[if _Eol]
 {embed image: &#39;./assets/eol.webp&#39;}
 &quot;Ah, {_NomJoueur} tu es de retour ! As tu pris une décision ?&quot;
 
@@ -314,13 +349,16 @@ Son regard pénétrant semble lire en moi comme dans un livre ouvert.
 
 *&quot;Des réponses,&quot;* je murmure, la curiosité l&#39;emportant sur l&#39;hésitation.[[*&quot;Qui suis-je ?&quot;*-&gt;Qui suis-je]]
 </tw-passagedata><tw-passagedata pid="25" name="Qui suis-je" tags="" position="3400,875" size="100,100">_Eol: true
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/eol.webp&#39;}
 Eol éclate d&#39;un rire doux, comme porté par une brise légère. *&quot;Le passé est un voile délicat, mon ami. Pour certains, il offre réconfort et identité. Pour d&#39;autres, il ne représente que douleur et mystère. Mais pour toi... il pourrait être la clé.&quot;*
 
 *&quot;Ton âme résonne avec les Silhouetiens, des êtres de lumière et d&#39;ombre. Tu as voyagé plus loin que la plupart, franchissant les frontières du temps et de l&#39;espace. Mais ta mémoire... elle a été fragmentée, dispersée comme les feuilles par le vent.&quot;*
 
-*[[&quot;les Silhouetiens ?&quot;]]*</tw-passagedata><tw-passagedata pid="26" name="Les fragments" tags="" position="2950,1075" size="100,100">{embed image: &#39;./assets/eol.webp&#39;}
+*[[&quot;les Silhouetiens ?&quot;]]*</tw-passagedata><tw-passagedata pid="26" name="Les fragments" tags="" position="2950,1075" size="100,100">_PassageAvantTirage: passage.name
+--
+{embed image: &#39;./assets/eol.webp&#39;}
 Lorsque tu reviens vers moi, porteur des fragments de ton passé, chaque pièce en main résonne avec les échos d&#39;une histoire oubliée. Laisse-moi te guider à travers le voile des souvenirs retrouvés.
 
 [if _Fragment === 0]
@@ -400,6 +438,7 @@ Alors que je ferme les yeux, une vague de calme m&#39;envahit. &quot;Et si ce n&
 
 </tw-passagedata><tw-passagedata pid="28" name="&quot;les Silhouetiens ?&quot;" tags="" position="3275,1000" size="100,100">_FinEol:true
 _Fin:2
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/eol.webp&#39;}
 *&quot;Les Silhouetiens, tu vois, sont les gardiens des frontières, là où le tangible flirte avec l&#39;impalpable. Ils marchent sur le fil de l&#39;invisible, maîtres des non-dits, des espaces entre les mots, entre les mondes. Toi, enfant de cette lignée, tu portes en toi cette capacité à voir au-delà, à comprendre les murmures de l&#39;ombre comme ceux de la lumière. Ta quête n&#39;est pas seulement de retrouver qui tu étais, mais de révéler ce que tu peux devenir.&quot;*
@@ -409,6 +448,7 @@ _Fin:2
 
 &gt;[[chercher les fragments de ta mémoire éparpillés-&gt;flash back Silouhetiens]]
 &gt;[[embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="29" name="flash back Silouhetiens" tags="" position="3275,1125" size="100,100">_Fragment: _Fragment + 1
+_PassageAvantTirage: passage.name
 --
 Dans un éclat soudain de lucidité, je me vois debout au bord d&#39;un précipice, le vent soufflant à travers moi comme si j&#39;étais à la fois là et pas là. Autour de moi, des figures encapuchonnées, silhouettes flottantes entre ombre et lumière, murmurent des mots dans une langue ancienne que mon cœur comprend mais que mon esprit peine à saisir. &quot;Tu es l&#39;un des nôtres,&quot; l&#39;une d&#39;elles me dit, sa voix une caresse, une étreinte, un rappel. &quot;Un Silhouetien, enfant du crépuscule et de l&#39;aube.&quot; Les fragments de ma mémoire, comme des feuilles portées par le vent, se rassemblent en un tableau vivant de mon héritage oublié.
 
@@ -423,12 +463,14 @@ Je me le demande, fasciné par la complexité des images, sentant intuitivement 
 
 &gt;[[Tirer une carte-&gt;Tirage]] 
 &gt;[[Regarder autour de moi-&gt;mapp]]</tw-passagedata><tw-passagedata pid="31" name="Rotation des cultures 2" tags="" position="325,1875" size="100,100">_ValDoria: _ValDoria+2
+_PassageAvantTirage: passage.name
 --
 *&quot;Je comprends l&#39;inquiétude concernant la complexité,, mais envisageons la rotation des cultures comme une opportunité. Imaginez si vous divisiez les terres en segments, chacun dédié à une culture spécifique chaque année, en tournant de manière à ce que chaque segment repose et se régénère. Il serait possible d&#39;établir un comité de planification avec des représentants de chaque famille pour coordonner cet effort, assurant que tous bénéficient équitablement des améliorations du sol et des rendements.&quot;*
 
 Après un moment de réflexion et un regard de connivence avec Althea, Sir Emeryn reprend :*&quot;Ta proposition mérite réflexion. La mise en place d&#39;un comité de planification pourrait, en effet, nous aider à surmonter la complexité de la gestion partagée. Si nous pouvons garantir que chaque famille se sente équitablement impliquée et bénéficiaire, cette méthode pourrait renforcer notre communauté tout en préservant la santé de nos terres. Nous organiserons une assemblée pour discuter de cette idée plus avant. Ton initiative est le type d&#39;innovation que Val-d&#39;Oria chérit.&quot;*
 
 [[Poursuivre-&gt;ici]] </tw-passagedata><tw-passagedata pid="32" name="Demander la route de Solelhaven" tags="" position="50,2150" size="100,100">_PassageAvantTirage: passage.name
+_PassageAvantTirage: passage.name
 --
 Après quelque temps de discussion, je décides de poursuivre la route et de solliciter leur aide pour rejoindre Solelhaven.
 
@@ -446,6 +488,7 @@ Avec un regard empli de respect, Emeryn s&#39;exclame : *&quot;Ton engagement en
 &gt;[[Prendre la route-&gt;Solelhaven]]
 [if _TarotDeck]
 &gt;[[Tirer une carte-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="33" name="Creuser des puits 2" tags="" position="525,1725" size="100,100">_ValDoria: _ValDoria -1
+_PassageAvantTirage: passage.name
 --
 *&quot;Je comprends l&#39;importance de préserver les ressources, mais face à la sécheresse actuelle, votre priorité doit être d&#39;assurer la survie des cultures et du peuple. Ne pourrions-nous pas envisager des solutions temporaires, tout en travaillant sur des alternatives durables à long terme ? La situation exige des mesures immédiates.&quot;*
 
@@ -453,6 +496,7 @@ Althea hoche la tête visiblement peu convaincue : *&quot;L&#39;urgence ne justi
 
 &gt;[[Poursuivre la discussion-&gt;ici]]
 &gt;[[Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="34" name="Errat" tags="" position="50,2275" size="100,100">_Errat:true
+_PassageAvantTirage: passage.name
 --
 *&quot;Errat est un guide pour ceux qui cherchent à se perdre, pas dans un sens physique, mais en s&#39;éloignant des sentiers battus de leur existence pour embrasser l&#39;inconnu. Son essence repose dans la beauté de se perdre pour mieux se retrouver, dans la richesse de l&#39;inattendu qui se révèle quand on laisse de côté nos plans pour se laisser guider par le hasard. Ses disciples pratiquent des pèlerinages sans but précis, en quête de révélations sur eux-mêmes ou le monde, révélations qui n&#39;auraient pu émerger dans le confort du connu.&quot;*
 
@@ -700,6 +744,7 @@ _Mauvais:false
 _Bien: false
 _Moyen: false
 _Harmonia:true
+_PassageAvantTirage: passage.name
 --
 Les derniers préparatifs de la Foire des Moissons battent leur plein, une mélodie envoûtante attire mon attention. Au cœur de Solelhaven, un groupe de musiciens, instruments en main, captive une foule émerveillée. Leurs mélodies tissent des fils d&#39;or dans l&#39;air du soir, chaque note un pont entre le cœur des auditeurs et les étoiles qui commencent à parsemer le ciel.
 
@@ -793,6 +838,7 @@ La taverne de Solelhaven, avec ses murs résonnant d&#39;échos joyeux et de pro
 &gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="64" name="L&#39;enfant" tags="" position="1175,2225" size="100,100">_Mauvais:false
 _Bien: false
 _Moyen: false
+_PassageAvantTirage: passage.name
 --
 Dans l&#39;entrelacs des rues de Solelhaven, où les ombres semblent parfois plus denses, un éclat d&#39;innocence me fixe du regard. Un enfant, seul, me regarde avec une intensité déroutante. Sa présence détonne, comme un rayon de soleil perçant un ciel nuageux. Poussé par un élan que je ne saurais expliquer, je m&#39;approche.
 
@@ -822,6 +868,7 @@ Revigoré par cette rencontre inattendue, je reprends ma route à Solelhaven, le
 &gt;[[Consulter mon tarrot-&gt;Tirage]]
 </tw-passagedata><tw-passagedata pid="66" name="Voyage tranquille" tags="" position="825,1850" size="100,100">_Paragraphe:random.d4
 _ValDoria: _ValDoria +1
+_PassageAvantTirage: passage.name
 --
 [if _Paragraphe === 1]
 Le sentier sous mes pieds se déploie comme une promesse, chaque pas m&#39;éloignant un peu plus des tumultes du monde pour m&#39;immerger dans une solitude peuplée de pensées vagabondes. Les bruits de la forêt, un concert discret d&#39;oiseaux au loin, le froissement des feuilles sous mes pas, deviennent la toile de fond d&#39;une introspection inattendue.
@@ -865,6 +912,7 @@ Dans cette marche méditative, mon esprit vagabonde, libre des entraves du quoti
 Alors que Solelhaven se profile à l&#39;horizon, baignée dans la lumière dorée du crépuscule, je réalise que ce voyage sans péripéties m&#39;a offert un cadeau inattendu : la paix. Une paix qui ne vient pas des réponses trouvées, mais de l&#39;acceptation des questions qui demeurent.
 
 &gt;[[Poursuivre vers Solelhaven-&gt;Solelhaven]]</tw-passagedata><tw-passagedata pid="67" name="Serren" tags="" position="650,1525" size="100,100">_Silence_rencontre:random.coinFlip
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/Serren.webp&#39;}
 
@@ -877,6 +925,7 @@ Alors que Solelhaven se profile à l&#39;horizon, baignée dans la lumière dor�
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille]]
 [Else]
 &gt;[[Poursuivre ma route-&gt;Cueilleur de silence]]</tw-passagedata><tw-passagedata pid="68" name="l&#39;Arbre chantant" tags="" position="800,1525" size="100,100">_Silence_rencontre:random.coinFlip
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/arbre_chantant.webp&#39;}
 
@@ -891,6 +940,7 @@ En m&#39;approchant, les notes se font plus claires, une symphonie naturelle qui
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille]]
 [Else]
 &gt;[[Poursuivre ma route-&gt;Cueilleur de silence]]</tw-passagedata><tw-passagedata pid="69" name="La clairière luminescente" tags="" position="925,1525" size="100,100">_Silence_rencontre:random.coinFlip
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/clairiere.webp&#39;}
 
@@ -898,16 +948,21 @@ Enfin, alors que la nuit enveloppe totalement le sentier, je tombe sur une clair
 [if _Silence_rencontre]
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille]]
 [Else]
-&gt;[[Poursuivre ma route-&gt;Cueilleur de silence]]</tw-passagedata><tw-passagedata pid="70" name="Le concours impromptu de pêche" tags="" position="1375,1375" size="100,100">{embed image: &#39;./assets/peche.webp&#39;}
+&gt;[[Poursuivre ma route-&gt;Cueilleur de silence]]</tw-passagedata><tw-passagedata pid="70" name="Le concours impromptu de pêche" tags="" position="1375,1375" size="100,100">_PassageAvantTirage: passage.name
+--
+{embed image: &#39;./assets/peche.webp&#39;}
 
 Alors que je m&#39;arrête pour reposer mes pieds sur les rives accueillantes du fleuve, je suis accosté par un groupe d&#39;enfants du village voisin, qui me défient dans un concours amical de pêche. *&quot;Celui qui attrape le plus gros poisson gagne !&quot;* lancent-ils avec enthousiasme. Ce moment de légèreté, rythmé par les rires et les éclaboussures, me rappelle que l&#39;aventure se trouve aussi dans les joies simples partagées au bord de l&#39;eau.
 
-&gt;[[Poursuivre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="71" name="La traversée des nénuphars" tags="" position="1525,1375" size="100,100">{embed image: &#39;./assets/Nenuphar.webp&#39;}
+&gt;[[Poursuivre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="71" name="La traversée des nénuphars" tags="" position="1525,1375" size="100,100">_PassageAvantTirage: passage.name
+--
+{embed image: &#39;./assets/Nenuphar.webp&#39;}
 
 Plus loin, le sentier longe un bras du fleuve où d&#39;énormes nénuphars forment un chemin tentant mais trompeur sur l&#39;eau. Osant le passage, je me retrouve dans une danse précaire de sauts et d&#39;équilibres, un périple inattendu qui se termine par un plongeon rafraîchissant dans le fleuve, sous le regard amusé d&#39;une loutre joueuse.
 
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="72" name="Voyage tranquille rivière" tags="" position="1525,1650" size="100,100">_Paragraphe:random.d4
 _ValDoria: _ValDoria +1
+_PassageAvantTirage: passage.name
 --
 [if _Paragraphe === 1]
 Le long du Fleuve d&#39;Émeraude, mon voyage se poursuit dans une tranquillité presque irréelle. Chaque courbe du fleuve révèle un nouveau panorama, une toile vivante où l&#39;eau danse avec la lumière, créant des reflets d&#39;émeraude qui semblent porter en eux les secrets de Val-d&#39;Oria.
@@ -959,6 +1014,7 @@ Ainsi, le voyage se poursuit, non pas comme une suite d&#39;événements marquan
 [if !_Verdegrove]
 &gt;[[Me diriger vers le village que j&#39;aperçois au loins-&gt;Verdegrove]] </tw-passagedata><tw-passagedata pid="73" name="La rencontre avec Elda la Verte Main à Verdegrove" tags="" position="1825,1550" size="100,100">_Elda:true
 _Fragment:_Fragment+1
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/elda.webp&#39;}
 En franchissant les portes de Verdegrove, je sens immédiatement la différence. L&#39;air est chargé d&#39;un parfum riche et terreux, une odeur de vie qui semble imprégner chaque souffle. Les jardins s&#39;étendent devant moi, un tableau vivant de verdure et de couleurs, où chaque plante et chaque arbre semble raconter sa propre histoire.
@@ -970,6 +1026,7 @@ Je me laisse guider par la curiosité, mes pas me menant à travers ce labyrinth
 &gt;[[Je lui explique mon voyage, ma quête d&#39;expériences et de savoirs-&gt;ma quête]]
 &gt;[[Je lui parle des vins de Verdegrove dont on m&#39;a tant vanté les mérites-&gt;vin]]
 &gt;[[Je préfère repdrendre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="74" name="Verdegrove" tags="" position="1675,1375" size="100,100">_Verdegrove:true
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/verdegrove.webp&#39;}
 À l&#39;orée de Verdegrove, l&#39;air vibre d&#39;une énergie palpable, nourrie par la sagesse des anciens et la vitalité du Fleuve d&#39;Émeraude qui borde ce sanctuaire de savoir et de guérison. Les jardins botaniques déploient leurs merveilles en une symphonie de couleurs et de parfums, tandis que les académies de magie naturelle résonnent des incantations et des murmures des apprentis druides.
@@ -977,6 +1034,7 @@ Je me laisse guider par la curiosité, mes pas me menant à travers ce labyrinth
 &gt;[[Poursuivre ma route vers Solelhaven-&gt;Voyage tranquille rivière]]
 &gt;[[Revenir à la croisée des chemins-&gt;mapp]] 
 &gt;[[Explorer les jardin de Verdegrove-&gt;La rencontre avec Elda la Verte Main à Verdegrove]] </tw-passagedata><tw-passagedata pid="75" name="Cueilleur de silence" tags="" position="1000,1725" size="100,100">_Silence:true
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/Ceuilleur.webp&#39;}
 
@@ -996,6 +1054,7 @@ Je reste là, à ses côtés, partageant un moment suspendu hors du temps, réal
 .
 
 </tw-passagedata><tw-passagedata pid="76" name="Cueillir le silence" tags="" position="1000,1850" size="100,100">_BulleSilence:true
+_PassageAvantTirage: passage.name
 --
 [if random.coinFlip]
 L&#39;instant est suspendu, presque sacré, alors que mes doigts se referment délicatement autour de la petite bulle de verre, piège à silence offert par le Cueilleur. Le monde autour de moi semble en apnée, la forêt retenant son souffle, les feuilles immobiles, même le vent semble avoir suspendu sa course.
@@ -1021,6 +1080,7 @@ Je remercie le Cueilleur, les mots semblant superflus dans la communion partagé
 
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille]]</tw-passagedata><tw-passagedata pid="77" name="Harmonia" tags="" position="1300,2600" size="100,100">_FinHarmonia:true
 _Fin:3
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/Harmonia.webp&#39;}
 Après plusieurs jours de marche à travers les vallées changeantes de Val-d&#39;Oria, où les sentiers semblent se jouer de moi et les bois chuchotent de vieux secrets, je me trouve enfin aux portes d&#39;Harmonia. Une mélodie, douce et enveloppante, m&#39;accueille, émergeant du cœur même de la terre, comme pour apaiser les fatigues de mon périple. Il y a quelque chose de magique dans cette transition, comme si je passais d&#39;un monde à l&#39;autre, du silence de ma solitude à l&#39;harmonie d&#39;une cité vivante.
@@ -1030,6 +1090,7 @@ Le chemin jusqu&#39;ici n&#39;a pas été de tout repos. J&#39;ai croisé une ca
 &gt;[[Revenir à la croisée des chemins-&gt;mapp]] 
 &gt;[[Retourner à Solelhaven-&gt;Solelhaven]] 
 &gt;[[J&#39;ai enfin l&#39;impression d&#39;être chez moi et je souhaite m&#39;installer ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="78" name="Bibliothèque de Solelhaven" tags="" position="1100,2600" size="100,100">_livreBibliSolelhaven:random.d4
+_PassageAvantTirage: passage.name
 --
 [if _livreBibliSolelhaven===1]
 {embed image: &#39;./assets/chantdether.webp&#39;}
@@ -1060,7 +1121,9 @@ Tiens, le &quot;Bestiaire des Terres d&#39;Echo&quot; : Un volume illustré pré
 &quot;Chroniques des Royaumes Oubliés&quot;, il semblerait qu&#39;il existe à Val-d&#39;Oria des civilisations disparues  offrant des indices sur les mystères non résolus du monde.
 
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
-&gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] </tw-passagedata><tw-passagedata pid="79" name="FinSculpteur" tags="" position="600,2525" size="100,100">Au moment de quitter la boutique, le sculpteur me lance, d&#39;une voix chargée d&#39;une étrange résonance, une phrase qui semble flotter dans l&#39;air bien après qu&#39;il l&#39;ait prononcée : *&quot;Là où le vent murmure les secrets les plus anciens, Eol Grisebrume t&#39;attend.&quot;* Ces mots s&#39;insinuent en moi comme une clef cherchant sa serrure, réveillant un appel que je ne peux ignorer.
+&gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] </tw-passagedata><tw-passagedata pid="79" name="FinSculpteur" tags="" position="600,2525" size="100,100">_PassageAvantTirage: passage.name
+--
+Au moment de quitter la boutique, le sculpteur me lance, d&#39;une voix chargée d&#39;une étrange résonance, une phrase qui semble flotter dans l&#39;air bien après qu&#39;il l&#39;ait prononcée : *&quot;Là où le vent murmure les secrets les plus anciens, Eol Grisebrume t&#39;attend.&quot;* Ces mots s&#39;insinuent en moi comme une clef cherchant sa serrure, réveillant un appel que je ne peux ignorer.
 
 Cette mention d&#39;Eol ne peut être une coïncidence. Elle évoque en moi un souvenir lointain, une promesse faite sous le regard étoilé du ciel de Val-d&#39;Oria, là où ma vie avait encore un sens d&#39;unité avec l&#39;ombre et la lumière. La mention des terres frontalières, ces étendues sauvages où le vent dessine le destin des nomades, réveille en moi un désir inexploré. C&#39;est là que je dois me rendre, là où les vents me guideront vers Eol, et peut-être, vers une partie de moi-même longtemps oubliée.
 
@@ -1068,55 +1131,76 @@ Sans un regard en arrière, je quitte la chaleur de la boutique pour me lancer d
 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 &gt;[[Me rendre dans les Terres Frontalières-&gt;les Terres Frontalières.]] 
-&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="80" name="Port-Cendre" tags="" position="4325,325" size="100,100">Port-Cendre, la plus grande cité-port, est un carrefour d&#39;aventures et de mystères où le parfum salé de la mer se mêle aux épices rares du marché flottant. Imaginez des navires aux voiles écarlates et indigo, des marins aux visages burinés par le sel et le soleil, partageant des histoires de terres lointaines. Le marché flottant, un labyrinthe de barques et de pontons, est un théâtre vivant où chaque marchand est un acteur, chaque produit un trésor. C&#39;est ici que les cartes des nouveaux mondes se dessinent, entre un verre de rhum épicé et les promesses chuchotées d&#39;îles encore inconnues.
+&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="80" name="Port-Cendre" tags="" position="4325,325" size="100,100">_PassageAvantTirage: passage.name
+--
+Port-Cendre, la plus grande cité-port, est un carrefour d&#39;aventures et de mystères où le parfum salé de la mer se mêle aux épices rares du marché flottant. Imaginez des navires aux voiles écarlates et indigo, des marins aux visages burinés par le sel et le soleil, partageant des histoires de terres lointaines. Le marché flottant, un labyrinthe de barques et de pontons, est un théâtre vivant où chaque marchand est un acteur, chaque produit un trésor. C&#39;est ici que les cartes des nouveaux mondes se dessinent, entre un verre de rhum épicé et les promesses chuchotées d&#39;îles encore inconnues.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="81" name="Spiralonde" tags="" position="4225,450" size="100,100">Spiralonde, quant à elle, est une symphonie de pierre et d&#39;eau, une ville d&#39;artisans où chaque rue est une galerie, chaque maison un atelier. Les îles sur lesquelles la ville repose sont reliées par des ponts sinueux, comme les notes d&#39;une partition complexe jouée par un maestro invisible. Les artisans, véritables alchimistes de la forme et de la couleur, y transforment le verre, le métal, et le bois en objets d&#39;une beauté à couper le souffle, capturant l&#39;essence même de la mer et du ciel dans leurs créations.
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="81" name="Spiralonde" tags="" position="4225,450" size="100,100">_PassageAvantTirage: passage.name
+--
+Spiralonde, quant à elle, est une symphonie de pierre et d&#39;eau, une ville d&#39;artisans où chaque rue est une galerie, chaque maison un atelier. Les îles sur lesquelles la ville repose sont reliées par des ponts sinueux, comme les notes d&#39;une partition complexe jouée par un maestro invisible. Les artisans, véritables alchimistes de la forme et de la couleur, y transforment le verre, le métal, et le bois en objets d&#39;une beauté à couper le souffle, capturant l&#39;essence même de la mer et du ciel dans leurs créations.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="82" name="Lagon des Murmures" tags="" position="3975,375" size="100,100">Le Lagon des Murmures est un sanctuaire de tranquillité, un miroir d&#39;eau claire où le ciel semble se noyer. Ceux qui plongent dans ses profondeurs disent entendre les voix des anciens, murmurant des vérités longtemps oubliées, des conseils pour les âmes perdues. C&#39;est un lieu de révélation, où le passé, le présent, et le futur se rencontrent dans le silence sacré sous l&#39;eau.
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="82" name="Lagon des Murmures" tags="" position="3975,375" size="100,100">_PassageAvantTirage: passage.name
+--
+Le Lagon des Murmures est un sanctuaire de tranquillité, un miroir d&#39;eau claire où le ciel semble se noyer. Ceux qui plongent dans ses profondeurs disent entendre les voix des anciens, murmurant des vérités longtemps oubliées, des conseils pour les âmes perdues. C&#39;est un lieu de révélation, où le passé, le présent, et le futur se rencontrent dans le silence sacré sous l&#39;eau.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="83" name="Caps Chantants" tags="" position="4100,450" size="100,100">Aux Caps Chantants, le vent est le musicien et les falaises son instrument, créant des mélodies qui semblent provenir d&#39;un autre monde. C&#39;est un lieu de pèlerinage pour les âmes en quête de beauté pure, où marins et poètes viennent écouter les symphonies naturelles. Les légendes racontent que les notes jouées par les Caps peuvent guérir les cœurs brisés et redonner espoir aux désespérés.
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="83" name="Caps Chantants" tags="" position="4100,450" size="100,100">_PassageAvantTirage: passage.name
+--
+Aux Caps Chantants, le vent est le musicien et les falaises son instrument, créant des mélodies qui semblent provenir d&#39;un autre monde. C&#39;est un lieu de pèlerinage pour les âmes en quête de beauté pure, où marins et poètes viennent écouter les symphonies naturelles. Les légendes racontent que les notes jouées par les Caps peuvent guérir les cœurs brisés et redonner espoir aux désespérés.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
-&gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]</tw-passagedata><tw-passagedata pid="84" name="Nuitveille" tags="" position="4750,1300" size="100,100">Nuitveille, la capitale, est un rêve éveillé, un poème écrit dans l&#39;encre de la nuit où chaque bâtiment, chaque rue, semble susurrer des histoires oubliées. C&#39;est un labyrinthe de mystères, où la vérité se cache dans les ombres et la lumière n&#39;est qu&#39;un souvenir.
+&gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]</tw-passagedata><tw-passagedata pid="84" name="Nuitveille" tags="" position="4750,1300" size="100,100">_PassageAvantTirage: passage.name
+--
+Nuitveille, la capitale, est un rêve éveillé, un poème écrit dans l&#39;encre de la nuit où chaque bâtiment, chaque rue, semble susurrer des histoires oubliées. C&#39;est un labyrinthe de mystères, où la vérité se cache dans les ombres et la lumière n&#39;est qu&#39;un souvenir.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="85" name="Crepusculine" tags="" position="5100,1375" size="100,100">Crepusculine, la sentinelle de pierre à la lisière de cet empire, veille sur ses secrets comme sur ses trésors. C&#39;est une promesse murmurée entre les pierres de ses fortifications, un serment de protection contre ceux qui convoitent les mystères de l&#39;Empire des Ombres.
+&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="85" name="Crepusculine" tags="" position="5100,1375" size="100,100">_PassageAvantTirage: passage.name
+--
+Crepusculine, la sentinelle de pierre à la lisière de cet empire, veille sur ses secrets comme sur ses trésors. C&#39;est une promesse murmurée entre les pierres de ses fortifications, un serment de protection contre ceux qui convoitent les mystères de l&#39;Empire des Ombres.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Visiter Nuiveille-&gt;Nuitveille]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="86" name="Forêt des Miroirs " tags="" position="4800,1425" size="100,100">Au cœur de l&#39;empire, la Forêt des Miroirs attend, un océan d&#39;arbres dont les surfaces reflètent non pas les images, mais les âmes. C&#39;est un lieu de quête et de révélation, où le miroir le plus fidèle est celui qui montre l&#39;essence même, et non l&#39;apparence.
+&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="86" name="Forêt des Miroirs " tags="" position="4800,1425" size="100,100">_PassageAvantTirage: passage.name
+--
+Au cœur de l&#39;empire, la Forêt des Miroirs attend, un océan d&#39;arbres dont les surfaces reflètent non pas les images, mais les âmes. C&#39;est un lieu de quête et de révélation, où le miroir le plus fidèle est celui qui montre l&#39;essence même, et non l&#39;apparence.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Visiter Nuiveille-&gt;Nuitveille]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="87" name="Les Mines de Lune" tags="" position="4975,1500" size="100,100">Dans les entrailles de la terre, les Mines de Lune scintillent d&#39;un éclat emprunté à la voûte céleste. Ici, les cristaux, enfants de la pierre et de la lumière lunaire, murmurent des secrets de puissance et de beauté, essentiels à la magie qui coule dans les veines de l&#39;Empire.
+&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="87" name="Les Mines de Lune" tags="" position="4975,1500" size="100,100">_PassageAvantTirage: passage.name
+--
+Dans les entrailles de la terre, les Mines de Lune scintillent d&#39;un éclat emprunté à la voûte céleste. Ici, les cristaux, enfants de la pierre et de la lumière lunaire, murmurent des secrets de puissance et de beauté, essentiels à la magie qui coule dans les veines de l&#39;Empire.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Visiter Nuiveille-&gt;Nuitveille]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-</tw-passagedata><tw-passagedata pid="88" name="Islevoile" tags="" position="4850,275" size="100,100">Islevoile, la plus majestueuse de ces terres énigmatiques, se dresse telle une sentinelle au milieu d&#39;une mer de brume. C&#39;est une île qui refuse de révéler ses secrets, enveloppée dans un brouillard si dense que le jour y semble aussi incertain que la nuit. Les ruines d&#39;une civilisation oubliée se dressent comme des fantômes, leurs contours flous se devinent à peine à travers le voile persistant. Les pierres, couvertes de lichens et de mousses, parlent d&#39;un passé où la magie et le mystère régnaient, un écho d&#39;une grandeur perdue qui murmure encore aux aventuriers assez courageux pour écouter. Les reliques dispersées parmi les décombres brillent d&#39;une lueur faible, des vestiges de puissance et de connaissance, attendant celui qui saura percer leurs secrets.
+</tw-passagedata><tw-passagedata pid="88" name="Islevoile" tags="" position="4850,275" size="100,100">_PassageAvantTirage: passage.name
+--
+Islevoile, la plus majestueuse de ces terres énigmatiques, se dresse telle une sentinelle au milieu d&#39;une mer de brume. C&#39;est une île qui refuse de révéler ses secrets, enveloppée dans un brouillard si dense que le jour y semble aussi incertain que la nuit. Les ruines d&#39;une civilisation oubliée se dressent comme des fantômes, leurs contours flous se devinent à peine à travers le voile persistant. Les pierres, couvertes de lichens et de mousses, parlent d&#39;un passé où la magie et le mystère régnaient, un écho d&#39;une grandeur perdue qui murmure encore aux aventuriers assez courageux pour écouter. Les reliques dispersées parmi les décombres brillent d&#39;une lueur faible, des vestiges de puissance et de connaissance, attendant celui qui saura percer leurs secrets.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
-&gt;[[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="89" name="L&#39;Archipel des Échos" tags="" position="5075,225" size="100,100">L&#39;Archipel des Échos, un chœur d&#39;îles plus petites, joue une symphonie de sons et de silences. Ici, la brume n&#39;est pas seulement un voile pour les yeux, mais aussi pour les oreilles. Les cris des oiseaux marins, le bruit des vagues contre les rochers, tout semble se fondre en un murmure indistinct, créant un labyrinthe d&#39;illusions auditives. Les marins racontent que ces îles peuvent chanter les louanges des héros perdus ou pleurer les tragédies des amours oubliées. C&#39;est un lieu où la réalité semble aussi insaisissable que la brume elle-même, un dédale où le temps et la mémoire se tordent en des motifs étranges.
+&gt;[[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="89" name="L&#39;Archipel des Échos" tags="" position="5075,225" size="100,100">_PassageAvantTirage: passage.name
+--
+L&#39;Archipel des Échos, un chœur d&#39;îles plus petites, joue une symphonie de sons et de silences. Ici, la brume n&#39;est pas seulement un voile pour les yeux, mais aussi pour les oreilles. Les cris des oiseaux marins, le bruit des vagues contre les rochers, tout semble se fondre en un murmure indistinct, créant un labyrinthe d&#39;illusions auditives. Les marins racontent que ces îles peuvent chanter les louanges des héros perdus ou pleurer les tragédies des amours oubliées. C&#39;est un lieu où la réalité semble aussi insaisissable que la brume elle-même, un dédale où le temps et la mémoire se tordent en des motifs étranges.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Voguer vers Islevoile-&gt;Islevoile]]
 </tw-passagedata><tw-passagedata pid="90" name="vin" tags="" position="1800,1725" size="100,100">_Fragment:_Fragment+1
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/elda.webp&#39;}
 
@@ -1127,6 +1211,7 @@ C&#39;est alors qu&#39;elle me parle de la relique, un ancien artefact qu&#39;el
 Alors que je quitte Elda et les jardins de Verdegrove, je sens que je ne suis plus tout à fait le même. Avec chaque pas, je sens la terre sous mes pieds plus vivante, plus vibrante, comme si j&#39;avais découvert un nouveau langage, un nouveau moyen de comprendre le monde autour de moi. Mon voyage continue, mais je porte désormais avec moi une partie de la sagesse de Verdegrove, un souvenir de la connexion profonde et ancienne que nous partageons tous avec la terre qui nous nourrit.
 
 &gt;[[Reprendre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="91" name="ma quête" tags="" position="1950,1700" size="100,100">_Fragment:_Fragment+1
+_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/elda.webp&#39;}
 *&quot; Tu as un passé intéressant, &quot;* dit-elle, lisant mes pensées sur mon visage. *&quot; Les Silhouétiens, avec leur profonde connexion aux ombres et à la lumière, comprennent instinctivement ce que beaucoup doivent apprendre : tout est lié, tout est un cycle. &quot;*
@@ -1176,7 +1261,14 @@ Il est là, immobile, ses yeux grands ouverts fixés sur moi. Dans son regard, j
 Intrigué, je m&#39;arrête, offrant à l&#39;enfant un sourire bienveillant, une invitation silencieuse à briser la distance qui nous sépare. Mais il reste là, hésitant, comme s&#39;il pesait le pour et le contre de s&#39;engager dans une conversation avec un étranger.
 
 &gt;[[Je décide de passer mon chemin-&gt;Port_Solelhaven]] 
-&gt;[[J&#39;engage la conversation-&gt;Petille]] </tw-passagedata><tw-passagedata pid="94" name="Ayla" tags="" position="3550,900" size="100,100">En acceptant son invitation, je me retrouve plongé au sein de la tribu d&#39;Ayla, la Gardienne des Eaux. Elle se tient là, majestueuse et sage, une figure maternelle pour son peuple nomade des Veilleurs de la Rivière. Sa réputation de savante et de protectrice des ressources en eau n&#39;est pas exagérée. Je découvre qu&#39;elle a cartographié les sources souterraines grâce à une ancienne technique héritée de ses ancêtres, assurant ainsi la survie de sa tribu et de celles qui les entourent.
+&gt;[[J&#39;engage la conversation-&gt;Petille]] </tw-passagedata><tw-passagedata pid="94" name="Ayla" tags="" position="3550,900" size="100,100">_PassageAvantTirage: passage.name
+--
+Je m&#39;approche, la chaleur du feu réconfortante contre la fraîcheur du soir. Ayla, assise en tailleur, vous fait signe de vous asseoir à ses côtés. Autour de vous, la vie de la caravane continue, un tableau vivant de coexistence et de joie. &quot;Je suis Ayla, la gardienne de ces eaux sacrées,&quot; dit-elle, sa voix aussi fluide que l&#39;eau qu&#39;elle chérit. &quot;Les rivières et les lacs de ces terres sont les veines de la vie, et je veille sur elles.&quot;
+
+&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] 
+
+[note]
+En acceptant son invitation, je me retrouve plongé au sein de la tribu d&#39;Ayla, la Gardienne des Eaux. Elle se tient là, majestueuse et sage, une figure maternelle pour son peuple nomade des Veilleurs de la Rivière. Sa réputation de savante et de protectrice des ressources en eau n&#39;est pas exagérée. Je découvre qu&#39;elle a cartographié les sources souterraines grâce à une ancienne technique héritée de ses ancêtres, assurant ainsi la survie de sa tribu et de celles qui les entourent.
 
 Ayla me partage l&#39;histoire de son peuple, de ses luttes et de ses triomphes, tandis que je me sens transporté dans un autre monde, loin des soucis de ma propre existence. Je découvre avec émerveillement l&#39;artefact qu&#39;elle garde précieusement, un objet mystérieux qui indique la pureté de l&#39;eau. C&#39;est grâce à cet artefact que sa tribu ne connaît jamais la soif, un symbole tangible de la sagesse et du dévouement d&#39;Ayla envers son peuple.
 

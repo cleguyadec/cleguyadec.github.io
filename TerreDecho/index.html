@@ -38,13 +38,18 @@ _Fin:0
 _VentvarMirajhal:false
 _Time: 10
 _Fragment: 0
+_Boussole:false
 _Eol: false
 _FinEol: false
 _Elda:false
 _Errat: false
 _TarotDeck: false
 _EchecMasque:false
+_LienAme:false
+_Crepusculine:false
 _Masque:false
+_MiroirMagique:false
+_BonneAventure:false
 _ValDoria:0
 my.tarot.deck: [&#39;I THE MAGICIAN&#39;,&#39;II THE HIGH PRIESTESS&#39;,&#39;III THE EMPRESS&#39;,&#39;IV THE EMPEROR&#39;,&#39;V THE HIEROPHANT&#39;,&#39;VI THE LOVERS&#39;,&#39;VII THE CHARIOT&#39;,&#39;VIII STRENGTH&#39;,&#39;IX THE HERMIT&#39;,&#39;X WHEEL OF FORTUNE&#39;,&#39;XI JUSTICE&#39;,&#39;XII THE HANGED MAN&#39;,&#39;XIII DEATH&#39;,&#39;XIV TEMPERANCE&#39;,&#39;XV THE DEVIL&#39;,&#39;XVI THE TOWER&#39;,&#39;XVII THE STAR&#39;,&#39;XVIII THE MOON&#39;,&#39;XIX THE SUN&#39;,&#39;XX JUDGEMENT&#39;,&#39;XXI THE WORLD&#39;]
 _Solelhaven:false
@@ -220,19 +225,22 @@ L&#39;horizon s&#39;éclaircit à mesure que j&#39;approche des Cités Libres de
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
 &gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="15" name="l&#39;Empire des Ombres." tags="Temporaire" position="4975,1250" size="100,100">_PassageAvantTirage: passage.name
-_ForetMiroirMap: _ForetMiroir || _MarcheNuitveille
 --
+{embed image: &#39;./assets/Nuitveille.webp&#39;}
+
 En franchissant les anciennes portes de Nuitveille, je sens un frisson parcourir mon échine. L&#39;air est chargé d&#39;une énergie palpable, comme si le voile entre les mondes y était plus fin. Les rues serpentent sous un ciel éternellement étoilé, où la lune, d&#39;une taille surréaliste, veille sur la cité. Autour de moi, des murmures s&#39;élèvent, portés par des ombres qui dansent à la limite de ma vision.
 
 Je suis venu ici guidé par des rumeurs d&#39;un pouvoir ancien et des secrets cachés dans les profondeurs de l&#39;Empire des Ombres. Mais par où commencer dans une ville où chaque pas peut mener à la révélation ou au péril?
 
-&gt;[[Visiter Nuitveille-&gt;Nuitveille]]
-&gt;[[Repartir à la croisée des chemin -&gt;mapp]]
 [if _MarcheNuitveille]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]
-[if _ForetMiroirMap]
-&gt;[[La Forêt des Mirois-&gt;Forêt des Miroirs ]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3100,1025" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Visiter Nuitveille-&gt;Nuitveille]]
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
+&gt;[[Se rendre dans les Mines de Lune-&gt;Les Mines de Lune]]
+&gt;[[Repartir à la croisée des chemin -&gt;mapp]]
+
+[else]
+&gt;[[Visiter Nuitveille-&gt;Nuitveille]]
+&gt;[[Repartir à la croisée des chemin -&gt;mapp]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3100,1025" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/terres_frontalieres.webp&#39;}
 
@@ -510,6 +518,19 @@ La Boussole, silencieuse dans ma poche, ne guide plus mes pas. Car je sais maint
 
 Alors que je lève les yeux vers le ciel nocturne une dernière fois, je fais une promesse silencieuse à cette ville qui m&#39;a adopté. Je servirai Crepusculine, protégeant ses secrets et explorant ses mystères, devenant un fil de plus dans le tissu complexe de son histoire. Mon voyage, commencé sous le signe de la quête, trouve sa conclusion dans l&#39;embrassement d&#39;une nouvelle vie, au cœur de l&#39;Empire des Ombres, où chaque nuit promet l&#39;aube d&#39;une nouvelle découverte.
 
+[if _Fin===9]
+{embed image: &#39;./assets/Nuitveille_ciel4.webp&#39;}
+
+Sous le ciel étoilé de Nuitveille, je me tiens seul, contemplant l&#39;immensité qui s&#39;étend au-dessus de moi. La lune, d&#39;une taille et d&#39;une clarté surnaturelles, baigne la ville dans une lumière douce, révélant les contours des bâtiments anciens et des ruelles sinueuses qui ont été le théâtre de mon aventure. Les étoiles scintillent, chacune racontant une histoire, murmurant des secrets que seuls ceux qui sont prêts à écouter peuvent comprendre.
+
+Au cours de ma quête à travers l&#39;Empire des Ombres, j&#39;ai cherché des réponses, des vérités cachées dans les profondeurs de la terre et dans les cœurs des hommes. Mais ici, à Nuitveille, sous ce ciel vaste et mystérieux, je réalise que ce que je cherchais n&#39;était pas une destination, mais un sentiment : celui d&#39;appartenir, de se fondre dans un monde plus grand que soi.
+
+La beauté du ciel nocturne, avec son aura magique et inspirante, m&#39;a montré la voie. Elle m&#39;a appris que parfois, l&#39;oubli peut être un choix délibéré, un embrassement de l&#39;instant présent, libéré des chaînes du passé et des incertitudes du futur. Ici, dans cette ville de mystères et de merveilles, je choisis de laisser derrière moi les quêtes inachevées, les questions sans réponse.
+
+Je décide de m&#39;installer à Nuitveille, de devenir une partie de son tissu vivant, de ses ombres et de sa lumière. Les rencontres que j&#39;ai faites, les leçons que j&#39;ai apprises, resteront avec moi, mais je choisis de regarder vers l&#39;avenir avec un cœur ouvert, prêt à embrasser les nouvelles aventures que la vie dans cette cité extraordinaire m&#39;offrira.
+
+Alors que la nuit s&#39;approfondit, je me promets de vivre pleinement, d&#39;explorer chaque recoin de Nuitveille, de découvrir ses secrets et de partager ses mystères. Je m&#39;engage à être un gardien de ses légendes, un témoin de sa beauté éternelle. Sous le regard bienveillant des étoiles, je me laisse emporter par l&#39;oubli, non pas comme une perte, mais comme une renaissance, un nouveau chapitre dans le livre de ma vie, écrit sous le ciel magnifique de Nuitveille.
+
 [Else]
 Alors que je ferme les yeux, une vague de calme m&#39;envahit. *&quot;Et si ce n&#39;était pas mon chemin ?&quot;* La pensée, loin d&#39;être terrifiante, est un baume. J&#39;embrasse l&#39;oubli, non pas comme une défaite, mais comme un choix. La quête de sens, l&#39;aventure, les réponses resteront pour d&#39;autres. Moi, je choisis le silence, la paix d&#39;un esprit qui ne cherche plus, qui accepte le mystère sans le questionner. C&#39;est dans cet inconnu que je trouve ma vérité, un horizon sans promesse mais aussi sans peur.
 
@@ -675,6 +696,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/imperatrice.webp&#39;}
+
 L&#39;Impératrice, baignée dans la fertilité et l&#39;abondance de la nature, me réconforte. Elle évoque la création, la beauté, et le soin, me rappelant que la douceur et l&#39;empathie sont des forces puissantes. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="39" name="IV THE EMPEROR" tags="" position="300,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -682,6 +704,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/empereur.webp&#39;}
+
 L&#39;Empereur m&#39;impose une vision de structure et d&#39;autorité. *&quot;Bâtis sur des fondations solides.&quot;* conseille-t-il, soulignant l&#39;importance de l&#39;ordre et de la discipline dans la quête de mes ambitions. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="40" name="V THE HIEROPHANT" tags="" position="400,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -689,6 +712,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/pape.webp&#39;}
+
 Le Pape me parle de tradition et de spiritualité. À travers lui, je perçois un lien avec le passé, une invitation à trouver ma place au sein d&#39;un ordre plus grand, à chercher la sagesse dans les enseignements anciens. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="41" name="VI THE LOVERS" tags="" position="500,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -696,6 +720,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/lovers.webp&#39;}
+
 Les Amoureux m&#39;invitent à un carrefour de choix passionnés, me rappelant que chaque décision forge notre chemin. Ils murmurent que l&#39;amour, sous toutes ses formes, est un guide puissant. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="42" name="VII THE CHARIOT" tags="" position="600,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -703,6 +728,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/chariot.webp&#39;}
+
 Le Chariot, avec sa dynamique de mouvement et de victoire, me pousse vers l&#39;avant. *&quot;Maîtrise les opposés,&quot;* dit-il, m&#39;encourageant à diriger ma volonté vers la réalisation de mes objectifs. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="43" name="VIII STRENGTH" tags="" position="700,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -710,6 +736,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/force.webp&#39;}
+
 La Force, non pas celle du corps, mais de l&#39;esprit et du cœur, m&#39;enseigne la maîtrise de soi. Elle souffle que la vraie puissance réside dans la douceur et le courage face à l&#39;adversité. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="44" name="IX THE HERMIT" tags="" position="0,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -717,6 +744,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/hermite.webp&#39;}
+
 L&#39;Ermite, avec sa lanterne solitaire, m&#39;invite à la réflexion intérieure. *&quot;Cherche la lumière dans l&#39;obscurité&quot;* conseille-t-il, me rappelant que la solitude peut être un chemin vers la sagesse. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="45" name="X WHEEL OF FORTUNE" tags="" position="100,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -724,6 +752,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/wheel.webp&#39;}
+
 La Roue de la Fortune tourne, me rappelant l&#39;impermanence de tout. *&quot;Accepte le changement,&quot;* semble-t-elle dire, *&quot;car c&#39;est le moteur de la vie.&quot;* [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="46" name="XI JUSTICE" tags="" position="200,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -731,6 +760,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/justice.webp&#39;}
+
 La Justice me confronte à l&#39;équilibre des actions et des conséquences. Elle me rappelle que la vérité et la justesse doivent guider mes décisions. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="47" name="XII THE HANGED MAN" tags="" position="300,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -738,6 +768,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/pendu.webp&#39;}
+
 Le Pendu, suspendu par les pieds, me montre que parfois, voir les choses sous un autre angle est nécessaire. *&quot;Lâche prise,&quot;* murmure-t-il, *&quot;et trouve la liberté dans le renoncement.&quot;* [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="48" name="XIII DEATH" tags="" position="400,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -745,6 +776,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/mort.webp&#39;}
+
 La Mort, loin d&#39;être une fin, symbolise la transformation. *&quot;Laisse derrière ce qui n&#39;est plus nécessaire,&quot;* dit-elle, me poussant à embrasser le renouveau avec courage. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="49" name="XIV TEMPERANCE" tags="" position="500,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -752,6 +784,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d44
 --
 {embed image: &#39;./assets/temperance.webp&#39;}
+
 La Tempérance, avec son flux d&#39;eau entre les coupes, m&#39;enseigne l&#39;équilibre. *&quot;Harmonise tes opposés,&quot;* conseille-t-elle, pour une vie pleine de sens. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="50" name="XV THE DEVIL" tags="" position="600,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -759,6 +792,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/diable.webp&#39;}
+
 Le Diable me met en garde contre les chaînes de mes propres vices. *&quot;La liberté se trouve dans la confrontation de tes ombres,&quot;* révèle-t-il, m&#39;incitant à briser les liens de la dépendance. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="51" name="XVI THE TOWER" tags="" position="700,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -766,6 +800,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/tour.webp&#39;}
+
 La Tour, frappée par la foudre, symbolise la destruction soudaine des illusions. *&quot;La vérité peut parfois détruire avant de libérer,&quot;* dit-elle, m&#39;invitant à reconstruire sur des bases plus authentiques. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="52" name="XVII THE STAR" tags="" position="0,200" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -773,6 +808,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/etoile.webp&#39;}
+
  L&#39;Étoile, avec son eau et sa lumière, m&#39;offre l&#39;espoir et la guérison. *&quot;Crois en l&#39;avenir lumineux,&quot;* chante-t-elle, me rappelant que même après la nuit la plus sombre, l&#39;aube arrive. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="53" name="XVIII THE MOON" tags="" position="100,200" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -780,6 +816,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/lune.webp&#39;}
+
 La Lune, énigmatique, évoque les peurs et les illusions. *&quot;Marche à travers l&#39;incertitude,&quot;* murmure-t-elle, m&#39;encourageant à affronter mes peurs pour découvrir ma véritable lumière intérieure. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="54" name="XIX THE SUN" tags="" position="200,200" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -787,6 +824,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/soleil.webp&#39;}
+
 Le Soleil brille, symbolisant le succès et la vitalité. *&quot;Réjouis-toi dans la clarté,&quot;* rayonne-t-il, me remplissant d&#39;une énergie positive et d&#39;une joie de vivre. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="55" name="XX JUDGEMENT" tags="" position="0,300" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -794,6 +832,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/jugement.webp&#39;}
+
 Le Jugement, avec son appel à la renaissance, m&#39;invite à évaluer ma vie. *&quot;Écoute ton appel intérieur,&quot;* commande-t-il, me poussant à me lever et à vivre en accord avec ma vérité la plus profonde. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="56" name="XXI THE WORLD" tags="" position="100,300" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
@@ -801,6 +840,7 @@ _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/monde.webp&#39;}
+
 Le Monde, dans son achèvement, signifie la réalisation et l&#39;unité. *&quot;Tout est connecté,&quot;* célèbre-t-il, me rappelant que mon voyage est une partie intégrante du grand tout. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="57" name="Discussion avec un Marchand de Vin" tags="Temporaire" position="850,2400" size="100,100">_Solelhaven: true
 _PassageAvantTirage: passage.name
 _Mauvais:false
@@ -1243,10 +1283,12 @@ Aux Caps Chantants, le vent est le musicien et les falaises son instrument, cré
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]</tw-passagedata><tw-passagedata pid="84" name="Nuitveille" tags="" position="4550,1350" size="100,100">_PassageAvantTirage: passage.name
 _Murmuris:true
-_ForetMiroirMap: _ForetMiroir || _MarcheNuitveille
+_ForetMiroirMap: _ForetMiroir &amp;&amp; !_MarcheNuitveille
 _Marche: !_MarcheNuitveille &amp;&amp; !_Silhouette
 --
 [if !_Silhouette]
+{embed image: &#39;./assets/Nuitveille_silhouette.webp&#39;}
+
 En déambulant à travers les ruelles labyrinthiques de Nuitveille, je me laisse guider par l&#39;instinct plutôt que par la raison. La cité, enveloppée dans un voile perpétuel de pénombre, vibre d&#39;une énergie que je peine à comprendre. Les bâtiments, aux façades sculptées de symboles anciens, semblent chuchoter des histoires séculaires, tandis que les ombres dansent autour de moi, comme animées d&#39;une volonté propre.
 
 Alors que je traverse une place déserte, où la seule lumière provient d&#39;un orbe à l&#39;éclat vacillant, une silhouette encapuchonnée émerge des ténèbres. Elle se tient là, immobile, comme si elle m&#39;attendait.
@@ -1255,21 +1297,29 @@ Alors que je traverse une place déserte, où la seule lumière provient d&#39;u
 
 Pris au dépourvu, je m&#39;arrête, mon cœur battant à tout rompre. [[*&quot;Qui êtes-vous ? Comment savez-vous ce que je cherche ?&quot;*-&gt;Discuter silhouette]] Ma voix trahit ma confusion autant que ma curiosité.
 
-[Else]
+[if _Silhouette]
+{embed image: &#39;./assets/Nuitveille.webp&#39;}
+
 Dans les rues sinueuses de Nuitveille, sous un ciel constellé d&#39;étoiles qui ne pâlissent jamais, je me tiens à un carrefour, la Boussole serrée dans ma main. Le poids des choix possibles pèse sur mes épaules, chaque direction offrant un chemin vers des secrets inconnus et des révélations qui pourraient changer le cours de ma destinée.  Où dois-je me diriger ?
 
-&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]
-&gt;[[Contempler le ciel]]
-[if !_Marche]
-&gt;[[S&#39;enfoncer dans Nuitveille-&gt;Le marché de Nuitveille]]
 [if _MarcheNuitveille]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
+&gt;[[Se rendre dans les Mines de Lune-&gt;Les Mines de Lune]]
+&gt;[[Se rendre dans la forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Contempler le ciel]]
+&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]
+
 [if _ForetMiroirMap]
-&gt;[[La Forêt des Mirois-&gt;Forêt des Miroirs ]]
+&gt;[[S&#39;enfoncer dans Nuitveille-&gt;Le marché de Nuitveille]]
+&gt;[[Se rendre dans la forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Contempler le ciel]]
+&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]
 </tw-passagedata><tw-passagedata pid="85" name="Crepusculine" tags="" position="5550,1375" size="100,100">_PassageAvantTirage: passage.name
 _Fin:8
 --
+{embed image: &#39;./assets/Crepusculine.webp&#39;}
+
+[if !_Crepusculine]
 Crepusculine se dresse comme une énigme enveloppée dans la pénombre, une cité où la nuit n&#39;est jamais une menace, mais un refuge. Son obscurité n&#39;est pas celle des cauchemars, mais celle d&#39;une couverture de velours étoilé, rassurante et protectrice. Les lumières qui scintillent à travers la ville ne sont pas des défis à l&#39;ombre, mais des danses harmonieuses avec elle, créant un ballet de lumière et d&#39;obscurité où chaque pas révèle la beauté cachée dans le sombre.
 
 Les rues serpentent entre les bâtiments anciens, leurs façades de pierre usée par le temps se fondant dans le décor nocturne comme si elles étaient façonnées à partir même de l&#39;obscurité. Les lampions suspendus et les lanternes aux couleurs douces projettent des ombres qui dansent sur les murs, transformant chaque coin, chaque recoin en une scène d&#39;intimité et de mystère. Le son du pas sur le pavé résonne doucement, accompagné par le murmure lointain de l&#39;eau des fontaines, créant une mélodie apaisante qui rythme la vie nocturne de la cité.
@@ -1282,25 +1332,37 @@ C&#39;est une ville où l&#39;ombre n&#39;est pas synonyme de peur, mais d&#39;i
 
 La ville s&#39;offre à moi, ou mes pas vont-il me guider ?
 
-&gt;[[Reprendre ma route vers la croisée des chemins-&gt;mapp]]
-&gt;[[Retourner à Nuiveille-&gt;l&#39;Empire des Ombres.]]
-&gt;[[Crepusculine évoque chez moi un sentiment d&#39;accomplissement, je décide rester ici-&gt;embrasser l&#39;oubli]]
 &gt;[[Explorer la place centrale-&gt; La Diseuse de Bonne Aventure]]
 &gt;[[Se rendre à la taverne]]
-&gt;[[Se diriger vers l&#39;échoppe qui borde la place-&gt;Se diriger vers l&#39;échoppe]]</tw-passagedata><tw-passagedata pid="86" name="Forêt des Miroirs " tags="" position="4925,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Se diriger vers l&#39;échoppe qui borde la place-&gt;Se diriger vers l&#39;échoppe]]
+&gt;[[Crepusculine évoque chez moi un sentiment d&#39;accomplissement, je décide rester ici-&gt;embrasser l&#39;oubli]]
+
+[Else]
+Crepusculine se dresse comme une énigme enveloppée dans la pénombre, une cité où la nuit n&#39;est jamais une menace, mais un refuge. Son obscurité n&#39;est pas celle des cauchemars, mais celle d&#39;une couverture de velours étoilé, rassurante et protectrice. Les lumières qui scintillent à travers la ville ne sont pas des défis à l&#39;ombre, mais des danses harmonieuses avec elle, créant un ballet de lumière et d&#39;obscurité où chaque pas révèle la beauté cachée dans le sombre.
+
+C&#39;est une ville où l&#39;ombre n&#39;est pas synonyme de peur, mais d&#39;invitation à l&#39;exploration, un appel à découvrir les secrets et les histoires cachées derrière chaque porte close et chaque regard furtif. Crepusculine, avec son ambiance mystérieuse et rassurante, est un sanctuaire pour les âmes curieuses, un havre pour ceux qui cherchent à comprendre les mystères tissés dans le tissu même de l&#39;obscurité.
+
+La ville s&#39;offre à moi, ou mes pas vont-il me guider ?
+
+&gt;[[Retourner voir la diseuse de bonne aventure-&gt; La Diseuse de Bonne Aventure]]
+&gt;[[Se rendre à la taverne]]
+&gt;[[Se diriger vers l&#39;échoppe qui borde la place-&gt;Se diriger vers l&#39;échoppe]]
+&gt;[[Crepusculine évoque chez moi un sentiment d&#39;accomplissement, je décide rester ici-&gt;embrasser l&#39;oubli]]
+&gt;[[Retourner à Nuiveille-&gt;l&#39;Empire des Ombres.]]
+&gt;[[Reprendre ma route vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="86" name="Forêt des Miroirs " tags="" position="4925,1550" size="100,100">_PassageAvantTirage: passage.name
 _ForetMiroir:true
 --
 Tenant fermement la Boussole dans ma main, je sens son aiguille vibrer légèrement, comme animée d&#39;une volonté propre. Elle m&#39;oriente à travers le paysage en constante mutation de l&#39;Empire des Ombres, chaque direction prise me rapprochant de mon destin, de réponses tant cherchées. Les dunes de sable se transforment subtilement en roches sculptées par le vent, puis en une végétation luxuriante qui marque l&#39;approche de l&#39;oasis mirage. C&#39;est un spectacle à couper le souffle, où l&#39;eau semble danser sous les rayons du soleil, créant des reflets d&#39;argent sur les lieux qui l&#39;entourent.
 
 L&#39;air se rafraîchit sensiblement, une brise légère caresse ma peau, emportant avec elle le parfum humide de la terre et des feuilles, mêlé à une note subtile de fleurs sauvages. C&#39;est une odeur rassurante, mais aussi chargée de mystère, annonçant l&#39;entrée dans un monde où la magie imprègne chaque feuille et chaque pierre.
 
-La forêt des miroirs est un tableau vivant, où les couleurs semblent plus vives, presque surnaturelles. Les arbres, hauts et majestueux, forment une voûte dense qui filtre la lumière du soleil, créant un jeu d&#39;ombres et de lumières au sol. Leurs troncs, lisses comme des miroirs, reflètent non seulement l&#39;environnement, mais parfois, semblent montrer des scènes qui n&#39;appartiennent ni au présent ni à cet endroit.
+La forêt des miroirs est un tableau vivant, presque surnaturelles. Les arbres, hauts et majestueux, forment une voûte dense qui filtre la lumière du soleil, créant un jeu d&#39;ombres et de lumières au sol. Leurs troncs, lisses comme des miroirs, reflètent non seulement l&#39;environnement, mais parfois, semblent montrer des scènes qui n&#39;appartiennent ni au présent ni à cet endroit.
 
 Le son de mes pas sur le tapis de feuilles et de mousse est étouffé, ajoutant à l&#39;atmosphère de tranquillité et d&#39;isolement. De temps en temps, le silence est rompu par le chant mélodieux d&#39;un oiseau caché ou le murmure d&#39;un ruisseau invisible, renforçant l&#39;impression d&#39;être entré dans un autre monde, un sanctuaire préservé du temps et de l&#39;espace habituels.
 
+&gt;[[M&#39;enfoncer dans la forêt]]
 &gt;[[Faire demi-tour et retourner à la croisée des chemins-&gt;mapp]]
 &gt;[[Reprendre la route de Nuitveille-&gt;Nuitveille]]
-&gt;[[M&#39;enfoncer dans la forêt]]
 
 </tw-passagedata><tw-passagedata pid="87" name="Les Mines de Lune" tags="" position="5275,1750" size="100,100">_PassageAvantTirage: passage.name
 --
@@ -1312,17 +1374,17 @@ Je m&#39;approche d&#39;un groupe de mineurs. Je sens que les convaincre nécess
 
 [if !_Masque]
 &gt;[[J&#39;essaie de les convaincres.-&gt;ne pas convaincre les mineurs]]
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 
 [if _Masque]
 &gt;[[J&#39;essaie de les convaincres.-&gt;convaincre les mineurs]]
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 </tw-passagedata><tw-passagedata pid="88" name="Islevoile" tags="" position="4850,275" size="100,100">_PassageAvantTirage: passage.name
 --
 Islevoile, la plus majestueuse de ces terres énigmatiques, se dresse telle une sentinelle au milieu d&#39;une mer de brume. C&#39;est une île qui refuse de révéler ses secrets, enveloppée dans un brouillard si dense que le jour y semble aussi incertain que la nuit. Les ruines d&#39;une civilisation oubliée se dressent comme des fantômes, leurs contours flous se devinent à peine à travers le voile persistant. Les pierres, couvertes de lichens et de mousses, parlent d&#39;un passé où la magie et le mystère régnaient, un écho d&#39;une grandeur perdue qui murmure encore aux aventuriers assez courageux pour écouter. Les reliques dispersées parmi les décombres brillent d&#39;une lueur faible, des vestiges de puissance et de connaissance, attendant celui qui saura percer leurs secrets.
@@ -1706,6 +1768,8 @@ Enfin, après des jours de marche, le Phare se dresse devant moi, émergeant des
 &gt;[[Je m&#39;avance d&#39;un pas résolu vers le Phare-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="113" name="Suivre la silhouette" tags="" position="4300,1650" size="100,100">_PassageAvantTirage: passage.name
 _Nuitveille:true
 --
+{embed image: &#39;./assets/Nuitveille_porte.webp&#39;}
+
 La décision prise, je plonge dans les ombres, déterminé à suivre la silhouette qui s&#39;est évanouie dans la nuit. Alors que je me faufile à travers les ruelles désertes de Nuitveille, une étrange sensation m&#39;envahit. Mon cœur bat à tout rompre, non pas de peur, mais d&#39;une révélation imminente. Je sens en moi l&#39;écho de l&#39;ombre et de la lumière. Comme si une partie de moi, longtemps endormie, s&#39;éveillait à l&#39;appel de la nuit.
 
 Guidé par cet instinct naissant, je découvre que je peux percevoir les subtiles variations dans les ténèbres, les empreintes laissées par la silhouette dans son passage furtif. Je suis ces traces comme un fil d&#39;Ariane à travers le labyrinthe de Nuitveille, chaque pas me rapprochant de mon objectif, chaque ombre me révélant un peu plus de ce pouvoir que je porte en moi.
@@ -1716,7 +1780,10 @@ Finalement, les ombres me mènent à une porte secrète, dissimulée derrière u
 &gt;[[Certains secret ne doivent pas être revelé, je continue ma route-&gt;Le marché de Nuitveille]]</tw-passagedata><tw-passagedata pid="114" name="Discuter silhouette" tags="" position="4375,1475" size="100,100">_PassageAvantTirage: passage.name
 _Nuitveille:true
 _Silhouette:true
+_Boussole:true
 --
+{embed image: &#39;./assets/Nuitveille_boussole.webp&#39;}
+
 La silhouette rit doucement, un son qui semble se fondre dans l&#39;air nocturne. *&quot;À Nuitveille, les secrets sont la monnaie la plus précieuse. Et ceux qui cherchent Murmuris... eh bien, ils cherchent les secrets eux-mêmes.&quot;*
 
 Murmuris. Le nom résonne dans mon esprit, un écho d&#39;une quête oubliée qui m&#39;a mené jusqu&#39;ici. *&quot;Que pouvez-vous me dire sur lui ? Sur Murmuris ?&quot;*
@@ -1729,16 +1796,18 @@ Il s&#39;approche, et dans sa main tendue repose un petit objet enveloppé de ti
 
 Avant que je puisse poser d&#39;autres questions, il se fond dans les ombres, me laissant seul avec la boussole et un millier de questions. La rencontre mystérieuse a allumé en moi une détermination nouvelle : trouver ce lieu oublié et percer le mystère de Murmuris.
 
-Ainsi commence mon exploration de Nuitveille, une quête non seulement pour des réponses, mais pour la vérité cachée dans les ombres de l&#39;Empire des Ombres.
+Ainsi commence mon exploration de Nuitveille, une quête non seulement de réponses, mais aussi de la vérité cachée dans les secrets de l&#39;Empire des Ombres.
 
 &gt;[[S&#39;enfoncer dans Nuitveille-&gt;Le marché de Nuitveille]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
 &gt;[[Scruter les ombres à la recherche de la silhouette-&gt;Suivre la silhouette]]</tw-passagedata><tw-passagedata pid="115" name="Sanctuaire" tags="" position="4300,1825" size="100,100">_PassageAvantTirage: passage.name
 _Fragment: _Fragment +1
 --
+{embed image: &#39;./assets/Nuitveille_sanctuaire.webp&#39;}
+
 Avec une assurance que je ne me connaissais pas, je traverse le voile, me retrouvant dans un réseau de passages cachés qui serpentent sous la ville. C&#39;est un monde en marge de la réalité, où le temps et l&#39;espace semblent pliés à la volonté de ceux qui connaissent ses secrets.
 
-Je continue à suivre la trace de la silhouette jusqu&#39;à un sanctuaire, un lieu où les ombres dansent sur les murs en un ballet silencieux, centré autour d&#39;une figure en lévitation. Son nom résonne dans ma mémoire : Nébula du Voile. Son corps physique repose là, entouré d&#39;une aura d&#39;ombre et de mystère, tandis que son esprit, je le comprends maintenant, peut se déplacer librement dans les ombres de Nuitveille.
+Je continue à suivre la trace de la silhouette jusqu&#39;à un sanctuaire, un lieu où les ombres dansent sur les murs en un ballet silencieux, centré autour d&#39;une figure en lévitation. Son nom résonne dans ma mémoire : *Nébula du Voile*. Son corps physique repose là, entouré d&#39;une aura d&#39;ombre et de mystère, tandis que son esprit, je le comprends maintenant, peut se déplacer librement dans les ombres de Nuitveille.
 
 Nébula ouvre les yeux, un sourire énigmatique aux lèvres. *&quot;Tu as suivi le chemin des ombres pour me retrouver, Silhouétien,&quot;* dit-elle, sa voix enveloppant la pièce d&#39;une douce mélancolie. *&quot;Cela fait bien longtemps qu&#39;un des tiens n&#39;a pas foulé ce sol.&quot;*
 
@@ -1748,20 +1817,24 @@ Nébula pose sa main sur mon épaule. *&quot;Garde nos secrets, et en échange, 
 
 Alors que je quitte le sanctuaire, les mots de Nébula résonnent en moi. Une part de mon passé m&#39;a été révélée, mais avec elle, le poids d&#39;une responsabilité nouvelle. Les ombres de Nuitveille, autrefois menaçantes, semblent à présent me saluer comme l&#39;un des leurs. Je suis changé, non seulement par la révélation de mon héritage, mais aussi par la promesse que j&#39;ai faite de protéger les secrets qui m&#39;ont été confiés.
 
-&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]
-&gt;[[S&#39;enfoncer dans les rues de Nuitveille-&gt;Nuitveille]]	
-&gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]</tw-passagedata><tw-passagedata pid="116" name="Le marché de Nuitveille" tags="" position="4600,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[S&#39;enfoncer dans les rues de Nuitveille-&gt;Le marché de Nuitveille]]
+&gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
+&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="116" name="Le marché de Nuitveille" tags="" position="4600,1550" size="100,100">_PassageAvantTirage: passage.name
 _MarcheNuitveille:true
 --
+{embed image: &#39;./assets/Nuitveille_marche.webp&#39;}
+
 Dans les méandres des ruelles de Nuitveille, je me trouve soudainement devant l&#39;entrée d&#39;un marché que je n&#39;avais pas remarqué auparavant. Les étals, illuminés par des lanternes d&#39;un bleu phosphorescent, débordent de marchandises d&#39;origines inconnues, créant une ambiance presque irréelle. Les marchands, aux apparences aussi diverses que mystérieuses, vantent leurs produits avec une verve captivante.
 
 Alors que je déambule entre les étals, un vendeur, dissimulé sous un capuchon étoilé, attire mon attention. *&quot;Voyageur, vous semblez en quête de merveilles. Peut-être cherchez-vous quelque chose en provenance de Crepusculine, des Mines de Lune, ou même de la Forêt des Miroirs ?&quot;* Sa voix, éthérée, semble flotter dans l&#39;air.
 
 &gt;[[Demander à en savoir plus sur ses marchandises-&gt;S&#39;approcher du marchand]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
-&gt;[[S&#39;enfoncer dans Nuitveille-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="117" name="S&#39;approcher du marchand" tags="" position="4575,1700" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="117" name="S&#39;approcher du marchand" tags="" position="4575,1700" size="100,100">_PassageAvantTirage: passage.name
 _Marchandises:random.d4
 --
+{embed image: &#39;./assets/Nuitveille_marchand.webp&#39;}
+
 [if _Marchandises === 1]
 ## Larme de Lune Cristallisée
 
@@ -1800,7 +1873,7 @@ _Marchandises:random.d4
 _ForetMiroir:true
 _PhareAmes:true
 --
-L&#39;utilisation de la Boussole du Désir Profond m&#39;entraîne plus profondément dans la forêt, vers un cœur caché que peu ont eu le privilège de voir. Avec chaque pas, un sentiment de connexion grandit en moi, comme si les secrets de la forêt résonnaient avec quelque chose d&#39;enfoui dans mon âme. C&#39;est à la fois exaltant et terrifiant, car je sens que je m&#39;approche de vérités qui pourraient redéfinir ma compréhension de moi-même et du monde qui m&#39;entoure.
+L&#39;utilisation de la Boussole du désir profond m&#39;entraîne plus profondément dans la forêt, vers un cœur caché que peu ont eu le privilège de voir. Avec chaque pas, un sentiment de connexion grandit en moi, comme si les secrets de la forêt résonnaient avec quelque chose d&#39;enfoui dans mon âme. C&#39;est à la fois exaltant et terrifiant, car je sens que je m&#39;approche de vérités qui pourraient redéfinir ma compréhension de moi-même et du monde qui m&#39;entoure.
 
 Enfin, la boussole m&#39;amène à une clairière où un miroir particulièrement grand se dresse, encadré par des vignes et des fleurs luminescentes. Son reflet ne montre pas mon image, mais plutôt des visions flottantes, des fragments de souvenirs et des éclats de mon passé.
 
@@ -1808,9 +1881,9 @@ Enfin, la boussole m&#39;amène à une clairière où un miroir particulièremen
 
 C&#39;est là, au cœur de la Forêt des Miroirs, que je commence à comprendre le lien indissoluble entre le phare, mon héritage de Silhouétien, et le destin qui m&#39;attend.
 
+&gt;[[Continuer d&#39;observer le miroir]]
 &gt;[[Faire demi-tour et retourner à la croisée des chemins-&gt;mapp]]
-&gt;[[Reprendre la route de Nuitveille-&gt;Nuitveille]]
-&gt;[[Continuer d&#39;observer le miroir]]</tw-passagedata><tw-passagedata pid="119" name="Continuer d&#39;observer le miroir" tags="" position="4925,1800" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre la route de Nuitveille-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="119" name="Continuer d&#39;observer le miroir" tags="" position="4925,1800" size="100,100">_PassageAvantTirage: passage.name
 _ForetMiroir:true
 _PhareAmesQui:&#39;Miroir&#39;
 _Fragment: _Fragment +1
@@ -1818,15 +1891,15 @@ _Fragment: _Fragment +1
 Alors que je fixe le miroir, une vision s&#39;empare de mon esprit, m&#39;emportant loin dans les tréfonds de ma mémoire, vers un souvenir que j&#39;avais oublié, enfoui sous les voiles du temps.
 
 ***
-Je suis enfant, courant à travers les champs dorés qui bordent mon village natal, un petit hameau situé à la lisière des Terres d&#39;Echo. Le soleil est haut dans le ciel, peignant le monde d&#39;une lumière éclatante, et l&#39;air est rempli du rire insouciant de mon moi plus jeune.
+*Je suis enfant, courant à travers les champs dorés qui bordent mon village natal, un petit hameau situé à la lisière des Terres d&#39;Echo. Le soleil est haut dans le ciel, peignant le monde d&#39;une lumière éclatante, et l&#39;air est rempli du rire insouciant de mon moi plus jeune.*
 
-Mon grand-père, un homme au visage buriné par les années et les secrets, m&#39;appelle à lui. Dans ses yeux, je vois un mélange de tendresse et de gravité. *&quot;Viens, mon enfant,&quot;* dit-il, sa voix teintée de la sagesse des âges. *&quot;Il est temps que je te montre quelque chose d&#39;important.&quot;*
+*Mon grand-père, un homme au visage buriné par les années et les secrets, m&#39;appelle à lui. Dans ses yeux, je vois un mélange de tendresse et de gravité. *&quot;Viens, mon enfant,&quot;* dit-il, sa voix teintée de la sagesse des âges. &quot;Il est temps que je te montre quelque chose d&#39;important.&quot;*
 
-Nous marchons ensemble, s&#39;éloignant du village, jusqu&#39;à atteindre une colline surplombant une vaste étendue d&#39;eau, calme et miroitante sous les rayons du soleil couchant. Mon grand-père s&#39;arrête et, sortant de sa besace un ancien sextant orné de symboles mystérieux, il le pointe vers l&#39;horizon.
+*Nous marchons ensemble, s&#39;éloignant du village, jusqu&#39;à atteindre une colline surplombant une vaste étendue d&#39;eau, calme et miroitante sous les rayons du soleil couchant. Mon grand-père s&#39;arrête et, sortant de sa besace un ancien sextant orné de symboles mystérieux, il le pointe vers l&#39;horizon.*
 
-*&quot;Suis mon regard,&quot;* murmure-t-il, me guidant pour ajuster l&#39;instrument. Alors que je scrute à travers le sextant, une ligne de lumière se dessine dans le ciel, une trajectoire scintillante qui semble tracer un chemin à travers les étoiles elles-mêmes.
+*&quot;Suis mon regard,&quot; murmure-t-il, me guidant pour ajuster l&#39;instrument. Alors que je scrute à travers le sextant, une ligne de lumière se dessine dans le ciel, une trajectoire scintillante qui semble tracer un chemin à travers les étoiles elles-mêmes.*
 
-*&quot;Ce chemin de lumière,&quot;* explique-t-il avec émotion, *&quot;conduit au Phare des Âmes. Notre famille, depuis des générations, sert de gardien à ce lieu sacré. Le phare est plus qu&#39;une simple tour ; c&#39;est un lien entre les mondes, un guide pour les âmes égarées. Un jour, peut-être, viendra le temps pour toi de prendre la relève.&quot;*
+*&quot;Ce chemin de lumière,&quot; explique-t-il avec émotion, &quot;conduit au Phare des Âmes. Notre famille, depuis des générations, sert de gardien à ce lieu sacré. Le phare est plus qu&#39;une simple tour ; c&#39;est un lien entre les mondes, un guide pour les âmes égarées. Un jour, peut-être, viendra le temps pour toi de prendre la relève.&quot;*
 
 Je regarde, fasciné, la voie céleste qui s&#39;ouvre devant moi, sentant dans mon cœur jeune une promesse d&#39;aventure et de mystère.
 
@@ -1837,8 +1910,11 @@ La vision s&#39;estompe, me laissant devant le miroir, les yeux humides et le c�
 
 Armé de cette révélation, je sais ce qu&#39;il me reste à faire. Le sextant de mon grand-père, la ligne de lumière dans le ciel, tout me conduit vers ma véritable destinée. Le Phare des Âmes m&#39;attend, et avec lui, la réponse aux mystères de mon passé et la clé de mon avenir. [[Je dois suivre le chemin tracé par les étoiles-&gt;Phare des âmes]], un chemin qui mène non seulement au phare, mais aussi à la compréhension de ma place dans ce monde et dans l&#39;équilibre fragile entre les ombres et la lumière.</tw-passagedata><tw-passagedata pid="120" name="Contempler le ciel" tags="" position="4500,1900" size="100,100">_PassageAvantTirage: passage.name
 _Ciel:random.d4
+_Fin:9
 --
 [if _Ciel === 1]
+{embed image: &#39;./assets/Nuitveille_ciel1.webp&#39;}
+
 Debout au milieu des ruelles énigmatiques de Nuitveille, j&#39;élève mon regard vers le ciel nocturne, une voûte d&#39;encre parsemée d&#39;étoiles. Chaque scintillement est une promesse, un mystère lointain. La voie lactée, telle une rivière de lumière, traverse le ciel, me rappelant que, dans l&#39;immensité de l&#39;univers, mes quêtes et mes tourments sont peut-être insignifiants. Mais ici, sous cette toile céleste, je trouve un sens de la continuité, une connexion à quelque chose de plus grand que moi. Les constellations, des guides ancestraux, me murmurent des histoires de héros et de destinées entrelacées avec les fils du temps.
 
 &gt;[[Contempler le ciel-&gt;Contempler le ciel]]
@@ -1846,6 +1922,8 @@ Debout au milieu des ruelles énigmatiques de Nuitveille, j&#39;élève mon rega
 &gt;[[Poursuivre ma route-&gt;Nuitveille]]
 
 [if _Ciel === 2]
+{embed image: &#39;./assets/Nuitveille_ciel2.webp&#39;}
+
 Le ciel est d&#39;une clarté surnaturelle, les étoiles reflétant la lumière mystique de la ville. Ici, où le réel et le reflet se confondent, les étoiles semblent danser, se mouvant au rythme des ruelles qui frémissent. Une étoile filante trace soudainement sa route à travers le ciel, comme pour valider mon choix de poursuivre cette quête. Elle incarne l&#39;espoir, un rappel que même dans l&#39;obscurité la plus profonde, il y a une lumière, une direction à suivre. Le ciel me parle de possibilités infinies, de chemins encore à découvrir.
 
 &gt;[[Contempler le ciel-&gt;Contempler le ciel]]
@@ -1853,6 +1931,8 @@ Le ciel est d&#39;une clarté surnaturelle, les étoiles reflétant la lumière 
 &gt;[[Poursuivre ma route-&gt;Nuitveille]]
 
 [if _Ciel === 3]
+{embed image: &#39;./assets/Nuitveille_ciel3.webp&#39;}
+
 Je prends un moment pour observer le ciel. Les phases de la lune, au-dessus, semblent particulièrement vivantes, comme si elles influençaient la terre elle-même. La pleine lune baigne le paysage d&#39;une lumière argentée, révélant les contours des montagnes lointaines. Cette lumière, qui guide mon chemin, est un rappel silencieux de la constance dans le changement, de la lumière dans l&#39;obscurité. Elle m&#39;inspire à chercher la lumière intérieure, celle qui éclaire les voies les plus sombres de l&#39;âme.
 
 &gt;[[Contempler le ciel-&gt;Contempler le ciel]]
@@ -1860,28 +1940,36 @@ Je prends un moment pour observer le ciel. Les phases de la lune, au-dessus, sem
 &gt;[[Poursuivre ma route-&gt;Nuitveille]]
 
 [if _Ciel === 4]
-Face aux ruelles de Nuitveill, je lève les yeux vers le ciel encore une fois. Le contraste entre la lumière émanant de la ville et l&#39;obscurité du ciel crée une harmonie parfaite, un équilibre entre le terrestre et le céleste. Les étoiles, témoins éternels des cycles de la vie, me rappellent que chaque fin est un nouveau commencement. La lumière, se frayant un chemin à travers les ténèbres, rejoint les étoiles dans une danse de lumières, symbolisant mon propre voyage. Ce ciel, sous lequel j&#39;ai tant contemplé, réfléchi, et rêvé, m&#39;offre à présent la paix, une acceptation de mon rôle dans le grand tissu de l&#39;univers.
+{embed image: &#39;./assets/Nuitveille_ciel4.webp&#39;}
+
+Face aux ruelles de Nuitveille, je lève les yeux vers le ciel encore une fois. Le contraste entre la lumière émanant de la ville et l&#39;obscurité du ciel crée une harmonie parfaite, un équilibre entre le terrestre et le céleste. Les étoiles, témoins éternels des cycles de la vie, me rappellent que chaque fin est un nouveau commencement. La lumière, se frayant un chemin à travers les ténèbres, rejoint les étoiles dans une danse de lumières, symbolisant mon propre voyage. Ce ciel, sous lequel j&#39;ai tant contemplé, réfléchi, et rêvé, m&#39;offre à présent la paix, une acceptation de mon rôle dans le grand tissu de l&#39;univers.
 
 &gt;[[Contempler le ciel-&gt;Contempler le ciel]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
-&gt;[[Poursuivre ma route-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="121" name=" La Diseuse de Bonne Aventure" tags="" position="5600,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Poursuivre ma route-&gt;Nuitveille]]
+&gt;[[Je décide que ma quête se termine ici, à Nuitveille-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="121" name=" La Diseuse de Bonne Aventure" tags="" position="5800,1575" size="100,100">_PassageAvantTirage: passage.name
+_Crepusculine:true
 --
+[if !_BonneAventure]
 En flânant sur la place centrale de Crepusculine, où l&#39;agitation nocturne atteint son paroxysme, je me laisse guider par lescris des marchands et les rires éphémères qui s&#39;échappent des tavernes  éparpillées autour de la fontaine principale. L&#39;atmosphère est chargée d&#39;une énergie mystique, comme si chaque pavé et chaque mur murmurait des histoires séculaires.
 
 Parmi les étals et les marchands vantant leurs marchandises exotiques, une figure solitaire attire mon attention. Assise sous un auvent de velours pourpre, une table devant elle ornée de cristaux luminescents et de cartes anciennes, la diseuse de bonne aventure m&#39;invite d&#39;un geste à m&#39;approcher. Ses yeux, d&#39;un vert profond, semblent scintiller dans la pénombre, promettant des révélations cachées dans les plis du destin.
 
 *&quot;Approchez, voyageur des ombres,&quot;* dit-elle d&#39;une voix douce, teintée d&#39;un accent étranger. *&quot;Laissez-moi lire les fils de votre avenir et révéler les secrets que votre cœur cherche à comprendre.&quot;*
 
-Hésitant, mais poussé par la curiosité, je m&#39;assois en face d&#39;elle. Ses doigts fins se déplacent avec grâce, éparpillant les cartes en un arc de cercle mystérieux avant de me demander de tirer trois d&#39;entre elles.
+&gt;[[Demander à connaitre mon avenir-&gt;Tirage Crepusculine]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
 
-Alors que je révèle les cartes choisies, son expression devient contemplative. *&quot;La Tour, Le Fou, et L&#39;Étoile,&quot;* murmure-t-elle,* &quot;un chemin de chaos, de renouveau inattendu, et d&#39;espoir. Votre quête vous mènera à travers des épreuves qui ébranleront vos fondations, mais sachez que chaque fin n&#39;est qu&#39;un nouveau commencement. L&#39;Étoile brille comme un guide dans l&#39;obscurité, promettant clarté et inspiration sur le chemin de la vérité.&quot;*
+[if _BonneAventure]
+Assise sous un auvent de velours pourpre, une table devant elle ornée de cristaux luminescents et de cartes anciennes, la diseuse de bonne aventure m&#39;invite d&#39;un geste à m&#39;approcher. Ses yeux, d&#39;un vert profond, semblent scintiller dans la pénombre, promettant des révélations cachées dans les plis du destin.
 
-Elle pose sa main sur la mienne, son toucher est à la fois rassurant et électrique. *&quot;Cherchez la lumière dans les ombres, car c&#39;est là que réside votre destin. Crepusculine vous révélera ses secrets, mais soyez prêt à affronter les vérités cachées dans votre propre reflet.&quot;*
+*&quot;Approchez, voyageur des ombres,&quot;* dit-elle d&#39;une voix douce, teintée d&#39;un accent étranger. *&quot;Laissez-moi lire les fils de votre avenir et révéler les secrets que votre cœur cherche à comprendre.&quot;*
 
-La rencontre se termine avec plus de questions que de réponses, mais un sentiment de détermination renouvelée m&#39;envahit. Je la remercie pour ses mots énigmatiques et me lève, le cœur léger mais l&#39;esprit en ébullition, prêt à déchiffrer les mystères que Crepusculine et la nuit ont en réserve pour moi. Son dernier regard, pénétrant et mystérieux, m&#39;accompagne alors que je m&#39;éloigne, un rappel que le chemin de la découverte est souvent pavé d&#39;incertitudes et d&#39;espoirs étoilés.
-
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]] </tw-passagedata><tw-passagedata pid="122" name="Se rendre à la taverne" tags="" position="5800,1525" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Demander à connaitre mon avenir-&gt;Tirage Crepusculine 2]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="122" name="Se rendre à la taverne" tags="" position="6075,1575" size="100,100">_PassageAvantTirage: passage.name
+_Crepusculine:true
 --
+[if !_MiroirMagique]
 La lueur vacillante des chandelles projette des ombres dansantes sur les murs de la taverne, un havre pour les âmes nocturnes en quête de chaleur et de réconfort dans le cœur sombre de la cité. Le murmure des conversations se mêle à la mélodie mélancolique d&#39;une vielle à roue, jouée par un musicien dont le visage reste caché dans l&#39;ombre d&#39;un capuchon. L&#39;air est empreint d&#39;une odeur de bière épicée et de ragoût fumant, invitant les visiteurs à se détendre et à oublier pour un temps les mystères et les dangers qui se tapissent à l&#39;extérieur.
 
 Je m&#39;installe à une table en retrait, observant discrètement la salle : marchands d&#39;artefacts rares, aventuriers aux capes usées par le voyage, et figures encapuchonnées dont les intentions restent un mystère. C&#39;est alors qu&#39;une silhouette se détache de l&#39;obscurité pour prendre place en face de moi, un homme dont le visage est dissimulé par un masque d&#39;obsidienne qui semble absorber la faible lumière environnante.
@@ -1903,27 +1991,32 @@ Il dépose sur la table un petit objet enveloppé de tissu noir. *&quot;Ceci te 
 Avec ces mots, il disparaît dans l&#39;ombre, me laissant seul avec le mystérieux cadeau et une multitude de nouvelles questions. Mais une chose est sûre : ma quête à Crepusculine vient de prendre une tournure inattendue, guidée désormais par le Maître des Ombres lui-même.
 
 &gt;[[Déballer l&#39;objet]]
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]] </tw-passagedata><tw-passagedata pid="123" name="Se diriger vers l&#39;échoppe" tags="" position="5450,1550" size="100,100">_PassageAvantTirage: passage.name
-_Masque:true
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+[Else]
+La lueur vacillante des chandelles projette des ombres dansantes sur les murs de la taverne, un havre pour les âmes nocturnes en quête de chaleur et de réconfort dans le cœur sombre de la cité. Le murmure des conversations se mêle à la mélodie mélancolique d&#39;une vielle à roue, jouée par un musicien dont le visage reste caché dans l&#39;ombre d&#39;un capuchon. L&#39;air est empreint d&#39;une odeur de bière épicée et de ragoût fumant, invitant les visiteurs à se détendre et à oublier pour un temps les mystères et les dangers qui se tapissent à l&#39;extérieur.
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="123" name="Se diriger vers l&#39;échoppe" tags="" position="5575,1550" size="100,100">_PassageAvantTirage: passage.name
+_Crepusculine:true
 --
+[if !_Masque]
 Dans les méandres de Crepusculine, une échoppe attire irrésistiblement mon attention. Dissimulée entre deux bâtiments austères, sa devanture est ornée de masques d&#39;une beauté envoûtante, semblant flotter dans l&#39;air, suspendus à des fils invisibles. Chaque masque, un chef-d&#39;œuvre d&#39;artisanat, raconte une histoire, évoque une émotion, ou incarne un secret. La lumière tamisée à l&#39;intérieur de l&#39;échoppe invite à la découverte, promettant un voyage au cœur de l&#39;âme humaine.
 
 Je franchis le seuil, et un carillon délicat annonce mon entrée. L&#39;intérieur est un sanctuaire dédié à l&#39;art du masque. Des étagères recouvertes de velours rouge présentent des pièces uniques, certaines d&#39;une simplicité élégante, d&#39;autres d&#39;une complexité et d&#39;une richesse de détails à couper le souffle. La pénombre enveloppante est ponctuée de lueurs qui mettent en valeur les masques, comme si chacun était illuminé de l&#39;intérieur par une flamme mystique.
 
 Derrière un comptoir sculpté, un homme me regarde, ses propres yeux masqués par des lunettes aux verres teintés d&#39;ambre, qui semblent capter et refléter la moindre étincelle de lumière. *&quot;Bienvenue, voyageur,&quot;* dit-il d&#39;une voix douce, enrichie d&#39;un accent qui évoque des terres lointaines et des époques révolues. *&quot; Que cherchez-vous dans ma modeste échoppe ? Une nouvelle face à montrer au monde ? Ou peut-être à vous-même ?&quot;*
 
-Je m&#39;approche, fasciné par la diversité des masques. *&quot;Je cherche un masque qui pourrait m&#39;aider à naviguer les ombres de Crepusculine,&quot;* dis-je, *&quot;quelque chose qui révélerait les vérités cachées et protégerait mon identité.&quot;*
+&gt;[[Demander un masque-&gt;Masque]]
+&gt;[[Demander à en savoir plus sur son art-&gt;Art Masque]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
 
-L&#39;artisan hoche la tête, comme s&#39;il s&#39;attendait à cette demande. Il se tourne et sélectionne délicatement un masque parmi ses créations. C&#39;est une pièce saisissante, faite d&#39;un matériau sombre qui semble absorber la lumière environnante, ornée de motifs qui rappellent la nuit étoilée. *&quot;Ce masque,&quot;* explique-t-il en le présentant, *&quot;est forgé à partir d&#39;obscurité cristallisée, infusée avec un soupçon de lumière de lune. Il vous aidera à voir au-delà des apparences, révélant les mensonges et les secrets. Mais soyez prudent, car le monde des vérités cachées est aussi dangereux qu&#39;envoûtant.&quot;*
+[if _Masque]
+Derrière le comptoir sculpté,l&#39;homme me regarde à travers ses lunettes aux verres teintés d&#39;ambre, qui semblent capter et refléter la moindre étincelle de lumière. *&quot;Bienvenue, voyageur,&quot;* dit-il *&quot;Il vous faut autre chose ?&quot;*
 
-Je tends la main pour toucher le masque, sentant une énergie froide mais réconfortante s&#39;en dégager. *&quot;Combien pour ce masque ?&quot;* demandé-je, sachant que le prix d&#39;un tel artefact ne peut se mesurer en simple monnaie.
-
-L&#39;artisan sourit, ses yeux brillant derrière son masque. *&quot;Pour vous, voyageur des ombres, ce masque sera le témoin de votre quête. Portez-le avec sagesse et courage. En échange, j&#39;aspire seulement à ce que vous partagiez les histoires que vous découvrirez derrière ce voile d&#39;obscurité.&quot;*
-
-Acceptant le pacte tacite, je place le masque sur mon visage, sentant immédiatement une connexion, comme si une partie de moi longtemps endormie s&#39;éveillait. Je remercie l&#39;artisan et quitte l&#39;échoppe, armé d&#39;un nouvel outil pour explorer les mystères de Crepusculine, prêt à affronter les ombres avec une nouvelle perspective.
-
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]] </tw-passagedata><tw-passagedata pid="124" name="Déballer l&#39;objet" tags="" position="5800,1725" size="100,100">_PassageAvantTirage: passage.name
-
+&gt;[[Demander à en savoir plus sur son art-&gt;Art Masque]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+</tw-passagedata><tw-passagedata pid="124" name="Déballer l&#39;objet" tags="" position="6075,1725" size="100,100">_PassageAvantTirage: passage.name
+_MiroirMagique:true
 --
 Une fois le tissu noir soigneusement déroulé je trouve un petit miroir octogonal encadré de métal sombre, presque noir, incrusté de pierres qui semblent absorber la lumière environnante. 
 
@@ -1931,7 +2024,7 @@ Ce miroir, je le comprends rapidement, n&#39;est pas un simple objet de réflexi
 
 L&#39;homme au masque mentionné que cet artefact me permettrait de voir *&quot;ce qui reste caché aux yeux des mortels&quot;*. Je réalise alors que ce miroir est la clé pour naviguer les mystères de Crepusculine et, éventuellement, pour trouver mon chemin. Son pouvoir ne réside pas seulement dans la capacité de percer les secrets matériels, mais aussi de toucher aux vérités plus profondes, celles enfouies dans les cœurs et les esprits.
 
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]] </tw-passagedata><tw-passagedata pid="125" name="convaincre les mineurs" tags="" position="5200,1925" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="125" name="convaincre les mineurs" tags="" position="5200,1925" size="100,100">_PassageAvantTirage: passage.name
 --
 [if _EchecMasque]
 Revêtu du masque obtenu à Crepusculine, je m&#39;approche à nouveau des mineurs rassemblés à l&#39;entrée des Mines de Lune. L&#39;artefact, une œuvre d&#39;obscurité cristallisée et de lumière de lune, enveloppe mon visage d&#39;une aura de mystère et de puissance ancienne. Les mineurs, qui m&#39;avaient précédemment refusé l&#39;accès, observent avec une curiosité renouvelée la transformation que le masque opère sur ma présence.
@@ -1952,13 +2045,13 @@ Calix partage des histoires des mines, des légendes de découvertes incroyables
 
 Cette exploration des Mines de Lune, rendue possible par le masque de Crepusculine, marque le début d&#39;une aventure profonde dans les secrets enfouis et les pouvoirs anciens, une quête qui me rapprochera, je l&#39;espère, de la véritable essence du Phare des Âmes.
 
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 
 [Else]
-À l&#39;ombre majestueuse des Mines de Lune, je me tiens devant l&#39;entrée, scrutant les profondeurs qui s&#39;étendent devant moi. Le masque de Crepusculine, posé sur mon visage, semble vibrer d&#39;une énergie ancienne, un lien tangible avec les mystères qui m&#39;attendent. Autour de moi, les mineurs s&#39;affairent, mais leurs mouvements s&#39;arrêtent brièvement alors qu&#39;ils remarquent l&#39;artefact que je porte.
+Je me tiens devant l&#39;entrée, scrutant les profondeurs qui s&#39;étendent devant moi. Le masque de Crepusculine, posé sur mon visage, semble vibrer d&#39;une énergie ancienne, un lien tangible avec les mystères qui m&#39;attendent. Autour de moi, les mineurs s&#39;affairent, mais leurs mouvements s&#39;arrêtent brièvement alors qu&#39;ils remarquent l&#39;artefact que je porte.
 
 Un des mineurs, un homme au visage marqué par les années passées sous terre, s&#39;approche avec un respect non dissimulé. *&quot;Ce masque,&quot;* dit-il en désignant mon visage, *&quot;vous êtes en accord avec les ombres de Crepusculine. Que cherchez-vous dans nos mines ?&quot;*
 
@@ -1974,10 +2067,10 @@ Les mines se révèlent être un labyrinthe de merveilles naturelles et de magie
 
 Grâce à Calix et au masque de Crepusculine, mon voyage dans les Mines de Lune devient une aventure extraordinaire, un périple à travers le temps et les mystères de la terre. Chaque découverte me rapproche un peu plus des réponses que je cherche, tissant des liens entre mon passé, le présent des mines, et le futur incertain qui m&#39;attend.
 
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
-&gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]</tw-passagedata><tw-passagedata pid="126" name="ne pas convaincre les mineurs" tags="" position="5375,1925" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
+&gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="126" name="ne pas convaincre les mineurs" tags="" position="5375,1925" size="100,100">_PassageAvantTirage: passage.name
 _EchecMasque:true
 --
 La lumière vacillante des torches joue sur leurs visages marqués par le travail et la poussière. L&#39;air est chargé d&#39;une anticipation silencieuse alors que j&#39;explique mon désir d&#39;explorer les profondeurs des mines, espérant découvrir les secrets anciens enfouis sous la montagne.
@@ -1988,7 +2081,7 @@ Les mineurs, cependant, restent impassibles, leurs regards sceptiques traduisant
 
 *&quot;Les mines ne sont pas un lieu pour les étrangers,&quot;* dit-il d&#39;un ton qui ne souffre aucune réplique. *&quot;Les galeries sont traîtresses, les dangers, réels. Ce n&#39;est pas une question de courage ou de curiosité. Sans la connaissance et le respect de ce qui réside ici, vous seriez une charge plus qu&#39;un atout.&quot;*
 
-Je réalise alors mon erreur. Sans masque je ne suis rien de plus qu&#39;un intrus aux yeux des mineurs. Le masque, plus qu&#39;une simple protection, aurait été un symbole de ma compréhension et de ma connexion aux forces occultes qui gouvernent ces lieux.
+Je réalise alors mon erreur. Sans masque je ne suis rien de plus qu&#39;un intrus aux yeux des mineurs. Le masque, plus qu&#39;une simple protection, aurait été un symbole de ma compréhension et de ma connexion aux forces qui gouvernent ces lieux.
 
 Dépité, je ne peux que hocher la tête en signe d&#39;acceptation, le cœur lourd. *&quot;Je comprends votre décision,&quot;* dis-je, la voix empreinte d&#39;une déception difficile à dissimuler. *&quot;Je ne cherchais qu&#39;à comprendre, mais je respecte les lois qui régissent vos terres et vos traditions.&quot;*
 
@@ -1996,10 +2089,145 @@ Alors que je me retourne pour partir, le vent froid des montagnes souffle sur mo
 
 La déception de cet échec pèse lourdement sur mes épaules alors que je m&#39;éloigne, me demandant quelles autres voies je pourrais explorer pour dévoiler les secrets de l&#39;Empire des Ombres. Cette expérience me rappelle que dans ce monde de mystères et d&#39;anciennes magies, certains seuils ne peuvent être franchis sans les bons artefacts et la bonne préparation.
 
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
-&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
-&gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]</tw-passagedata></tw-storydata><script>!function(){"use strict";var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};function t(e){if(e.__esModule)return e;var t=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(n){var r=Object.getOwnPropertyDescriptor(e,n);Object.defineProperty(t,n,r.get?r:{enumerable:!0,get:function(){return e[n]}})})),t}var n="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{};function r(){throw new Error("setTimeout has not been defined")}function o(){throw new Error("clearTimeout has not been defined")}var i=r,a=o;function s(e){if(i===setTimeout)return setTimeout(e,0);if((i===r||!i)&&setTimeout)return i=setTimeout,setTimeout(e,0);try{return i(e,0)}catch(t){try{return i.call(null,e,0)}catch(t){return i.call(this,e,0)}}}"function"==typeof n.setTimeout&&(i=setTimeout),"function"==typeof n.clearTimeout&&(a=clearTimeout);var c,l=[],u=!1,f=-1;function p(){u&&c&&(u=!1,c.length?l=c.concat(l):f=-1,l.length&&d())}function d(){if(!u){var e=s(p);u=!0;for(var t=l.length;t;){for(c=l,l=[];++f<t;)c&&c[f].run();f=-1,t=l.length}c=null,u=!1,function(e){if(a===clearTimeout)return clearTimeout(e);if((a===o||!a)&&clearTimeout)return a=clearTimeout,clearTimeout(e);try{a(e)}catch(t){try{return a.call(null,e)}catch(t){return a.call(this,e)}}}(e)}}function h(e,t){this.fun=e,this.array=t}h.prototype.run=function(){this.fun.apply(null,this.array)};function g(){}var m=g,b=g,v=g,y=g,w=g,k=g,x=g;var S=n.performance||{},_=S.now||S.mozNow||S.msNow||S.oNow||S.webkitNow||function(){return(new Date).getTime()};var E=new Date;var C={nextTick:function(e){var t=new Array(arguments.length-1);if(arguments.length>1)for(var n=1;n<arguments.length;n++)t[n-1]=arguments[n];l.push(new h(e,t)),1!==l.length||u||s(d)},title:"browser",browser:!0,env:{},argv:[],version:"",versions:{},on:m,addListener:b,once:v,off:y,removeListener:w,removeAllListeners:k,emit:x,binding:function(e){throw new Error("process.binding is not supported")},cwd:function(){return"/"},chdir:function(e){throw new Error("process.chdir is not supported")},umask:function(){return 0},hrtime:function(e){var t=.001*_.call(S),n=Math.floor(t),r=Math.floor(t%1*1e9);return e&&(n-=e[0],(r-=e[1])<0&&(n--,r+=1e9)),[n,r]},platform:"browser",release:{},config:{},uptime:function(){return(new Date-E)/1e3}};function A(e){return null!=e&&(!!e._isBuffer||O(e)||function(e){return"function"==typeof e.readFloatLE&&"function"==typeof e.slice&&O(e.slice(0,0))}(e))}function O(e){return!!e.constructor&&"function"==typeof e.constructor.isBuffer&&e.constructor.isBuffer(e)}void 0===n.TYPED_ARRAY_SUPPORT||n.TYPED_ARRAY_SUPPORT;var T="function"==typeof Object.create?function(e,t){e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}})}:function(e,t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e};function j(e,t){var n={seen:[],stylize:L};return arguments.length>=3&&(n.depth=arguments[2]),arguments.length>=4&&(n.colors=arguments[3]),D(t)?n.showHidden=t:t&&J(n,t),R(n.showHidden)&&(n.showHidden=!1),R(n.depth)&&(n.depth=2),R(n.colors)&&(n.colors=!1),R(n.customInspect)&&(n.customInspect=!0),n.colors&&(n.stylize=z),N(n,e,n.depth)}function z(e,t){var n=j.styles[t];return n?"["+j.colors[n][0]+"m"+e+"["+j.colors[n][1]+"m":e}function L(e,t){return e}function N(e,t,n){if(e.customInspect&&t&&H(t.inspect)&&t.inspect!==j&&(!t.constructor||t.constructor.prototype!==t)){var r=t.inspect(n,e);return q(r)||(r=N(e,r,n)),r}var o=function(e,t){if(R(t))return e.stylize("undefined","undefined");if(q(t)){var n="'"+JSON.stringify(t).replace(/^"|"$/g,"").replace(/'/g,"\\'").replace(/\\"/g,'"')+"'";return e.stylize(n,"string")}if(r=t,"number"==typeof r)return e.stylize(""+t,"number");var r;if(D(t))return e.stylize(""+t,"boolean");if(P(t))return e.stylize("null","null")}(e,t);if(o)return o;var i=Object.keys(t),a=function(e){var t={};return e.forEach((function(e,n){t[e]=!0})),t}(i);if(e.showHidden&&(i=Object.getOwnPropertyNames(t)),U(t)&&(i.indexOf("message")>=0||i.indexOf("description")>=0))return $(t);if(0===i.length){if(H(t)){var s=t.name?": "+t.name:"";return e.stylize("[Function"+s+"]","special")}if(M(t))return e.stylize(RegExp.prototype.toString.call(t),"regexp");if(B(t))return e.stylize(Date.prototype.toString.call(t),"date");if(U(t))return $(t)}var c,l,u="",f=!1,p=["{","}"];(c=t,Array.isArray(c)&&(f=!0,p=["[","]"]),H(t))&&(u=" [Function"+(t.name?": "+t.name:"")+"]");return M(t)&&(u=" "+RegExp.prototype.toString.call(t)),B(t)&&(u=" "+Date.prototype.toUTCString.call(t)),U(t)&&(u=" "+$(t)),0!==i.length||f&&0!=t.length?n<0?M(t)?e.stylize(RegExp.prototype.toString.call(t),"regexp"):e.stylize("[Object]","special"):(e.seen.push(t),l=f?function(e,t,n,r,o){for(var i=[],a=0,s=t.length;a<s;++a)G(t,String(a))?i.push(I(e,t,n,r,String(a),!0)):i.push("");return o.forEach((function(o){o.match(/^\d+$/)||i.push(I(e,t,n,r,o,!0))})),i}(e,t,n,a,i):i.map((function(r){return I(e,t,n,a,r,f)})),e.seen.pop(),function(e,t,n){if(e.reduce((function(e,t){return t.indexOf("\n"),e+t.replace(/\u001b\[\d\d?m/g,"").length+1}),0)>60)return n[0]+(""===t?"":t+"\n ")+" "+e.join(",\n  ")+" "+n[1];return n[0]+t+" "+e.join(", ")+" "+n[1]}(l,u,p)):p[0]+u+p[1]}function $(e){return"["+Error.prototype.toString.call(e)+"]"}function I(e,t,n,r,o,i){var a,s,c;if((c=Object.getOwnPropertyDescriptor(t,o)||{value:t[o]}).get?s=c.set?e.stylize("[Getter/Setter]","special"):e.stylize("[Getter]","special"):c.set&&(s=e.stylize("[Setter]","special")),G(r,o)||(a="["+o+"]"),s||(e.seen.indexOf(c.value)<0?(s=P(n)?N(e,c.value,null):N(e,c.value,n-1)).indexOf("\n")>-1&&(s=i?s.split("\n").map((function(e){return"  "+e})).join("\n").substr(2):"\n"+s.split("\n").map((function(e){return"   "+e})).join("\n")):s=e.stylize("[Circular]","special")),R(a)){if(i&&o.match(/^\d+$/))return s;(a=JSON.stringify(""+o)).match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)?(a=a.substr(1,a.length-2),a=e.stylize(a,"name")):(a=a.replace(/'/g,"\\'").replace(/\\"/g,'"').replace(/(^"|"$)/g,"'"),a=e.stylize(a,"string"))}return a+": "+s}function D(e){return"boolean"==typeof e}function P(e){return null===e}function q(e){return"string"==typeof e}function R(e){return void 0===e}function M(e){return F(e)&&"[object RegExp]"===W(e)}function F(e){return"object"==typeof e&&null!==e}function B(e){return F(e)&&"[object Date]"===W(e)}function U(e){return F(e)&&("[object Error]"===W(e)||e instanceof Error)}function H(e){return"function"==typeof e}function Z(e){return null===e||"boolean"==typeof e||"number"==typeof e||"string"==typeof e||"symbol"==typeof e||void 0===e}function W(e){return Object.prototype.toString.call(e)}function J(e,t){if(!t||!F(t))return e;for(var n=Object.keys(t),r=n.length;r--;)e[n[r]]=t[n[r]];return e}function G(e,t){return Object.prototype.hasOwnProperty.call(e,t)}function V(e,t){if(e===t)return 0;for(var n=e.length,r=t.length,o=0,i=Math.min(n,r);o<i;++o)if(e[o]!==t[o]){n=e[o],r=t[o];break}return n<r?-1:r<n?1:0}j.colors={bold:[1,22],italic:[3,23],underline:[4,24],inverse:[7,27],white:[37,39],grey:[90,39],black:[30,39],blue:[34,39],cyan:[36,39],green:[32,39],magenta:[35,39],red:[31,39],yellow:[33,39]},j.styles={special:"cyan",number:"yellow",boolean:"yellow",undefined:"grey",null:"bold",string:"green",date:"magenta",regexp:"red"};var Y,X=Object.prototype.hasOwnProperty,K=Object.keys||function(e){var t=[];for(var n in e)X.call(e,n)&&t.push(n);return t},Q=Array.prototype.slice;function ee(){return void 0!==Y?Y:Y="foo"===function(){}.name}function te(e){return Object.prototype.toString.call(e)}function ne(e){return!A(e)&&("function"==typeof n.ArrayBuffer&&("function"==typeof ArrayBuffer.isView?ArrayBuffer.isView(e):!!e&&(e instanceof DataView||!!(e.buffer&&e.buffer instanceof ArrayBuffer))))}function re(e,t){e||le(e,!0,t,"==",ue)}var oe=/\s*function\s+([^\(\s]*)\s*/;function ie(e){if(H(e)){if(ee())return e.name;var t=e.toString().match(oe);return t&&t[1]}}function ae(e){this.name="AssertionError",this.actual=e.actual,this.expected=e.expected,this.operator=e.operator,e.message?(this.message=e.message,this.generatedMessage=!1):(this.message=function(e){return se(ce(e.actual),128)+" "+e.operator+" "+se(ce(e.expected),128)}(this),this.generatedMessage=!0);var t=e.stackStartFunction||le;if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var n=new Error;if(n.stack){var r=n.stack,o=ie(t),i=r.indexOf("\n"+o);if(i>=0){var a=r.indexOf("\n",i+1);r=r.substring(a+1)}this.stack=r}}}function se(e,t){return"string"==typeof e?e.length<t?e:e.slice(0,t):e}function ce(e){if(ee()||!H(e))return j(e);var t=ie(e);return"[Function"+(t?": "+t:"")+"]"}function le(e,t,n,r,o){throw new ae({message:n,actual:e,expected:t,operator:r,stackStartFunction:o})}function ue(e,t){e||le(e,!0,t,"==",ue)}function fe(e,t,n){e!=t&&le(e,t,n,"==",fe)}function pe(e,t,n){e==t&&le(e,t,n,"!=",pe)}function de(e,t,n){ge(e,t,!1)||le(e,t,n,"deepEqual",de)}function he(e,t,n){ge(e,t,!0)||le(e,t,n,"deepStrictEqual",he)}function ge(e,t,n,r){if(e===t)return!0;if(A(e)&&A(t))return 0===V(e,t);if(B(e)&&B(t))return e.getTime()===t.getTime();if(M(e)&&M(t))return e.source===t.source&&e.global===t.global&&e.multiline===t.multiline&&e.lastIndex===t.lastIndex&&e.ignoreCase===t.ignoreCase;if(null!==e&&"object"==typeof e||null!==t&&"object"==typeof t){if(ne(e)&&ne(t)&&te(e)===te(t)&&!(e instanceof Float32Array||e instanceof Float64Array))return 0===V(new Uint8Array(e.buffer),new Uint8Array(t.buffer));if(A(e)!==A(t))return!1;var o=(r=r||{actual:[],expected:[]}).actual.indexOf(e);return-1!==o&&o===r.expected.indexOf(t)||(r.actual.push(e),r.expected.push(t),function(e,t,n,r){if(null==e||null==t)return!1;if(Z(e)||Z(t))return e===t;if(n&&Object.getPrototypeOf(e)!==Object.getPrototypeOf(t))return!1;var o=me(e),i=me(t);if(o&&!i||!o&&i)return!1;if(o)return ge(e=Q.call(e),t=Q.call(t),n);var a,s,c=K(e),l=K(t);if(c.length!==l.length)return!1;for(c.sort(),l.sort(),s=c.length-1;s>=0;s--)if(c[s]!==l[s])return!1;for(s=c.length-1;s>=0;s--)if(!ge(e[a=c[s]],t[a],n,r))return!1;return!0}(e,t,n,r))}return n?e===t:e==t}function me(e){return"[object Arguments]"==Object.prototype.toString.call(e)}function be(e,t,n){ge(e,t,!1)&&le(e,t,n,"notDeepEqual",be)}function ve(e,t,n){ge(e,t,!0)&&le(e,t,n,"notDeepStrictEqual",ve)}function ye(e,t,n){e!==t&&le(e,t,n,"===",ye)}function we(e,t,n){e===t&&le(e,t,n,"!==",we)}function ke(e,t){if(!e||!t)return!1;if("[object RegExp]"==Object.prototype.toString.call(t))return t.test(e);try{if(e instanceof t)return!0}catch(e){}return!Error.isPrototypeOf(t)&&!0===t.call({},e)}function xe(e,t,n,r){var o;if("function"!=typeof t)throw new TypeError('"block" argument must be a function');"string"==typeof n&&(r=n,n=null),o=function(e){var t;try{e()}catch(e){t=e}return t}(t),r=(n&&n.name?" ("+n.name+").":".")+(r?" "+r:"."),e&&!o&&le(o,n,"Missing expected exception"+r);var i="string"==typeof r,a=!e&&o&&!n;if((!e&&U(o)&&i&&ke(o,n)||a)&&le(o,n,"Got unwanted exception"+r),e&&o&&n&&!ke(o,n)||!e&&o)throw o}function Se(e,t,n){xe(!0,e,t,n)}function _e(e,t,n){xe(!1,e,t,n)}function Ee(e){if(e)throw e}re.AssertionError=ae,T(ae,Error),re.fail=le,re.ok=ue,re.equal=fe,re.notEqual=pe,re.deepEqual=de,re.deepStrictEqual=he,re.notDeepEqual=be,re.notDeepStrictEqual=ve,re.strictEqual=ye,re.notStrictEqual=we,re.throws=Se,re.doesNotThrow=_e,re.ifError=Ee;var Ce=t(Object.freeze({__proto__:null,default:re,AssertionError:ae,fail:le,ok:ue,assert:ue,equal:fe,notEqual:pe,deepEqual:de,deepStrictEqual:he,notDeepEqual:be,notDeepStrictEqual:ve,strictEqual:ye,notStrictEqual:we,throws:Se,doesNotThrow:_e,ifError:Ee})),Ae=Ce,Oe="undefined"!=typeof window;function Te(e){this.hasWindow=e,this.hasIdle=this.hasWindow&&window.requestIdleCallback,this.method=this.hasIdle?window.requestIdleCallback.bind(window):this.setTimeout,this.scheduled=!1,this.queue=[]}Te.prototype.push=function(e){Ae.equal(typeof e,"function","nanoscheduler.push: cb should be type function"),this.queue.push(e),this.schedule()},Te.prototype.schedule=function(){if(!this.scheduled){this.scheduled=!0;var e=this;this.method((function(t){for(;e.queue.length&&t.timeRemaining()>0;)e.queue.shift()(t);e.scheduled=!1,e.queue.length&&e.schedule()}))}},Te.prototype.setTimeout=function(e){setTimeout(e,0,{timeRemaining:function(){return 1}})};var je,ze=function(){var e;return Oe?(window._nanoScheduler||(window._nanoScheduler=new Te(!0)),e=window._nanoScheduler):e=new Te,e},Le=ze(),Ne=Ce;Ie.disabled=!0;try{je=window.performance,Ie.disabled="true"===window.localStorage.DISABLE_NANOTIMING||!je.mark}catch(e){}var $e=Ie;function Ie(e){if(Ne.equal(typeof e,"string","nanotiming: name should be type string"),Ie.disabled)return De;var t=(1e4*je.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;je.mark(o),Le.push((function(){var i=null;try{var a=e+" ["+t+"]";je.measure(a,n,o),je.clearMarks(n),je.clearMarks(o)}catch(e){i=e}r&&r(i,e)}))}return je.mark(n),r.uuid=t,r}function De(e){e&&Le.push((function(){e(new Error("nanotiming: performance API unavailable"))}))}var Pe,qe=Ce;Re.disabled=!0;try{Pe=require("perf_hooks").performance,Re.disabled=C.env.DISABLE_NANOTIMING||!Pe.mark}catch(e){}function Re(e){if("undefined"!=typeof window)return $e(e);if(qe.equal(typeof e,"string","nanotiming: name should be type string"),Re.disabled)return Me;var t=(1e4*Pe.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;Pe.mark(o);var i=null;try{var a=e+" ["+t+"]";Pe.measure(a,n,o),Pe.clearMarks(n),Pe.clearMarks(o)}catch(e){i=e}r&&r(i,e)}return Pe.mark(n),r.uuid=t,r}function Me(e){e&&e(new Error("nanotiming: performance API unavailable"))}var Fe=function(e,t,n){var r,o=e.length;if(!(t>=o||0===n)){var i=o-(n=t+n>o?o-t:n);for(r=t;r<i;++r)e[r]=e[r+n];e.length=i}},Be=Re,Ue=Ce,He=Ze;function Ze(e){if(!(this instanceof Ze))return new Ze(e);this._name=e||"nanobus",this._starListeners=[],this._listeners={}}Ze.prototype.emit=function(e){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.emit: eventName should be type string or symbol");for(var t=[],n=1,r=arguments.length;n<r;n++)t.push(arguments[n]);var o=Be(this._name+"('"+e.toString()+"')"),i=this._listeners[e];return i&&i.length>0&&this._emit(this._listeners[e],t),this._starListeners.length>0&&this._emit(this._starListeners,e,t,o.uuid),o(),this},Ze.prototype.on=Ze.prototype.addListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.on: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.on: listener should be type function"),"*"===e?this._starListeners.push(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].push(t)),this},Ze.prototype.prependListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependListener: listener should be type function"),"*"===e?this._starListeners.unshift(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].unshift(t)),this},Ze.prototype.once=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.once: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.once: listener should be type function");var n=this;return this.on(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.prependOnceListener=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependOnceListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependOnceListener: listener should be type function");var n=this;return this.prependListener(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.removeListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.removeListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.removeListener: listener should be type function"),"*"===e?(this._starListeners=this._starListeners.slice(),n(this._starListeners,t)):(void 0!==this._listeners[e]&&(this._listeners[e]=this._listeners[e].slice()),n(this._listeners[e],t));function n(e,t){if(e){var n=e.indexOf(t);return-1!==n?(Fe(e,n,1),!0):void 0}}},Ze.prototype.removeAllListeners=function(e){return e?"*"===e?this._starListeners=[]:this._listeners[e]=[]:(this._starListeners=[],this._listeners={}),this},Ze.prototype.listeners=function(e){var t="*"!==e?this._listeners[e]:this._starListeners,n=[];if(t)for(var r=t.length,o=0;o<r;o++)n.push(t[o]);return n},Ze.prototype._emit=function(e,t,n,r){if(void 0!==e&&0!==e.length){void 0===n&&(n=t,t=null),t&&(n=void 0!==r?[t].concat(n,r):[t].concat(n));for(var o=e.length,i=0;i<o;i++){var a=e[i];a.apply(a,n)}}};var We=He();function Je(e){return Je="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},Je(e)}function Ge(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function Ve(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function Ye(e,t,n){return t&&Ve(e.prototype,t),n&&Ve(e,n),Object.defineProperty(e,"prototype",{writable:!1}),e}function Xe(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),Object.defineProperty(e,"prototype",{writable:!1}),t&&Qe(e,t)}function Ke(e){return Ke=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},Ke(e)}function Qe(e,t){return Qe=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},Qe(e,t)}function et(e,t){if(t&&("object"==typeof t||"function"==typeof t))return t;if(void 0!==t)throw new TypeError("Derived constructors may only return object or undefined");return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e)}function tt(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r=Ke(e);if(t){var o=Ke(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return et(this,n)}}function nt(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null==n)return;var r,o,i=[],a=!0,s=!1;try{for(n=n.call(e);!(a=(r=n.next()).done)&&(i.push(r.value),!t||i.length!==t);a=!0);}catch(e){s=!0,o=e}finally{try{a||null==n.return||n.return()}finally{if(s)throw o}}return i}(e,t)||ot(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function rt(e){return function(e){if(Array.isArray(e))return it(e)}(e)||function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}(e)||ot(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function ot(e,t){if(e){if("string"==typeof e)return it(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?it(e,t):void 0}}function it(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function at(e,t){var n="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!n){if(Array.isArray(e)||(n=ot(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var r=0,o=function(){};return{s:o,n:function(){return r>=e.length?{done:!0}:{done:!1,value:e[r++]}},e:function(e){throw e},f:o}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var i,a=!0,s=!1;return{s:function(){n=n.call(e)},n:function(){var e=n.next();return a=e.done,e},e:function(e){s=!0,i=e},f:function(){try{a||null==n.return||n.return()}finally{if(s)throw i}}}}
+&gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
+&gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="127" name="Masque" tags="" position="5500,1725" size="100,100">_PassageAvantTirage: passage.name
+_Masque:true
+--
+Je m&#39;approche, fasciné par la diversité des masques. *&quot;Je cherche un masque qui pourrait m&#39;aider à naviguer les ombres de Crepusculine,&quot;* dis-je, *&quot;quelque chose qui révélerait les vérités cachées et protégerait mon identité.&quot;*
+
+L&#39;artisan hoche la tête, comme s&#39;il s&#39;attendait à cette demande. Il se tourne et sélectionne délicatement un masque parmi ses créations. C&#39;est une pièce saisissante, faite d&#39;un matériau sombre qui semble absorber la lumière environnante, ornée de motifs qui rappellent la nuit étoilée. *&quot;Ce masque,&quot;* explique-t-il en le présentant, *&quot;est forgé à partir d&#39;obscurité cristallisée, infusée avec un soupçon de lumière de lune. Il vous aidera à voir au-delà des apparences, révélant les mensonges et les secrets. Mais soyez prudent, car le monde des vérités cachées est aussi dangereux qu&#39;envoûtant.&quot;*
+
+Je tends la main pour toucher le masque, sentant une énergie froide mais réconfortante s&#39;en dégager. *&quot;Combien pour ce masque ?&quot;* demandé-je, sachant que le prix d&#39;un tel artefact ne peut se mesurer en simple monnaie.
+
+L&#39;artisan sourit, ses yeux brillant derrière son masque. *&quot;Pour vous, voyageur des ombres, ce masque sera le témoin de votre quête. Portez-le avec sagesse et courage. En échange, j&#39;aspire seulement à ce que vous partagiez les histoires que vous découvrirez derrière ce voile d&#39;obscurité.&quot;*
+
+Acceptant le pacte tacite, je place le masque sur mon visage, sentant immédiatement une connexion, comme si une partie de moi longtemps endormie s&#39;éveillait. Je remercie l&#39;artisan et quitte l&#39;échoppe, armé d&#39;un nouvel outil pour explorer les mystères de Crepusculine, prêt à affronter les ombres avec une nouvelle perspective.
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="128" name="Art Masque" tags="" position="5650,1725" size="100,100">_PassageAvantTirage: passage.name
+_MasqueLien: _Masque &amp;&amp; _LienAme
+--
+Dans l&#39;atmosphère feutrée de sa boutique, l&#39;artisan des masques, ses yeux brillant derrière ses lunettes d&#39;ambre, me fait signe de m&#39;approcher. Autour de nous, des masques d&#39;une beauté envoûtante ornent les murs, chacun porteur d&#39;une histoire et d&#39;un pouvoir unique. Alors que je m&#39;immerge dans cet univers de mystère, l&#39;artisan commence à partager la science des masques et leur importance profonde pour ceux qui choisissent de les porter.
+
+*&quot;Chaque masque,&quot;* commence-t-il d&#39;une voix empreinte de gravité, *&quot;est un reflet des Liens d&#39;âme qui parcourent les Terres d&#39;Écho. Ils ne sont pas de simples objets, mais des extensions de l&#39;essence même de la magie qui nous entoure.&quot;*
+
+[if _Masque]
+&gt;[[Puis-je voir ce masque ?]]
+&gt;[[Les liens d&#39;âmes ?]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+[if !_Masque]
+&gt;[[Demander un masque-&gt;Masque]]
+&gt;[[Puis-je voir ce masque ?]]
+&gt;[[Les liens d&#39;âmes ?]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+</tw-passagedata><tw-passagedata pid="129" name="Tirage Crepusculine" tags="" position="5775,1725" size="100,100">_PassageAvantTirage: passage.name
+_Crepusculine:true
+_BonneAventure:true
+--
+Hésitant, mais poussé par la curiosité, je m&#39;assois en face d&#39;elle. Ses doigts fins se déplacent avec grâce, éparpillant les cartes en un arc de cercle mystérieux avant de me demander de tirer trois d&#39;entre elles.
+
+Alors que je révèle les cartes choisies, son expression devient contemplative. *&quot;La Tour, Le Fou, et L&#39;Étoile,&quot;* murmure-t-elle,* &quot;un chemin de chaos, de renouveau inattendu, et d&#39;espoir. Votre quête vous mènera à travers des épreuves qui ébranleront vos fondations, mais sachez que chaque fin n&#39;est qu&#39;un nouveau commencement. L&#39;Étoile brille comme un guide dans l&#39;obscurité, promettant clarté et inspiration sur le chemin de la vérité.&quot;*
+
+Elle pose sa main sur la mienne, son toucher est à la fois rassurant et électrique. *&quot;Cherchez la lumière dans les ombres, car c&#39;est là que réside votre destin. Crepusculine vous révélera ses secrets, mais soyez prêt à affronter les vérités cachées dans votre propre reflet.&quot;*
+
+La rencontre se termine avec plus de questions que de réponses, mais un sentiment de détermination renouvelée m&#39;envahit. Je la remercie pour ses mots énigmatiques et me lève, le cœur léger mais l&#39;esprit en ébullition, prêt à déchiffrer les mystères que Crepusculine et la nuit ont en réserve pour moi. Son dernier regard, pénétrant et mystérieux, m&#39;accompagne alors que je m&#39;éloigne, un rappel que le chemin de la découverte est souvent pavé d&#39;incertitudes et d&#39;espoirs étoilés.
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="130" name="Tirage Crepusculine 2" tags="" position="5900,1725" size="100,100">_PassageAvantTirage: passage.name
+_Crepusculine:true
+_BonneAventure:true
+_Paragraphe:random.d4
+--
+[if _Paragraphe === 1]
+{embed image: &#39;./assets/lune.webp&#39;}
+
+La Diseuse de Bonne Aventure étale les cartes devant moi avec une grâce mystérieuse. Mes doigts frôlent le papier vieilli, et je tire la carte de La Lune. Elle la regarde attentivement, puis lève les yeux vers moi.
+
+*&quot;La Lune, symbole de mystères non révélés et d&#39;intuition. Ce tirage révèle que ton passé est empreint de secrets cachés et de vérités oubliées. Tu possèdes une connexion profonde avec les forces occultes de l&#39;Empire des Ombres. Écoute ton intuition, car elle te guidera à travers les ombres vers la lumière de la connaissance.&quot;*
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+[if _Paragraphe === 2]
+{embed image: &#39;./assets/pendu.webp&#39;}
+
+Je tire une carte, hésitant. Le Pendu apparaît, suspendu par un pied, mais son visage est étrangement serein. La diseuse sourit doucement.
+
+*&quot;Le Pendu symbolise le sacrifice et la perspective inversée. Ton avenir te demande de lâcher prise sur les certitudes et d&#39;adopter un nouveau point de vue. Un grand changement approche, un renouvellement qui exigera de toi un sacrifice. Ce que tu perdras, pourtant, te libérera et ouvrira la voie à une nouvelle compréhension de ton destin.&quot;*
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+[if _Paragraphe === 3]
+{embed image: &#39;./assets/etoile.webp&#39;}
+
+Le tirage dévoile L&#39;Étoile. La carte brille d&#39;une lumière apaisante sous le regard de la diseuse.
+
+*&quot;L&#39;Étoile est un signe d&#39;espoir et d&#39;inspiration. Elle illumine ton passé de ses bienfaits insoupçonnés et annonce pour ton avenir une période de guérison et de renouveau. Ta quête t&#39;a mené à travers de nombreuses épreuves, mais maintenant, l&#39;univers t&#39;offre sa bénédiction. Garde espoir, car la lumière des étoiles guide ton chemin vers la réalisation de tes désirs les plus profonds.&quot;*
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+[if _Paragraphe === 4]
+{embed image: &#39;./assets/magician.webp&#39;}
+
+La carte que je choisis est Le Magicien. Ses yeux semblent pénétrer les miens, comme s&#39;il détenait les clés de tous les mystères de l&#39;univers. La diseuse acquiesce avec respect.
+
+*&quot;Le Magicien représente la maîtrise et la manifestation de la volonté. Ce tirage parle de ton pouvoir personnel et de ta capacité à influencer le monde autour de toi. Ton passé t&#39;a préparé à ce moment, où tu possèdes désormais toutes les ressources et le savoir nécessaires pour accomplir ta quête. Fais confiance à ton pouvoir intérieur, car tu es le maître de ton avenir et le créateur de ton destin.&quot;*
+
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="131" name="Les liens d&#39;âmes ?" tags="" position="5575,1900" size="100,100">_PassageAvantTirage: passage.name
+_LienAme:true
+--
+Alors que l&#39;artisan des masques replace soigneusement un masque sur son étagère, je saisis l&#39;occasion pour approfondir ma compréhension de la magie qui imbibe les Terres d&#39;Écho. *&quot;Pourriez-vous m&#39;expliquer ce que sont exactement les Liens d&#39;âme ?&quot;* demandé-je, ma curiosité piquée par les récits de ses masques uniques.
+
+L&#39;artisan s&#39;adosse contre son comptoir, ses lunettes d&#39;ambre captant la lueur des bougies qui éclairent la pièce. *&quot;Les Liens d&#39;âme,&quot;* commence-t-il d&#39;une voix calme, *&quot;sont le fondement même de la magie dans notre monde. Ils représentent les connections invisibles qui unissent toutes choses – vivantes, mortes ou éthérées.&quot;*
+
+Il lève la main, et de minuscules filaments de lumière semblent danser entre ses doigts. *&quot;Imagine que chaque être, chaque élément de la nature, chaque pensée et émotion émette une vibration unique. Les Liens d&#39;âme sont ces vibrations, tissant ensemble le tissu de l&#39;existence.&quot;*
+
+*&quot;Les Liens Primordiaux,&quot;* poursuit-il, *&quot;sont les plus anciens et instinctifs. Ils existent entre les éléments de la nature et tous les êtres vivants. Ils sont la respiration de la forêt, le murmure des rivières, l&#39;écho des montagnes. Cette connexion fondamentale permet aux Tisseurs d&#39;invoquer des sorts qui puisent dans les forces naturelles du monde.&quot;*
+
+*&quot;Parfois,&quot;* explique-t-il en écartant les filaments lumineux, *&quot;un Tisseur crée des Liens Forcés, nouant ensemble des éléments qui ne seraient pas naturellement connectés. Cela peut déchaîner des pouvoirs puissants mais exige une grande prudence. Les Liens Forcés sont comme des cordes tendues – mal manipulés, ils peuvent se rompre ou se retourner contre leur créateur.&quot;*
+
+Après une pause il reprend, son regard se perdant un instant dans la contemplation d&#39;un masque représentant un visage paisible entouré de motifs floraux. *&quot;Les Liens Sacrés, en revanche, sont le summum de notre art. Ils se forment dans des moments de profonde communion entre un Tisseur et un esprit, un élément ou même un concept. Ces liens transcendent le temps et l&#39;espace, ouvrant des voies vers des manifestations magiques d&#39;une intensité inégalée.&quot;*
+
+L&#39;artisan conclut : *&quot;La magie des Liens d&#39;âme est à la fois simple et infiniment complexe. Elle est la preuve que nous ne sommes jamais vraiment seuls, que nous faisons partie d&#39;un tout bien plus vaste. Chaque masque que je crée est une célébration de ces liens, un moyen de les explorer et de les honorer.&quot;*
+
+&gt;[[Merci, puis-je voir ce masque ?-&gt;Puis-je voir ce masque ?]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="132" name="Puis-je voir ce masque ?" tags="" position="5725,1900" size="100,100">_PassageAvantTirage: passage.name
+_Paragraphe:random.d4
+--
+[if _Paragraphe === 1]
+## Masque de la Lune Noire
+
+Il désigne un masque argenté, incrusté de pierres noires qui semblent absorber la lumière ambiante. *&quot;Ce masque représente les Liens Sacrés, une union profonde avec les forces lunaires et nocturnes. Il permet au porteur de puiser dans l&#39;énergie de la nuit, révélant des secrets cachés et améliorant la vision intérieure.&quot;*
+
+[if _Paragraphe === 2]
+## Masque de l&#39;Harmonie Primordiale
+
+Un masque attire mon attention, orné de motifs rappelant les veines d&#39;une feuille. *&quot;Celui-ci est tissé à partir des Liens Primordiaux, unissant le porteur à la nature elle-même. Il confère une compréhension intuitive de l&#39;environnement, permettant de communiquer avec les plantes et les animaux, et d&#39;influencer les éléments naturels.&quot;*
+
+[if _Paragraphe === 3]
+## Masque des Vents Changeants
+
+L&#39;artisan me montre ensuite un masque d&#39;un bleu profond, évoquant le ciel avant l&#39;orage. *&quot;Forgé dans les Liens Forcés, ce masque offre le pouvoir de manipuler les courants d&#39;air, d&#39;appeler la tempête ou de calmer les vents. C&#39;est un outil puissant, mais qui demande une grande maîtrise, sous peine de répercussions imprévues.&quot;*
+
+[if _Paragraphe === 4]
+## Masque de l&#39;Écho Éternel
+
+Enfin, il me présente un masque qui semble presque transparent, vibrant d&#39;une lumière intérieure. *&quot;Ce masque incarne l&#39;essence des Terres d&#39;Écho. Il permet au porteur de ressentir les Liens d&#39;âme qui unissent tous les êtres, de comprendre leurs échos à travers le temps et l&#39;espace. C&#39;est le masque de la connaissance ultime, mais aussi de la responsabilité la plus grande.&quot;*
+
+
+L&#39;artisan s&#39;arrête, me laissant absorber la portée de ses paroles. *&quot;Chaque masque est un monde, une porte vers des pouvoirs inimaginables. Mais souviens-toi, le véritable pouvoir réside dans la sagesse avec laquelle tu les utilises. Les masques ne sont que des outils, et c&#39;est à toi de choisir le lien que tu tisses avec l&#39;univers des Terres d&#39;Écho.&quot;*
+
+[if !_Masque]
+&gt;[[Demander un masque-&gt;Masque]]
+&gt;[[Puis-je voir ce masque ?]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+[if _Masque]
+&gt;[[Puis-je voir ce masque ?]]
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+</tw-passagedata></tw-storydata><script>!function(){"use strict";var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};function t(e){if(e.__esModule)return e;var t=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(n){var r=Object.getOwnPropertyDescriptor(e,n);Object.defineProperty(t,n,r.get?r:{enumerable:!0,get:function(){return e[n]}})})),t}var n="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{};function r(){throw new Error("setTimeout has not been defined")}function o(){throw new Error("clearTimeout has not been defined")}var i=r,a=o;function s(e){if(i===setTimeout)return setTimeout(e,0);if((i===r||!i)&&setTimeout)return i=setTimeout,setTimeout(e,0);try{return i(e,0)}catch(t){try{return i.call(null,e,0)}catch(t){return i.call(this,e,0)}}}"function"==typeof n.setTimeout&&(i=setTimeout),"function"==typeof n.clearTimeout&&(a=clearTimeout);var c,l=[],u=!1,f=-1;function p(){u&&c&&(u=!1,c.length?l=c.concat(l):f=-1,l.length&&d())}function d(){if(!u){var e=s(p);u=!0;for(var t=l.length;t;){for(c=l,l=[];++f<t;)c&&c[f].run();f=-1,t=l.length}c=null,u=!1,function(e){if(a===clearTimeout)return clearTimeout(e);if((a===o||!a)&&clearTimeout)return a=clearTimeout,clearTimeout(e);try{a(e)}catch(t){try{return a.call(null,e)}catch(t){return a.call(this,e)}}}(e)}}function h(e,t){this.fun=e,this.array=t}h.prototype.run=function(){this.fun.apply(null,this.array)};function g(){}var m=g,b=g,v=g,y=g,w=g,k=g,x=g;var S=n.performance||{},_=S.now||S.mozNow||S.msNow||S.oNow||S.webkitNow||function(){return(new Date).getTime()};var E=new Date;var C={nextTick:function(e){var t=new Array(arguments.length-1);if(arguments.length>1)for(var n=1;n<arguments.length;n++)t[n-1]=arguments[n];l.push(new h(e,t)),1!==l.length||u||s(d)},title:"browser",browser:!0,env:{},argv:[],version:"",versions:{},on:m,addListener:b,once:v,off:y,removeListener:w,removeAllListeners:k,emit:x,binding:function(e){throw new Error("process.binding is not supported")},cwd:function(){return"/"},chdir:function(e){throw new Error("process.chdir is not supported")},umask:function(){return 0},hrtime:function(e){var t=.001*_.call(S),n=Math.floor(t),r=Math.floor(t%1*1e9);return e&&(n-=e[0],(r-=e[1])<0&&(n--,r+=1e9)),[n,r]},platform:"browser",release:{},config:{},uptime:function(){return(new Date-E)/1e3}};function A(e){return null!=e&&(!!e._isBuffer||O(e)||function(e){return"function"==typeof e.readFloatLE&&"function"==typeof e.slice&&O(e.slice(0,0))}(e))}function O(e){return!!e.constructor&&"function"==typeof e.constructor.isBuffer&&e.constructor.isBuffer(e)}void 0===n.TYPED_ARRAY_SUPPORT||n.TYPED_ARRAY_SUPPORT;var T="function"==typeof Object.create?function(e,t){e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}})}:function(e,t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e};function j(e,t){var n={seen:[],stylize:L};return arguments.length>=3&&(n.depth=arguments[2]),arguments.length>=4&&(n.colors=arguments[3]),D(t)?n.showHidden=t:t&&J(n,t),R(n.showHidden)&&(n.showHidden=!1),R(n.depth)&&(n.depth=2),R(n.colors)&&(n.colors=!1),R(n.customInspect)&&(n.customInspect=!0),n.colors&&(n.stylize=z),N(n,e,n.depth)}function z(e,t){var n=j.styles[t];return n?"["+j.colors[n][0]+"m"+e+"["+j.colors[n][1]+"m":e}function L(e,t){return e}function N(e,t,n){if(e.customInspect&&t&&H(t.inspect)&&t.inspect!==j&&(!t.constructor||t.constructor.prototype!==t)){var r=t.inspect(n,e);return q(r)||(r=N(e,r,n)),r}var o=function(e,t){if(R(t))return e.stylize("undefined","undefined");if(q(t)){var n="'"+JSON.stringify(t).replace(/^"|"$/g,"").replace(/'/g,"\\'").replace(/\\"/g,'"')+"'";return e.stylize(n,"string")}if(r=t,"number"==typeof r)return e.stylize(""+t,"number");var r;if(D(t))return e.stylize(""+t,"boolean");if(P(t))return e.stylize("null","null")}(e,t);if(o)return o;var i=Object.keys(t),a=function(e){var t={};return e.forEach((function(e,n){t[e]=!0})),t}(i);if(e.showHidden&&(i=Object.getOwnPropertyNames(t)),U(t)&&(i.indexOf("message")>=0||i.indexOf("description")>=0))return $(t);if(0===i.length){if(H(t)){var s=t.name?": "+t.name:"";return e.stylize("[Function"+s+"]","special")}if(M(t))return e.stylize(RegExp.prototype.toString.call(t),"regexp");if(B(t))return e.stylize(Date.prototype.toString.call(t),"date");if(U(t))return $(t)}var c,l,u="",f=!1,p=["{","}"];(c=t,Array.isArray(c)&&(f=!0,p=["[","]"]),H(t))&&(u=" [Function"+(t.name?": "+t.name:"")+"]");return M(t)&&(u=" "+RegExp.prototype.toString.call(t)),B(t)&&(u=" "+Date.prototype.toUTCString.call(t)),U(t)&&(u=" "+$(t)),0!==i.length||f&&0!=t.length?n<0?M(t)?e.stylize(RegExp.prototype.toString.call(t),"regexp"):e.stylize("[Object]","special"):(e.seen.push(t),l=f?function(e,t,n,r,o){for(var i=[],a=0,s=t.length;a<s;++a)G(t,String(a))?i.push(I(e,t,n,r,String(a),!0)):i.push("");return o.forEach((function(o){o.match(/^\d+$/)||i.push(I(e,t,n,r,o,!0))})),i}(e,t,n,a,i):i.map((function(r){return I(e,t,n,a,r,f)})),e.seen.pop(),function(e,t,n){if(e.reduce((function(e,t){return t.indexOf("\n"),e+t.replace(/\u001b\[\d\d?m/g,"").length+1}),0)>60)return n[0]+(""===t?"":t+"\n ")+" "+e.join(",\n  ")+" "+n[1];return n[0]+t+" "+e.join(", ")+" "+n[1]}(l,u,p)):p[0]+u+p[1]}function $(e){return"["+Error.prototype.toString.call(e)+"]"}function I(e,t,n,r,o,i){var a,s,c;if((c=Object.getOwnPropertyDescriptor(t,o)||{value:t[o]}).get?s=c.set?e.stylize("[Getter/Setter]","special"):e.stylize("[Getter]","special"):c.set&&(s=e.stylize("[Setter]","special")),G(r,o)||(a="["+o+"]"),s||(e.seen.indexOf(c.value)<0?(s=P(n)?N(e,c.value,null):N(e,c.value,n-1)).indexOf("\n")>-1&&(s=i?s.split("\n").map((function(e){return"  "+e})).join("\n").substr(2):"\n"+s.split("\n").map((function(e){return"   "+e})).join("\n")):s=e.stylize("[Circular]","special")),R(a)){if(i&&o.match(/^\d+$/))return s;(a=JSON.stringify(""+o)).match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)?(a=a.substr(1,a.length-2),a=e.stylize(a,"name")):(a=a.replace(/'/g,"\\'").replace(/\\"/g,'"').replace(/(^"|"$)/g,"'"),a=e.stylize(a,"string"))}return a+": "+s}function D(e){return"boolean"==typeof e}function P(e){return null===e}function q(e){return"string"==typeof e}function R(e){return void 0===e}function M(e){return F(e)&&"[object RegExp]"===W(e)}function F(e){return"object"==typeof e&&null!==e}function B(e){return F(e)&&"[object Date]"===W(e)}function U(e){return F(e)&&("[object Error]"===W(e)||e instanceof Error)}function H(e){return"function"==typeof e}function Z(e){return null===e||"boolean"==typeof e||"number"==typeof e||"string"==typeof e||"symbol"==typeof e||void 0===e}function W(e){return Object.prototype.toString.call(e)}function J(e,t){if(!t||!F(t))return e;for(var n=Object.keys(t),r=n.length;r--;)e[n[r]]=t[n[r]];return e}function G(e,t){return Object.prototype.hasOwnProperty.call(e,t)}function V(e,t){if(e===t)return 0;for(var n=e.length,r=t.length,o=0,i=Math.min(n,r);o<i;++o)if(e[o]!==t[o]){n=e[o],r=t[o];break}return n<r?-1:r<n?1:0}j.colors={bold:[1,22],italic:[3,23],underline:[4,24],inverse:[7,27],white:[37,39],grey:[90,39],black:[30,39],blue:[34,39],cyan:[36,39],green:[32,39],magenta:[35,39],red:[31,39],yellow:[33,39]},j.styles={special:"cyan",number:"yellow",boolean:"yellow",undefined:"grey",null:"bold",string:"green",date:"magenta",regexp:"red"};var Y,X=Object.prototype.hasOwnProperty,K=Object.keys||function(e){var t=[];for(var n in e)X.call(e,n)&&t.push(n);return t},Q=Array.prototype.slice;function ee(){return void 0!==Y?Y:Y="foo"===function(){}.name}function te(e){return Object.prototype.toString.call(e)}function ne(e){return!A(e)&&("function"==typeof n.ArrayBuffer&&("function"==typeof ArrayBuffer.isView?ArrayBuffer.isView(e):!!e&&(e instanceof DataView||!!(e.buffer&&e.buffer instanceof ArrayBuffer))))}function re(e,t){e||le(e,!0,t,"==",ue)}var oe=/\s*function\s+([^\(\s]*)\s*/;function ie(e){if(H(e)){if(ee())return e.name;var t=e.toString().match(oe);return t&&t[1]}}function ae(e){this.name="AssertionError",this.actual=e.actual,this.expected=e.expected,this.operator=e.operator,e.message?(this.message=e.message,this.generatedMessage=!1):(this.message=function(e){return se(ce(e.actual),128)+" "+e.operator+" "+se(ce(e.expected),128)}(this),this.generatedMessage=!0);var t=e.stackStartFunction||le;if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var n=new Error;if(n.stack){var r=n.stack,o=ie(t),i=r.indexOf("\n"+o);if(i>=0){var a=r.indexOf("\n",i+1);r=r.substring(a+1)}this.stack=r}}}function se(e,t){return"string"==typeof e?e.length<t?e:e.slice(0,t):e}function ce(e){if(ee()||!H(e))return j(e);var t=ie(e);return"[Function"+(t?": "+t:"")+"]"}function le(e,t,n,r,o){throw new ae({message:n,actual:e,expected:t,operator:r,stackStartFunction:o})}function ue(e,t){e||le(e,!0,t,"==",ue)}function fe(e,t,n){e!=t&&le(e,t,n,"==",fe)}function pe(e,t,n){e==t&&le(e,t,n,"!=",pe)}function de(e,t,n){ge(e,t,!1)||le(e,t,n,"deepEqual",de)}function he(e,t,n){ge(e,t,!0)||le(e,t,n,"deepStrictEqual",he)}function ge(e,t,n,r){if(e===t)return!0;if(A(e)&&A(t))return 0===V(e,t);if(B(e)&&B(t))return e.getTime()===t.getTime();if(M(e)&&M(t))return e.source===t.source&&e.global===t.global&&e.multiline===t.multiline&&e.lastIndex===t.lastIndex&&e.ignoreCase===t.ignoreCase;if(null!==e&&"object"==typeof e||null!==t&&"object"==typeof t){if(ne(e)&&ne(t)&&te(e)===te(t)&&!(e instanceof Float32Array||e instanceof Float64Array))return 0===V(new Uint8Array(e.buffer),new Uint8Array(t.buffer));if(A(e)!==A(t))return!1;var o=(r=r||{actual:[],expected:[]}).actual.indexOf(e);return-1!==o&&o===r.expected.indexOf(t)||(r.actual.push(e),r.expected.push(t),function(e,t,n,r){if(null==e||null==t)return!1;if(Z(e)||Z(t))return e===t;if(n&&Object.getPrototypeOf(e)!==Object.getPrototypeOf(t))return!1;var o=me(e),i=me(t);if(o&&!i||!o&&i)return!1;if(o)return ge(e=Q.call(e),t=Q.call(t),n);var a,s,c=K(e),l=K(t);if(c.length!==l.length)return!1;for(c.sort(),l.sort(),s=c.length-1;s>=0;s--)if(c[s]!==l[s])return!1;for(s=c.length-1;s>=0;s--)if(!ge(e[a=c[s]],t[a],n,r))return!1;return!0}(e,t,n,r))}return n?e===t:e==t}function me(e){return"[object Arguments]"==Object.prototype.toString.call(e)}function be(e,t,n){ge(e,t,!1)&&le(e,t,n,"notDeepEqual",be)}function ve(e,t,n){ge(e,t,!0)&&le(e,t,n,"notDeepStrictEqual",ve)}function ye(e,t,n){e!==t&&le(e,t,n,"===",ye)}function we(e,t,n){e===t&&le(e,t,n,"!==",we)}function ke(e,t){if(!e||!t)return!1;if("[object RegExp]"==Object.prototype.toString.call(t))return t.test(e);try{if(e instanceof t)return!0}catch(e){}return!Error.isPrototypeOf(t)&&!0===t.call({},e)}function xe(e,t,n,r){var o;if("function"!=typeof t)throw new TypeError('"block" argument must be a function');"string"==typeof n&&(r=n,n=null),o=function(e){var t;try{e()}catch(e){t=e}return t}(t),r=(n&&n.name?" ("+n.name+").":".")+(r?" "+r:"."),e&&!o&&le(o,n,"Missing expected exception"+r);var i="string"==typeof r,a=!e&&o&&!n;if((!e&&U(o)&&i&&ke(o,n)||a)&&le(o,n,"Got unwanted exception"+r),e&&o&&n&&!ke(o,n)||!e&&o)throw o}function Se(e,t,n){xe(!0,e,t,n)}function _e(e,t,n){xe(!1,e,t,n)}function Ee(e){if(e)throw e}re.AssertionError=ae,T(ae,Error),re.fail=le,re.ok=ue,re.equal=fe,re.notEqual=pe,re.deepEqual=de,re.deepStrictEqual=he,re.notDeepEqual=be,re.notDeepStrictEqual=ve,re.strictEqual=ye,re.notStrictEqual=we,re.throws=Se,re.doesNotThrow=_e,re.ifError=Ee;var Ce=t(Object.freeze({__proto__:null,default:re,AssertionError:ae,fail:le,ok:ue,assert:ue,equal:fe,notEqual:pe,deepEqual:de,deepStrictEqual:he,notDeepEqual:be,notDeepStrictEqual:ve,strictEqual:ye,notStrictEqual:we,throws:Se,doesNotThrow:_e,ifError:Ee})),Ae=Ce,Oe="undefined"!=typeof window;function Te(e){this.hasWindow=e,this.hasIdle=this.hasWindow&&window.requestIdleCallback,this.method=this.hasIdle?window.requestIdleCallback.bind(window):this.setTimeout,this.scheduled=!1,this.queue=[]}Te.prototype.push=function(e){Ae.equal(typeof e,"function","nanoscheduler.push: cb should be type function"),this.queue.push(e),this.schedule()},Te.prototype.schedule=function(){if(!this.scheduled){this.scheduled=!0;var e=this;this.method((function(t){for(;e.queue.length&&t.timeRemaining()>0;)e.queue.shift()(t);e.scheduled=!1,e.queue.length&&e.schedule()}))}},Te.prototype.setTimeout=function(e){setTimeout(e,0,{timeRemaining:function(){return 1}})};var je,ze=function(){var e;return Oe?(window._nanoScheduler||(window._nanoScheduler=new Te(!0)),e=window._nanoScheduler):e=new Te,e},Le=ze(),Ne=Ce;Ie.disabled=!0;try{je=window.performance,Ie.disabled="true"===window.localStorage.DISABLE_NANOTIMING||!je.mark}catch(e){}var $e=Ie;function Ie(e){if(Ne.equal(typeof e,"string","nanotiming: name should be type string"),Ie.disabled)return De;var t=(1e4*je.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;je.mark(o),Le.push((function(){var i=null;try{var a=e+" ["+t+"]";je.measure(a,n,o),je.clearMarks(n),je.clearMarks(o)}catch(e){i=e}r&&r(i,e)}))}return je.mark(n),r.uuid=t,r}function De(e){e&&Le.push((function(){e(new Error("nanotiming: performance API unavailable"))}))}var Pe,qe=Ce;Re.disabled=!0;try{Pe=require("perf_hooks").performance,Re.disabled=C.env.DISABLE_NANOTIMING||!Pe.mark}catch(e){}function Re(e){if("undefined"!=typeof window)return $e(e);if(qe.equal(typeof e,"string","nanotiming: name should be type string"),Re.disabled)return Me;var t=(1e4*Pe.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;Pe.mark(o);var i=null;try{var a=e+" ["+t+"]";Pe.measure(a,n,o),Pe.clearMarks(n),Pe.clearMarks(o)}catch(e){i=e}r&&r(i,e)}return Pe.mark(n),r.uuid=t,r}function Me(e){e&&e(new Error("nanotiming: performance API unavailable"))}var Fe=function(e,t,n){var r,o=e.length;if(!(t>=o||0===n)){var i=o-(n=t+n>o?o-t:n);for(r=t;r<i;++r)e[r]=e[r+n];e.length=i}},Be=Re,Ue=Ce,He=Ze;function Ze(e){if(!(this instanceof Ze))return new Ze(e);this._name=e||"nanobus",this._starListeners=[],this._listeners={}}Ze.prototype.emit=function(e){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.emit: eventName should be type string or symbol");for(var t=[],n=1,r=arguments.length;n<r;n++)t.push(arguments[n]);var o=Be(this._name+"('"+e.toString()+"')"),i=this._listeners[e];return i&&i.length>0&&this._emit(this._listeners[e],t),this._starListeners.length>0&&this._emit(this._starListeners,e,t,o.uuid),o(),this},Ze.prototype.on=Ze.prototype.addListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.on: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.on: listener should be type function"),"*"===e?this._starListeners.push(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].push(t)),this},Ze.prototype.prependListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependListener: listener should be type function"),"*"===e?this._starListeners.unshift(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].unshift(t)),this},Ze.prototype.once=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.once: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.once: listener should be type function");var n=this;return this.on(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.prependOnceListener=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependOnceListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependOnceListener: listener should be type function");var n=this;return this.prependListener(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.removeListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.removeListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.removeListener: listener should be type function"),"*"===e?(this._starListeners=this._starListeners.slice(),n(this._starListeners,t)):(void 0!==this._listeners[e]&&(this._listeners[e]=this._listeners[e].slice()),n(this._listeners[e],t));function n(e,t){if(e){var n=e.indexOf(t);return-1!==n?(Fe(e,n,1),!0):void 0}}},Ze.prototype.removeAllListeners=function(e){return e?"*"===e?this._starListeners=[]:this._listeners[e]=[]:(this._starListeners=[],this._listeners={}),this},Ze.prototype.listeners=function(e){var t="*"!==e?this._listeners[e]:this._starListeners,n=[];if(t)for(var r=t.length,o=0;o<r;o++)n.push(t[o]);return n},Ze.prototype._emit=function(e,t,n,r){if(void 0!==e&&0!==e.length){void 0===n&&(n=t,t=null),t&&(n=void 0!==r?[t].concat(n,r):[t].concat(n));for(var o=e.length,i=0;i<o;i++){var a=e[i];a.apply(a,n)}}};var We=He();function Je(e){return Je="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},Je(e)}function Ge(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function Ve(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function Ye(e,t,n){return t&&Ve(e.prototype,t),n&&Ve(e,n),Object.defineProperty(e,"prototype",{writable:!1}),e}function Xe(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),Object.defineProperty(e,"prototype",{writable:!1}),t&&Qe(e,t)}function Ke(e){return Ke=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},Ke(e)}function Qe(e,t){return Qe=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},Qe(e,t)}function et(e,t){if(t&&("object"==typeof t||"function"==typeof t))return t;if(void 0!==t)throw new TypeError("Derived constructors may only return object or undefined");return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e)}function tt(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r=Ke(e);if(t){var o=Ke(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return et(this,n)}}function nt(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null==n)return;var r,o,i=[],a=!0,s=!1;try{for(n=n.call(e);!(a=(r=n.next()).done)&&(i.push(r.value),!t||i.length!==t);a=!0);}catch(e){s=!0,o=e}finally{try{a||null==n.return||n.return()}finally{if(s)throw o}}return i}(e,t)||ot(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function rt(e){return function(e){if(Array.isArray(e))return it(e)}(e)||function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}(e)||ot(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function ot(e,t){if(e){if("string"==typeof e)return it(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?it(e,t):void 0}}function it(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function at(e,t){var n="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!n){if(Array.isArray(e)||(n=ot(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var r=0,o=function(){};return{s:o,n:function(){return r>=e.length?{done:!0}:{done:!1,value:e[r++]}},e:function(e){throw e},f:o}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var i,a=!0,s=!1;return{s:function(){n=n.call(e)},n:function(){var e=n.next();return a=e.done,e},e:function(e){s=!0,i=e},f:function(){try{a||null==n.return||n.return()}finally{if(s)throw i}}}}
 /*!
 	 * isobject <https://github.com/jonschlinkert/isobject>
 	 *

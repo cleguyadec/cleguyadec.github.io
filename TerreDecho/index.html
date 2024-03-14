@@ -33,12 +33,13 @@
             repeatCount="indefinite"
         />
 	</line>
-</svg></div></div></div></form><tw-storydata name="Les Terres d&#39;Echo" startnode="1" creator="Twine" creator-version="2.8.1" format="Chapbook" format-version="1.2.3" ifid="227606DE-1D69-4680-BD32-6DBD57351AE1" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Fin" color="red"></tw-tag><tw-tag name="Fait" color="green"></tw-tag><tw-tag name="En-cours" color="orange"></tw-tag><tw-tag name="Temporaire" color="yellow"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="" position="2850,125" size="100,100">_NomJoueur:&quot;&quot;
+</svg></div></div></div></form><tw-storydata name="Les Terres d&#39;Echo" startnode="1" creator="Twine" creator-version="2.8.1" format="Chapbook" format-version="1.2.3" ifid="227606DE-1D69-4680-BD32-6DBD57351AE1" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Fin" color="red"></tw-tag><tw-tag name="Fait" color="green"></tw-tag><tw-tag name="En-cours" color="yellow"></tw-tag><tw-tag name="Temporaire" color="yellow"></tw-tag><tw-tag name="Noeud" color="yellow"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="" position="2850,125" size="100,100">_NomJoueur:&quot;&quot;
 _Fin:0
 _VentvarMirajhal:false
 _Time: 10
 _Fragment: 0
 _Boussole:false
+_sextant:false
 _Eol: false
 _FinEol: false
 _Elda:false
@@ -48,9 +49,11 @@ _EchecMasque:false
 _LienAme:false
 _Crepusculine:false
 _Masque:false
+_Jorik:false
 _MiroirMagique:false
 _BonneAventure:false
 _ValDoria:0
+_PortCendre:false
 my.tarot.deck: [&#39;I THE MAGICIAN&#39;,&#39;II THE HIGH PRIESTESS&#39;,&#39;III THE EMPRESS&#39;,&#39;IV THE EMPEROR&#39;,&#39;V THE HIEROPHANT&#39;,&#39;VI THE LOVERS&#39;,&#39;VII THE CHARIOT&#39;,&#39;VIII STRENGTH&#39;,&#39;IX THE HERMIT&#39;,&#39;X WHEEL OF FORTUNE&#39;,&#39;XI JUSTICE&#39;,&#39;XII THE HANGED MAN&#39;,&#39;XIII DEATH&#39;,&#39;XIV TEMPERANCE&#39;,&#39;XV THE DEVIL&#39;,&#39;XVI THE TOWER&#39;,&#39;XVII THE STAR&#39;,&#39;XVIII THE MOON&#39;,&#39;XIX THE SUN&#39;,&#39;XX JUDGEMENT&#39;,&#39;XXI THE WORLD&#39;]
 _Solelhaven:false
 _irrigation:false
@@ -84,7 +87,7 @@ Je me redresse, le sol sous moi est doux, accueillant, mais froid. [[Poursuivre-
 
 
 
-</tw-passagedata><tw-passagedata pid="2" name="Explorer Val-d&#39;Oria, l&#39;éden verdoyant." tags="" position="325,1075" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="2" name="Explorer Val-d&#39;Oria, l&#39;éden verdoyant." tags="Noeud" position="325,1075" size="100,100">_PassageAvantTirage: passage.name
 sound.ambient.hope.url: &#39;./assets/AKindOfHope.mp3&#39;
 sound.ambient.hope.description: &#39;gentle sound&#39;
 --
@@ -138,7 +141,7 @@ Après une brève présentation, Joren, le paysan au regard déterminé, expliqu
 &gt;[[Creuser de nouveaux puits]]
 &gt;[[Développer la collecte d&#39;eau de pluie-&gt;Collecte d&#39;eau de pluie]]
 &gt;[[Mettre en place la rotation des cultures-&gt;Rotation des cultures]]
-&gt;[[Aucune idée ne me vient en tête-&gt;Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="7" name="Le sentier" tags="" position="800,1375" size="100,100">_RencontreSentierScene:[&#39;Serren&#39;,&#39;l\&#39;Arbre chantant&#39;,&#39;La clairière luminescente&#39;,&#39;Voyage tranquille&#39;]
+&gt;[[Aucune idée ne me vient en tête-&gt;Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="7" name="Le sentier" tags="Noeud" position="800,1375" size="100,100">_RencontreSentierScene:[&#39;Serren&#39;,&#39;l\&#39;Arbre chantant&#39;,&#39;La clairière luminescente&#39;,&#39;Voyage tranquille&#39;]
 _RencontreSentier: _RencontreSentierScene[random.d4-1]
 _ValDoria: _ValDoria +2
 _PassageAvantTirage: passage.name
@@ -222,18 +225,18 @@ Je me lève, mes jambes portent un corps que je ne reconnais pas encore tout à 
 [align center]
 *&quot;Suis-je prêt ?&quot;* 
 
-La question reste sans réponse, mais le voyage commence [[maintenant-&gt;mapp]].</tw-passagedata><tw-passagedata pid="14" name="Naviguer vers les Cités Libres de Miranthia." tags="Temporaire" position="4050,150" size="100,100">_PassageAvantTirage: passage.name
+La question reste sans réponse, mais le voyage commence [[maintenant-&gt;mapp]].</tw-passagedata><tw-passagedata pid="14" name="Naviguer vers les Cités Libres de Miranthia." tags="Temporaire" position="4750,425" size="100,100">_PassageAvantTirage: passage.name
 sound.ambient.ThreeSheetsToTheWind.url: &#39;./assets/ThreeSheetsToTheWind.mp3&#39;
 sound.ambient.ThreeSheetsToTheWind.description: &#39;gentle sound&#39;
 --
 {ambient sound: &#39;ThreeSheetsToTheWind&#39;}
-L&#39;horizon s&#39;éclaircit à mesure que j&#39;approche des Cités Libres de Miranthia, laissant place à une mosaïque de voiles et de mâts qui dansent au rythme des vagues. C&#39;est un monde de liberté, où le commerce et le savoir circulent aussi librement que les eaux qui entourent ses îles. &quot;Suis-je prêt à naviguer dans cette mer d&#39;opportunités ?&quot; La question me traverse l&#39;esprit alors que les sons du marché, les cris des marchands et le rire des enfants se mêlent en une symphonie de vie. Miranthia s&#39;ouvre devant moi, promesse d&#39;aventure et d&#39;exploration dans le creuset de cultures qui défient le ciel et la mer.
+L&#39;horizon s&#39;éclaircit à mesure que j&#39;approche des Cités Libres de Miranthia, laissant place à une mosaïque de voiles et de mâts qui dansent au rythme des vagues. C&#39;est un monde de liberté, où le commerce et le savoir circulent aussi librement que les eaux qui entourent ses îles. *&quot;Suis-je prêt à naviguer dans cette mer d&#39;opportunités ?&quot;* La question me traverse l&#39;esprit alors que les sons du marché, les cris des marchands et le rire des enfants se mêlent en une symphonie de vie. Miranthia s&#39;ouvre devant moi, promesse d&#39;aventure et d&#39;exploration dans le creuset de cultures qui défient le ciel et la mer.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="15" name="l&#39;Empire des Ombres." tags="Temporaire" position="4975,1250" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="15" name="l&#39;Empire des Ombres." tags="Noeud" position="4125,2175" size="100,100">_PassageAvantTirage: passage.name
 sound.ambient.amongstars.url: &#39;./assets/adriftamonginfinitestars.mp3&#39;
 sound.ambient.amongstars.description: &#39;gentle sound&#39;
 --
@@ -254,7 +257,7 @@ Je suis venu ici guidé par des rumeurs d&#39;un pouvoir ancien et des secrets c
 
 [else]
 &gt;[[Visiter Nuitveille-&gt;Nuitveille]]
-&gt;[[Repartir à la croisée des chemin -&gt;mapp]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3100,1025" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Repartir à la croisée des chemin -&gt;mapp]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="Noeud" position="2125,3550" size="100,100">_PassageAvantTirage: passage.name
 sound.ambient.iwalkwithghosts.url: &#39;./assets/iwalkwithghosts.mp3&#39;
 sound.ambient.iwalkwithghosts.description: &#39;gentle sound&#39;
 --
@@ -280,7 +283,7 @@ sound.ambient.hope.description: &#39;gentle sound&#39;
 --
 {ambient sound: &#39;hope&#39;}
 # La croisée des chemins
-{embed image: &#39;./assets/mat.webp&#39;}
+{embed image: &#39;./assets/begining.webp&#39;}
 
 Sans que je puisse vraiment me l&#39;expliquer, ces destinations résonnent en moi. Où vais-je poursuivre mon voyage ?
 
@@ -300,7 +303,7 @@ Sans que je puisse vraiment me l&#39;expliquer, ces destinations résonnent en m
 &gt;[[l&#39;Empire des Ombres.]]
 &gt;[[les Terres Frontalières.]]
 &gt;[[les îles Brumeuses]]
-&gt;[[Je n&#39;ai pas le courage de partir à l&#39;aventure-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="18" name="les îles Brumeuses" tags="Temporaire" position="4950,100" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je n&#39;ai pas le courage de partir à l&#39;aventure-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="18" name="les îles Brumeuses" tags="Temporaire" position="6250,150" size="100,100">_PassageAvantTirage: passage.name
 sound.ambient.permafrost.url: &#39;./assets/permafrost.mp3&#39;
 sound.ambient.permafrost.description: &#39;gentle sound&#39;
 --
@@ -317,9 +320,9 @@ L&#39;arrivée dans les Îles Brumeuses n&#39;est pas seulement un changement de
 
 C&#39;est un monde à part, un sanctuaire de mystère et de magie, où chaque ruine, chaque artefact éparpillé, raconte une histoire d&#39;aspiration, de perte et de révélation. Et alors que nous nous préparons à explorer ces terres enveloppées de secrets, je sens que notre propre histoire est sur le point de s&#39;entrelacer avec celle des Îles Brumeuses, dans un récit que même la brume ne peut cacher.
 
-[[La croisée des chemins-&gt;mapp]]
-[[Voguer vers Islevoile-&gt;Islevoile]]
-[[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="19" name="*&quot;comment je m&#39;appelle ?&quot;*" tags="" position="75,1525" size="100,100">_Fragment:_Fragment+1
+&gt;[[La croisée des chemins-&gt;mapp]]
+&gt;[[Voguer vers Islevoile-&gt;Islevoile]]
+&gt;[[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="19" name="*&quot;comment je m&#39;appelle ?&quot;*" tags="" position="75,1525" size="100,100">_Fragment:_Fragment+1
 _PassageAvantTirage: passage.name
 --
 Un éclat soudain perce l&#39;obscurité de ma mémoire, comme un rayon de soleil à travers les nuages. 
@@ -336,7 +339,7 @@ Ce nom, mon nom, devient la clé qui ouvre la porte à mon passé oublié.
 
 [[Cliquer lorsque vous êtes prêt à poursuivre la discussion cliquez-&gt;ici]].
 
-</tw-passagedata><tw-passagedata pid="20" name="Le chemin de la rivière" tags="" position="1575,1175" size="100,100">_RencontreFleuveEmeraudeScene:[&#39;Le concours impromptu de pêche&#39;,&#39;La traversée des nénuphars&#39;,&#39;Verdegrove&#39;,&#39;Voyage tranquille rivière&#39;]
+</tw-passagedata><tw-passagedata pid="20" name="Le chemin de la rivière" tags="Noeud" position="1575,1175" size="100,100">_RencontreFleuveEmeraudeScene:[&#39;Le concours impromptu de pêche&#39;,&#39;La traversée des nénuphars&#39;,&#39;Verdegrove&#39;,&#39;Voyage tranquille rivière&#39;]
 _RencontreFleuveEmeraude: _RencontreFleuveEmeraudeScene[random.d4-1]
 _ValDoria: _ValDoria +3
 _PassageAvantTirage: passage.name
@@ -352,14 +355,14 @@ config.footer.center: &quot;[[Tirage]]&quot;
 --
 [[{_Tirage}]]
 
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="22" name="caravane de nomades" tags="Temporaire" position="3325,1825" size="100,100">_PassageAvantTirage: passage.name
+[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="22" name="caravane de nomades" tags="Temporaire" position="1900,3825" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/camp.webp&#39;}
 
 Alors que le soleil décline, baignant les Terres Frontalières dans une lumière dorée, je m&#39;approche du campement de nomades, leurs tentes éparpillées comme des joyaux sous le ciel crépusculaire. *&quot;Salutations, étranger,&quot;* m&#39;accueille une voix chaleureuse, celle d&#39;une femme dont le visage est marqué par les vents du voyage. Autour de nous, la vie s&#39;agite, un mélange de rires, de chants et de l&#39;odeur envoûtante de plats cuisinés sur des feux ouverts. *&quot;Viens partager notre feu, notre histoire,&quot;* m&#39;invite-t-elle, geste qui semble transcender les mots, une offre d&#39;appartenance et de découverte dans ce monde de passages éphémères.
 
 &gt;[[Prendre place autour du feu-&gt;Ayla]]
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="23" name=" ruines d&#39;un village" tags="Temporaire" position="3850,1075" size="100,100">_Fin:4
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="23" name=" ruines d&#39;un village" tags="Temporaire" position="2875,3350" size="100,100">_Fin:4
 _PassageAvantTirage: passage.name
 sound.ambient.ShadowsAndDust.url: &#39;./assets/ShadowsAndDust.mp3&#39;
 sound.ambient.ShadowsAndDust.description: &#39;gentle sound&#39;
@@ -374,7 +377,7 @@ L&#39;ombre des ruines s&#39;étend devant moi, une toile de souvenirs déchiré
 La solitude de cet endroit est si tangible, une présence familière qui m&#39;enveloppe de ses bras invisibles. Pourtant, au-delà de la désolation apparente, il y a une dignité dans cette déchéance, une beauté fragile dans la ruine. Dans chaque fissure, chaque éclat de pierre brisée, je vois le reflet d&#39;une époque révolue, une leçon inscrite dans la poussière des siècles.
 
 &gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;La Confrontation avec le Spectre du Passé]] 
-&gt;[[Je pense que ma route finie ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="24" name="Guet des Anciens" tags="" position="2850,1350" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je pense que ma route finie ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="24" name="Guet des Anciens" tags="" position="1775,3225" size="100,100">_PassageAvantTirage: passage.name
 _PhareDesAmes: _PhareAmes &amp;&amp; _Eol
 _NonPhareDesAmes: !_PhareAmes &amp;&amp; _Eol
 _PhareAmesQui:&#39;Eol&#39;
@@ -407,7 +410,7 @@ Son regard pénétrant semble lire en moi comme dans un livre ouvert.
 *&quot;Tu portes en toi des ombres du passé, des éclats d&#39;une mémoire perdue. Cherches-tu des réponses, ou fuis-tu les questions ?&quot;*
 
 *&quot;Des réponses,&quot;* je murmure, la curiosité l&#39;emportant sur l&#39;hésitation.[[*&quot;Qui suis-je ?&quot;*-&gt;Qui suis-je]]
-</tw-passagedata><tw-passagedata pid="25" name="Qui suis-je" tags="" position="2575,1400" size="100,100">_Eol: true
+</tw-passagedata><tw-passagedata pid="25" name="Qui suis-je" tags="" position="1500,3275" size="100,100">_Eol: true
 _PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/eol.webp&#39;}
@@ -416,7 +419,7 @@ Eol éclate d&#39;un rire doux, comme porté par une brise légère. *&quot;Le p
 
 *&quot;Ton âme résonne avec les Silhouetiens, des êtres de lumière et d&#39;ombre. Tu as voyagé plus loin que la plupart, franchissant les frontières du temps et de l&#39;espace. Mais ta mémoire... elle a été fragmentée, dispersée comme les feuilles par le vent.&quot;*
 
-*[[&quot;les Silhouetiens ?&quot;]]*</tw-passagedata><tw-passagedata pid="26" name="Les fragments" tags="" position="2500,1775" size="100,100">_PassageAvantTirage: passage.name
+*[[&quot;les Silhouetiens ?&quot;]]*</tw-passagedata><tw-passagedata pid="26" name="Les fragments" tags="" position="1425,3650" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/eol.webp&#39;}
 Lorsque tu reviens vers moi, porteur des fragments de ton passé, chaque pièce en main résonne avec les échos d&#39;une histoire oubliée. Laisse-moi te guider à travers le voile des souvenirs retrouvés.
@@ -557,6 +560,25 @@ Je décide de m&#39;installer à Nuitveille, de devenir une partie de son tissu 
 
 Alors que la nuit s&#39;approfondit, je me promets de vivre pleinement, d&#39;explorer chaque recoin de Nuitveille, de découvrir ses secrets et de partager ses mystères. Je m&#39;engage à être un gardien de ses légendes, un témoin de sa beauté éternelle. Sous le regard bienveillant des étoiles, je me laisse emporter par l&#39;oubli, non pas comme une perte, mais comme une renaissance, un nouveau chapitre dans le livre de ma vie, écrit sous le ciel magnifique de Nuitveille.
 
+[if _Fin===10]
+Les épreuves traversées et les vérités révélées m&#39;ont conduit à une conclusion inévitable : ma place est ici, à Port-Cendre, où l&#39;appel de l&#39;aventure et le chant de la mer se font écho. 
+
+Avec une résolution renouvelée, je prends la décision de m&#39;installer à Port-Cendre, cette ville de marins, de marchands et d&#39;aventuriers, où chaque rue résonne des pas de ceux qui, comme moi, sont en quête de leur propre légende. C&#39;est ici, parmi ces âmes courageuses et ces esprits libres, que je choisis de jeter l&#39;ancre de ma nouvelle vie.
+
+Je me dirige vers la taverne du Vieux Kraken, lieu de ma rencontre fatidique avec le capitaine Jorik Œil-de-Tempête, ce marin dont les récits d&#39;aventures et les exploits en haute mer m&#39;avaient tant inspiré. Alors que j&#39;entre dans la chaleur et la lumière de la taverne, je le trouve là, comme si le destin avait orchestré ce moment.
+
+*&quot;Capitaine,&quot;* l&#39;interpelle-je, une détermination claire dans ma voix. *&quot;Je suis venu vous dire que je suis prêt. Prêt à embrasser l&#39;oubli, prêt à naviguer sous votre commandement et à affronter les tempêtes comme les éclaircies. Je veux faire partie de votre équipage.&quot;*
+
+Jorik me regarde longuement, ses yeux perçant l&#39;armure de mon âme comme s&#39;il en sondait chaque recoin. Puis, un large sourire fend son visage buriné, comme s&#39;il avait attendu ma décision depuis notre première rencontre.
+
+*&quot;Je le savais,&quot;* répond-il enfin. *&quot;Je voyais en toi la flamme d&#39;un aventurier, celle qui ne s&#39;éteint pas face à l&#39;adversité. Bienvenue à bord, mon ami. La mer est capricieuse, mais ensemble, nous découvrirons ses secrets et ses trésors.&quot;*
+
+Le lendemain, alors que l&#39;aube peint le ciel de couleurs incandescentes, je monte à bord du navire de Jorik, mon cœur battant au rythme des vagues. L&#39;équipage, un mélange hétéroclite d&#39;individus aux histoires diverses, m&#39;accueille parmi eux. Ensemble, nous levons l&#39;ancre, laissant derrière nous le port qui m&#39;a vu arriver étranger et qui me voit partir en explorateur.
+
+À mesure que Port-Cendre s&#39;éloigne à l&#39;horizon, je sens le poids du passé s&#39;alléger. J&#39;embrasse l&#39;oubli, non pas comme une perte, mais comme une libération, un espace vierge où inscrire de nouvelles aventures. Sous le commandement de Jorik, je m&#39;apprête à naviguer vers l&#39;inconnu, prêt à affronter ce que la mer voudra bien nous offrir.
+
+C&#39;est le début d&#39;une nouvelle vie, une vie où chaque jour promet son lot d&#39;aventures, de dangers, mais surtout, d&#39;histoires dignes d&#39;être racontées. Port-Cendre, avec ses mystères et ses promesses, reste dans mon cœur, un phare qui, peu importe la distance parcourue, me rappellera toujours où j&#39;ai trouvé ma véritable vocation.
+
 [Else]
 Alors que je ferme les yeux, une vague de calme m&#39;envahit. *&quot;Et si ce n&#39;était pas mon chemin ?&quot;* La pensée, loin d&#39;être terrifiante, est un baume. J&#39;embrasse l&#39;oubli, non pas comme une défaite, mais comme un choix. La quête de sens, l&#39;aventure, les réponses resteront pour d&#39;autres. Moi, je choisis le silence, la paix d&#39;un esprit qui ne cherche plus, qui accepte le mystère sans le questionner. C&#39;est dans cet inconnu que je trouve ma vérité, un horizon sans promesse mais aussi sans peur.
 
@@ -565,7 +587,7 @@ Alors que je ferme les yeux, une vague de calme m&#39;envahit. *&quot;Et si ce n
 **FIN**
 
 
-</tw-passagedata><tw-passagedata pid="28" name="&quot;les Silhouetiens ?&quot;" tags="" position="2625,1550" size="100,100">_FinEol:true
+</tw-passagedata><tw-passagedata pid="28" name="&quot;les Silhouetiens ?&quot;" tags="" position="1550,3425" size="100,100">_FinEol:true
 _Fin:2
 _PassageAvantTirage: passage.name
 --
@@ -578,7 +600,7 @@ _PassageAvantTirage: passage.name
 *&quot;Ou alors, tu peux choisir d&#39;embrasser l&#39;oubli, de vivre dans le présent et de forger une nouvelle identité. Parfois, le plus grand courage réside dans la capacité à laisser aller.&quot;*
 
 &gt;[[Chercher les fragments de ta mémoire éparpillés-&gt;flash back Silouhetiens]]
-&gt;[[Embrasser l&#39;oubli-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="29" name="flash back Silouhetiens" tags="" position="2675,1725" size="100,100">_Fragment: _Fragment + 1
+&gt;[[Embrasser l&#39;oubli-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="29" name="flash back Silouhetiens" tags="" position="1600,3600" size="100,100">_Fragment: _Fragment + 1
 _PassageAvantTirage: passage.name
 --
 Dans un éclat soudain de lucidité, je me vois debout au bord d&#39;un précipice, le vent soufflant à travers moi comme si j&#39;étais à la fois là et pas là. Autour de moi, des figures encapuchonnées, silhouettes flottantes entre ombre et lumière, murmurent des mots dans une langue ancienne que mon cœur comprend mais que mon esprit peine à saisir. *&quot;Tu es l&#39;un des nôtres.&quot;* l&#39;une d&#39;elles me dit, sa voix une caresse, une étreinte, un rappel. *&quot;Un Silhouetien, enfant du crépuscule et de l&#39;aube.&quot;* Les fragments de ma mémoire, comme des feuilles portées par le vent, se rassemblent en un tableau vivant de mon héritage oublié.
@@ -631,7 +653,7 @@ _PassageAvantTirage: passage.name
 --
 *&quot;Errat est un guide pour ceux qui cherchent à se perdre, pas dans un sens physique, mais en s&#39;éloignant des sentiers battus de leur existence pour embrasser l&#39;inconnu. Son essence repose dans la beauté de se perdre pour mieux se retrouver, dans la richesse de l&#39;inattendu qui se révèle quand on laisse de côté nos plans pour se laisser guider par le hasard. Ses disciples pratiquent des pèlerinages sans but précis, en quête de révélations sur eux-mêmes ou le monde, révélations qui n&#39;auraient pu émerger dans le confort du connu.&quot;*
 
-{back link,label:&#39;Reprendre la conversation&#39;}</tw-passagedata><tw-passagedata pid="35" name="Solelhaven" tags="En-cours" position="800,2225" size="100,100">_PassageAvantTirage: passage.name
+{back link,label:&#39;Reprendre la conversation&#39;}</tw-passagedata><tw-passagedata pid="35" name="Solelhaven" tags="Noeud" position="800,2225" size="100,100">_PassageAvantTirage: passage.name
 _Bien: _ValDoria &gt;= 0 &amp;&amp; _Errat &amp;&amp; !_Solelhaven
 _Moyen: (_ValDoria &lt;=0 &amp;&amp; _Errat &amp;&amp; !_Solelhaven) | (_ValDoria &gt;= 0 &amp;&amp; !_Errat &amp;&amp; !_Solelhaven)
 _Mauvais: _ValDoria &lt;=0 &amp;&amp; !_Errat &amp;&amp; !_Solelhaven
@@ -1278,35 +1300,49 @@ Sans un regard en arrière, je quitte la chaleur de la boutique pour me lancer d
 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 &gt;[[Me rendre dans les Terres Frontalières-&gt;les Terres Frontalières.]] 
-&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="80" name="Port-Cendre" tags="" position="4325,325" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="80" name="Port-Cendre" tags="" position="4500,675" size="100,100">_PassageAvantTirage: passage.name
 --
-Port-Cendre, la plus grande cité-port, est un carrefour d&#39;aventures et de mystères où le parfum salé de la mer se mêle aux épices rares du marché flottant. Imaginez des navires aux voiles écarlates et indigo, des marins aux visages burinés par le sel et le soleil, partageant des histoires de terres lointaines. Le marché flottant, un labyrinthe de barques et de pontons, est un théâtre vivant où chaque marchand est un acteur, chaque produit un trésor. C&#39;est ici que les cartes des nouveaux mondes se dessinent, entre un verre de rhum épicé et les promesses chuchotées d&#39;îles encore inconnues.
+[if !_PortCendre]
+Je resserre la prise sur la voile de mon embarcation, laissant les étoiles me guider vers Port-Cendre, joyau des Cités Libres de Miranthia. L&#39;air marin, chargé de sel et de secrets, caresse mon visage tandis que la silhouette de la cité commence à se dessiner à l&#39;horizon. Des lumières dansantes et des chants s&#39;échappent du port, annonçant la promesse d&#39;une nuit animée.
 
-&gt;[[La croisée des chemins-&gt;mapp]]
+À mesure que je me rapproche, les formes des navires ancrés deviennent plus nettes – de majestueux galions, des sloops agiles, et même quelques vaisseaux fantômes, probablement des antres de pirates venus pour commercer... ou pour chercher de nouveaux membres d&#39;équipage.
+
+Que dois-je faire ?
+&gt;[[Approcher discrètement du port]]
+&gt;[[Accoster au cœur de l&#39;activité]]
+&gt;[[Héler un navire voisin]]
+
+[if _PortCendre]
+Devant moi, Port-Cendre se déploie dans toute sa splendeur. La ville est un labyrinthe de ruelles étroites, de marchés colorés et de tavernes accueillantes, promettant des histoires à chaque coin de rue. Les façades des bâtiments, usées par le sel et le soleil, racontent des siècles d&#39;histoire, de commerce et de piraterie. L&#39;air est empli du son des accordéons et des rires, des éclats de voix qui invitent à explorer ce que Port-Cendre a de meilleur à offrir.
+
+Derrière moi, l&#39;océan s&#39;étend à l&#39;infini, un vaste champ de possibilités. Des capitaines charismatiques négocient des cargaisons et recrutent des équipages pour des voyages audacieux. Chaque navire promet une aventure unique, une chance de découvrir des îles mystérieuses, des civilisations oubliées et des trésors enfouis.
+
+&gt;[[Me rendre dans Port-Cendre-&gt;Explorer les ruelles]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="81" name="Spiralonde" tags="" position="4225,450" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="81" name="Spiralonde" tags="" position="5275,800" size="100,100">_PassageAvantTirage: passage.name
 --
 Spiralonde, quant à elle, est une symphonie de pierre et d&#39;eau, une ville d&#39;artisans où chaque rue est une galerie, chaque maison un atelier. Les îles sur lesquelles la ville repose sont reliées par des ponts sinueux, comme les notes d&#39;une partition complexe jouée par un maestro invisible. Les artisans, véritables alchimistes de la forme et de la couleur, y transforment le verre, le métal, et le bois en objets d&#39;une beauté à couper le souffle, capturant l&#39;essence même de la mer et du ciel dans leurs créations.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="82" name="Lagon des Murmures" tags="" position="3975,375" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="82" name="Lagon des Murmures" tags="" position="5350,600" size="100,100">_PassageAvantTirage: passage.name
 --
 Le Lagon des Murmures est un sanctuaire de tranquillité, un miroir d&#39;eau claire où le ciel semble se noyer. Ceux qui plongent dans ses profondeurs disent entendre les voix des anciens, murmurant des vérités longtemps oubliées, des conseils pour les âmes perdues. C&#39;est un lieu de révélation, où le passé, le présent, et le futur se rencontrent dans le silence sacré sous l&#39;eau.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
-&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="83" name="Caps Chantants" tags="" position="4100,450" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Prendre le chemin des Caps Chantants-&gt;Caps Chantants]]</tw-passagedata><tw-passagedata pid="83" name="Caps Chantants" tags="" position="5475,450" size="100,100">_PassageAvantTirage: passage.name
 --
 Aux Caps Chantants, le vent est le musicien et les falaises son instrument, créant des mélodies qui semblent provenir d&#39;un autre monde. C&#39;est un lieu de pèlerinage pour les âmes en quête de beauté pure, où marins et poètes viennent écouter les symphonies naturelles. Les légendes racontent que les notes jouées par les Caps peuvent guérir les cœurs brisés et redonner espoir aux désespérés.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[En route vers Port-Cendre-&gt;Port-Cendre]]
 &gt;[[Naviguer vers Spiralonde-&gt;Spiralonde]]
-&gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]</tw-passagedata><tw-passagedata pid="84" name="Nuitveille" tags="" position="4550,1350" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Cap vers le Lagon des Murmures-&gt;Lagon des Murmures]]</tw-passagedata><tw-passagedata pid="84" name="Nuitveille" tags="Noeud" position="3700,2275" size="100,100">_PassageAvantTirage: passage.name
 _Murmuris:true
 _ForetMiroirMap: _ForetMiroir &amp;&amp; !_MarcheNuitveille
 _Marche: !_MarcheNuitveille &amp;&amp; !_Silhouette
@@ -1340,7 +1376,7 @@ Dans les rues sinueuses de Nuitveille, sous un ciel constellé d&#39;étoiles qu
 &gt;[[Se rendre dans la forêt des Miroirs-&gt;Forêt des Miroirs ]]
 &gt;[[Contempler le ciel]]
 &gt;[[Repartir vers la croisée des chemins-&gt;mapp]]
-</tw-passagedata><tw-passagedata pid="85" name="Crepusculine" tags="" position="5550,1375" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="85" name="Crepusculine" tags="Noeud" position="4700,2300" size="100,100">_PassageAvantTirage: passage.name
 _Fin:8
 --
 {embed image: &#39;./assets/Crepusculine.webp&#39;}
@@ -1376,7 +1412,7 @@ La ville s&#39;offre à moi, ou mes pas vont-il me guider ?
 &gt;[[Se diriger vers l&#39;échoppe qui borde la place-&gt;Se diriger vers l&#39;échoppe]]
 &gt;[[Crepusculine évoque chez moi un sentiment d&#39;accomplissement, je décide rester ici-&gt;embrasser l&#39;oubli]]
 &gt;[[Retourner à Nuiveille-&gt;l&#39;Empire des Ombres.]]
-&gt;[[Reprendre ma route vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="86" name="Forêt des Miroirs " tags="" position="4925,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="86" name="Forêt des Miroirs " tags="" position="4075,2475" size="100,100">_PassageAvantTirage: passage.name
 _ForetMiroir:true
 --
 Tenant fermement la Boussole dans ma main, je sens son aiguille vibrer légèrement, comme animée d&#39;une volonté propre. Elle m&#39;oriente à travers le paysage en constante mutation de l&#39;Empire des Ombres, chaque direction prise me rapprochant de mon destin, de réponses tant cherchées. Les dunes de sable se transforment subtilement en roches sculptées par le vent, puis en une végétation luxuriante qui marque l&#39;approche de l&#39;oasis mirage. C&#39;est un spectacle à couper le souffle, où l&#39;eau semble danser sous les rayons du soleil, créant des reflets d&#39;argent sur les lieux qui l&#39;entourent.
@@ -1391,7 +1427,7 @@ Le son de mes pas sur le tapis de feuilles et de mousse est étouffé, ajoutant 
 &gt;[[Faire demi-tour et retourner à la croisée des chemins-&gt;mapp]]
 &gt;[[Reprendre la route de Nuitveille-&gt;Nuitveille]]
 
-</tw-passagedata><tw-passagedata pid="87" name="Les Mines de Lune" tags="" position="5275,1750" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="87" name="Les Mines de Lune" tags="" position="4425,2675" size="100,100">_PassageAvantTirage: passage.name
 --
 Lorsque les premiers contreforts des Mines de Lune émergent à l&#39;horizon, une sensation d&#39;émerveillement me saisit. Les montagnes, baignées dans la lumière argentée de la lune, semblent presque surnaturelles, leurs sommets étincelants comme s&#39;ils étaient saupoudrés de poussière d&#39;étoiles. La route qui mène à l&#39;entrée principale serpente à travers un paysage de roches et de cristaux scintillants sous mes pieds, créant un chemin lumineux qui guide mes pas vers le cœur des Mines de Lune.
 
@@ -1412,12 +1448,12 @@ Je m&#39;approche d&#39;un groupe de mineurs. Je sens que les convaincre nécess
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
 &gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]
-</tw-passagedata><tw-passagedata pid="88" name="Islevoile" tags="" position="4850,275" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="88" name="Islevoile" tags="" position="6150,325" size="100,100">_PassageAvantTirage: passage.name
 --
 Islevoile, la plus majestueuse de ces terres énigmatiques, se dresse telle une sentinelle au milieu d&#39;une mer de brume. C&#39;est une île qui refuse de révéler ses secrets, enveloppée dans un brouillard si dense que le jour y semble aussi incertain que la nuit. Les ruines d&#39;une civilisation oubliée se dressent comme des fantômes, leurs contours flous se devinent à peine à travers le voile persistant. Les pierres, couvertes de lichens et de mousses, parlent d&#39;un passé où la magie et le mystère régnaient, un écho d&#39;une grandeur perdue qui murmure encore aux aventuriers assez courageux pour écouter. Les reliques dispersées parmi les décombres brillent d&#39;une lueur faible, des vestiges de puissance et de connaissance, attendant celui qui saura percer leurs secrets.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
-&gt;[[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="89" name="L&#39;Archipel des Échos" tags="" position="5075,225" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[naviguer vers L&#39;Archipel des Échos-&gt;L&#39;Archipel des Échos]]</tw-passagedata><tw-passagedata pid="89" name="L&#39;Archipel des Échos" tags="" position="6375,275" size="100,100">_PassageAvantTirage: passage.name
 --
 L&#39;Archipel des Échos, un chœur d&#39;îles plus petites, joue une symphonie de sons et de silences. Ici, la brume n&#39;est pas seulement un voile pour les yeux, mais aussi pour les oreilles. Les cris des oiseaux marins, le bruit des vagues contre les rochers, tout semble se fondre en un murmure indistinct, créant un labyrinthe d&#39;illusions auditives. Les marins racontent que ces îles peuvent chanter les louanges des héros perdus ou pleurer les tragédies des amours oubliées. C&#39;est un lieu où la réalité semble aussi insaisissable que la brume elle-même, un dédale où le temps et la mémoire se tordent en des motifs étranges.
 
@@ -1486,7 +1522,7 @@ Il est là, immobile, ses yeux grands ouverts fixés sur moi. Dans son regard, j
 Intrigué, je m&#39;arrête, offrant à l&#39;enfant un sourire bienveillant, une invitation silencieuse à briser la distance qui nous sépare. Mais il reste là, hésitant, comme s&#39;il pesait le pour et le contre de s&#39;engager dans une conversation avec un étranger.
 
 &gt;[[Je décide de passer mon chemin-&gt;Port_Solelhaven]] 
-&gt;[[J&#39;engage la conversation-&gt;Petille]] </tw-passagedata><tw-passagedata pid="94" name="Ayla" tags="" position="3250,1975" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[J&#39;engage la conversation-&gt;Petille]] </tw-passagedata><tw-passagedata pid="94" name="Ayla" tags="" position="1875,4025" size="100,100">_PassageAvantTirage: passage.name
 _PhareAmesQui:&#39;Ayla&#39;
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
@@ -1504,7 +1540,7 @@ Je m&#39;approche. La femme, assise en tailleur, me fait signe de m&#39;asseoir 
 [if _VentvarMirajhal]
 &gt;[[En apprendre plus sur Ventvar et Mirajhal-&gt;Ventvar et Mirajhal]]
 [if _PhareAmes]
-&gt;[[En apprendre plus sur le Phare des Âmes-&gt;Phare des âmes]] </tw-passagedata><tw-passagedata pid="95" name="Pour écouter des récits et des légendes" tags="" position="3000,2125" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[En apprendre plus sur le Phare des Âmes-&gt;Phare des âmes]] </tw-passagedata><tw-passagedata pid="95" name="Pour écouter des récits et des légendes" tags="" position="1625,4175" size="100,100">_PassageAvantTirage: passage.name
 _Veilleuse:true
 --
 {embed image: &#39;./assets/ayla2.webp&#39;}
@@ -1519,7 +1555,7 @@ En cet instant le feu semble raconter sa propre version de l&#39;histoire, invit
 
 Dans la douce lumière du feu de camp, Ayla, avec un regard empreint de mélancolie, se tourne vers moi. *&quot;Veilleuse, la gardienne de ce que nous laissons derrière, veille sur nos rêves oubliés, nos espoirs d&#39;enfants, et nos vœux secrets,&quot;* commence-t-elle. Elle sort délicatement de sa besace un petit objet usé par le temps, un pendentif en forme de goutte d&#39;eau, symbole de la tribu et sanctuaire de Veilleuse. *&quot;Garde-le près de ton cœur,&quot;* dit-elle, *&quot;pour te rappeler de toujours chercher la magie dans le quotidien, de ne jamais abandonner l&#39;espoir.&quot;*
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="96" name="culture nomade" tags="" position="3250,2125" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="96" name="culture nomade" tags="" position="1875,4175" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
 Dans les royaumes lointains, les peuples se fondent en une unique culture. Mais ici, tout en coexistant en harmonie, chaque tribu préserve sa propre essence. Comment parvenez-vous à maintenir cet équilibre ?
@@ -1534,19 +1570,19 @@ C&#39;est une vision profondément respectueuse et unie.
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
 &gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] 
 
-</tw-passagedata><tw-passagedata pid="97" name="leçons de survie" tags="" position="3125,2125" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="97" name="leçons de survie" tags="" position="1750,4175" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
 A travers les âges, notre peuple a appris à écouter et à respecter la terre. Nous adaptons nos chemins, nos maisons, et nos cœurs aux rythmes des saisons et aux caprices des éléments. Nos connaissances ancestrales, transmises de génération en génération, nous guident dans l&#39;art de trouver l&#39;eau, de cultiver des terres arides, et de nous abriter contre les tempêtes. Cette sagesse est notre bouclier contre les rudes conditions des Terres Frontalières, nous permettant de vivre en symbiose avec cet environnement exigeant
 
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="98" name="responsabilité d&#39;Ayla" tags="" position="3375,2125" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="98" name="responsabilité d&#39;Ayla" tags="" position="2000,4175" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
 Les eaux de cette région coulent non seulement à travers la terre, mais aussi à travers moi. Elles sont les gardiennes de secrets anciens, murmurant à ceux qui savent écouter. Mon lien avec elles est comme le fil invisible qui relie le rêveur à son rêve, éternel et insaisissable. Comprendre ce lien, c&#39;est accepter de se laisser porter par le courant, d&#39;embrasser les mystères qu&#39;il recèle.
 
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="99" name="Tribus" tags="" position="3250,2250" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="99" name="Tribus" tags="" position="1875,4300" size="100,100">_PassageAvantTirage: passage.name
 _VentvarMirajhal:true
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
@@ -1565,7 +1601,7 @@ Comment ces tribus coexistent-elles ?
 
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
 &gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]] 
-</tw-passagedata><tw-passagedata pid="100" name="Ventvar et Mirajhal" tags="" position="3650,2125" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="100" name="Ventvar et Mirajhal" tags="" position="2275,4175" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
 *Ventvar et Mirajhal, mon ami, sont plus que de simples lieux. Ils sont le cœur battant de nos terres, où le flux de la vie se renouvelle sans cesse. Ventvar nous unit dans la diversité, tandis que Mirajhal nous rappelle que même dans l&#39;aridité du désert, la vie trouve un chemin. Ensemble, ils incarnent notre résilience et notre interdépendance. Comme l&#39;eau et le vent tissent le paysage, nos âmes et nos cultures s&#39;entrelacent dans ces lieux, perpétuant le cycle éternel de la vie.*
@@ -1573,14 +1609,14 @@ Comment ces tribus coexistent-elles ?
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
 &gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]
 &gt;[[Ventvar et son histoire m&#39;intrigue, serait-il possible d&#39;en savoir plus ?-&gt;Ventvar_histoire]]
-&gt;[[Pouvez-vous me parler de Mirajhla ?-&gt;Mirajhal_histoire]]</tw-passagedata><tw-passagedata pid="101" name="Ventvar" tags="" position="3500,2300" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Pouvez-vous me parler de Mirajhla ?-&gt;Mirajhal_histoire]]</tw-passagedata><tw-passagedata pid="101" name="Ventvar" tags="" position="2125,4350" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ventvar.webp&#39;}
 
 A l&#39;horizon, Ventvar se dévoile comme une mer de couleurs et de mouvements. Dès les premiers pas, les senteurs épicées des marchés flottent dans l&#39;air, mêlées aux mélodies des musiciens de rue. Les yourtes et les tentes, ornées de tissus vibrants et de symboles tribaux, s&#39;étendent à perte de vue. Les rires des enfants se mêlant aux discussions des marchands créent une symphonie de vie. Et là, au centre, la grande place où les histoires de mille et une nuits prennent vie sous le ciel étoilé.
 
 &gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]
-</tw-passagedata><tw-passagedata pid="102" name="Ventvar_histoire" tags="" position="3625,2300" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="102" name="Ventvar_histoire" tags="" position="2250,4350" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
 
@@ -1590,7 +1626,7 @@ Ventvar, cher ami, n&#39;est pas seulement un carrefour de chemins; c&#39;est un
 &gt;[[Prendre la route pour Ventvar.-&gt;Ventvar]]
 &gt;[[Pouvez-vous me parler de Mirajhla ?-&gt;Mirajhal_histoire]]
 &gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]
-</tw-passagedata><tw-passagedata pid="103" name="Mirajhal_histoire" tags="" position="3750,2300" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="103" name="Mirajhal_histoire" tags="" position="2375,4350" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/ayla.webp&#39;}
 
@@ -1599,7 +1635,7 @@ Mirajhal, l&#39;oasis fortifiée, est enveloppée de légendes aussi vastes que 
 &gt;[[Ventvar et son histoire m&#39;intrigue, serait-il possible d&#39;en savoir plus ?-&gt;Ventvar_histoire]]
 &gt;[[Se rendre à Mirajhal.-&gt;Mirajhal]]
 &gt;[[Poursuivre la discussion-&gt;Ayla]]
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]</tw-passagedata><tw-passagedata pid="104" name="Mirajhal" tags="" position="3875,2300" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]</tw-passagedata><tw-passagedata pid="104" name="Mirajhal" tags="" position="2525,4350" size="100,100">_PassageAvantTirage: passage.name
 _Fragment: _Fragment + 1
 _Fin:5
 --
@@ -1611,7 +1647,7 @@ Lorsque mes yeux se posent sur l&#39;oasis de Mirajhal, le temps suspend son vol
 
 &gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]
 &gt;[[Je décide de m&#39;installer ici, mon voyage prend fin. -&gt;embrasser l&#39;oubli]]
-</tw-passagedata><tw-passagedata pid="105" name="Sablembrase" tags="" position="3625,1450" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="105" name="Sablembrase" tags="" position="2650,3725" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/sablembrase.webp&#39;}
 
@@ -1627,7 +1663,7 @@ Reprenant ma marche, je suis la créature à travers le désert. L&#39;orbe à l
 
 Cette rencontre, au crépuscule, se grave dans ma mémoire comme un moment de connexion profonde avec les mystères des Terres Frontalières.
 
-&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="106" name="Apparition du Gardien de Ruines" tags="" position="3800,1375" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="106" name="Apparition du Gardien de Ruines" tags="" position="2825,3650" size="100,100">_PassageAvantTirage: passage.name
 --
 {embed image: &#39;./assets/Golem.webp&#39;}
 
@@ -1639,7 +1675,7 @@ Je prends une profonde inspiration, mes yeux ne quittant pas ceux du gardien de 
 &gt;[[Je m&#39;apprète à l&#39;affronter-&gt;de défis]]
 
 [note]
-</tw-passagedata><tw-passagedata pid="107" name="douce" tags="" position="3750,1500" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="107" name="douce" tags="" position="2775,3775" size="100,100">_PassageAvantTirage: passage.name
 _Fragment: _Fragment + 1
 --
 {embed image: &#39;./assets/Golem.webp&#39;}
@@ -1664,7 +1700,7 @@ En saisissant l&#39;objet, je sens les fragments de mon passé s&#39;assembler, 
 
 Alors que je quitte le lieu de notre rencontre, le cœur du golem en main, je réalise que ce combat n&#39;était pas seulement une épreuve de force, mais une quête de compréhension, un voyage à travers les ombres de mon propre passé. Je marche désormais vers l&#39;avenir, porteur de l&#39;essence des Silhouétiens, prêt à explorer les profondeurs de mon héritage et à révéler les secrets enfouis dans mon âme.
 
-&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="108" name="de défis" tags="" position="3875,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="108" name="de défis" tags="" position="2900,3775" size="100,100">_PassageAvantTirage: passage.name
 _Fin:6
 _Fragment: _Fragment + 1
 --
@@ -1709,7 +1745,7 @@ Je sens les fragments de mon passé s&#39;assembler, offrant un aperçu de qui j
 
 Alors que je quitte le lieu de notre rencontre, je réalise que ce combat n&#39;était pas seulement une épreuve de force, mais une quête de compréhension, un voyage à travers les ombres de mon propre passé. Je marche désormais vers l&#39;avenir, porteur de l&#39;essence des Silhouétiens, prêt à explorer les profondeurs de mon héritage et à révéler les secrets enfouis dans mon âme.
 
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]</tw-passagedata><tw-passagedata pid="109" name="La Confrontation avec le Spectre du Passé" tags="" position="3925,1250" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;les Terres Frontalières.]]</tw-passagedata><tw-passagedata pid="109" name="La Confrontation avec le Spectre du Passé" tags="" position="2950,3525" size="100,100">_PassageAvantTirage: passage.name
 _PhareAmes:true
 _RencontreCheminVillageScene:[&#39;Sablembrase&#39;,&#39;Apparition du Gardien de Ruines&#39;,&#39;Apparition du Gardien de Ruines&#39;,&#39;Sablembrase&#39;]
 _RencontreVillageScene: _RencontreCheminVillageScene[random.d4-1]
@@ -1736,7 +1772,7 @@ Le spectre m&#39;observe un moment, puis un soupir presque inaudible s&#39;écha
 
 Je reprends ma route, chaque pas empreint d&#39;une nouvelle détermination. Les secrets de ces ruines ne sont pas seulement des vestiges d&#39;un passé lointain, mais des leçons vitales pour l&#39;avenir. Et je suis résolu à dénouer les fils de cette tragédie, pour que les ombres du passé trouvent enfin la paix.
 
-&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;{_RencontreVillageScene}]] </tw-passagedata><tw-passagedata pid="110" name="Phare des âmes" tags="" position="2675,2125" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers les Terres Frontalières -&gt;{_RencontreVillageScene}]] </tw-passagedata><tw-passagedata pid="110" name="Phare des âmes" tags="Noeud" position="2600,2450" size="100,100">_PassageAvantTirage: passage.name
 --
 [if _PhareAmesQui === &#39;Ayla&#39;]
 {embed image: &#39;./assets/ayla.webp&#39;}
@@ -1770,7 +1806,19 @@ Sa voix, évoquant le souffle du vent à travers des ruines oubliées, porte un 
 Ma route me conduit à la lisière des Terres Frontalières. Ai-je le courage de poursuivre ce chemin ?
 
 &gt;[[Partir en quête du Phare-&gt;la route vers le Phare]] 
-&gt;[[Reprendre ma route vers l&#39;empire des ombres -&gt;l&#39;Empire des Ombres.]] </tw-passagedata><tw-passagedata pid="111" name="la route vers le Phare" tags="" position="2825,2225" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route vers l&#39;empire des ombres -&gt;l&#39;Empire des Ombres.]] 
+
+[if _PhareAmesQui === &#39;Marin&#39;]
+Guidé par les précieuses indications du marin à Port-Cendre, je prends la barre de mon modeste navire, le cœur battant à l&#39;idée de l&#39;aventure qui m&#39;attend. La mer, tantôt complice tantôt capricieuse, semble aujourd&#39;hui m&#39;accorder son favor, me portant vers les confins des Terres Frontalières à la recherche du légendaire Phare des âmes. Les voiles gonflées par un vent favorable, je laisse derrière moi la sécurité du port connu pour me plonger dans l&#39;inconnu.
+
+Le voyage, bien que solitaire, est loin d&#39;être silencieux. Le chant des vagues contre la coque, le cri des mouettes en quête de repas, et le murmure constant du vent accompagnent chaque mètre parcouru, comme pour me rappeler que je ne suis qu&#39;un invité dans cet immense domaine maritime. Les jours passent, marqués seulement par le cycle du soleil et de la lune, jusqu&#39;à ce que les silhouettes des Terres Frontalières se dessinent à l&#39;horizon.
+
+À mesure que je m&#39;approche, la terre se révèle sous mes yeux : des falaises abruptes couronnées de verdure, des plages de sable fin où viennent mourir les vagues, et au loin, la silhouette indistincte d&#39;une structure élevée qui ne peut être que le Phare des âmes. Mon cœur s&#39;accélère à la vue de mon objectif enfin à portée. Je réduis la voile et me dirige prudemment vers un petit embarcadère niché à l&#39;abri des falaises, là où la mer semble murmurer des histoires oubliées depuis longtemps.
+
+Une fois à terre, je ressens immédiatement le changement d&#39;atmosphère. L&#39;air est empreint d&#39;une énergie mystérieuse, presque palpable, qui semble émaner du sol lui-même. Je suis sur les terres ancestrales des Frontalières, là où les esprits de la nature et les échos des anciens habitants résonnent encore. Armé de mon sac et d&#39;une lanterne, je commence l&#39;ascension le long du sentier escarpé qui mènera au Phare.
+
+&gt;[[Partir en quête du Phare-&gt;la route vers le Phare]] 
+&gt;[[Reprendre la voile vers Miranthia -&gt;Naviguer vers les Cités Libres de Miranthia.]] </tw-passagedata><tw-passagedata pid="111" name="la route vers le Phare" tags="" position="2750,2550" size="100,100">_PassageAvantTirage: passage.name
 _Paragraphe:random.d4
 sound.ambient.indreams.url: &#39;./assets/indreams.mp3&#39;
 sound.ambient.indreams.description: &#39;gentle sound&#39;
@@ -1787,7 +1835,7 @@ La nuit, je fais des rêves peuplés d&#39;images du Phare, son feu brillant com
 Alors que je m&#39;approche du Phare des Âmes, une sensation indescriptible m&#39;envahit. C&#39;est comme si le temps lui-même se dilatait, chaque seconde chargée d&#39;une signification nouvelle. Je réalise que cette quête n&#39;est pas seulement un voyage à travers les terres, mais aussi à travers les couches de mon propre esprit, révélant des vérités longtemps cachées sous des années d&#39;oubli. Suis-je prêt à affronter ces vérités ?
 
 &gt;[[Je ne suis pas prêt, je préfère faire demi-tour. -&gt;les Terres Frontalières.]] 
-&gt;[[Je suis prêt, je me dirige vers le phare. -&gt;Arrivée au Phare]] </tw-passagedata><tw-passagedata pid="112" name="Arrivée au Phare" tags="" position="2675,2400" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je suis prêt, je me dirige vers le phare. -&gt;Arrivée au Phare]] </tw-passagedata><tw-passagedata pid="112" name="Arrivée au Phare" tags="" position="2575,2750" size="100,100">_PassageAvantTirage: passage.name
 _Paragraphe:random.d4
 _Fin:7
 --
@@ -1796,7 +1844,7 @@ _Fin:7
 Enfin, après des jours de marche, le Phare se dresse devant moi, émergeant des brumes comme un fantôme du passé. Son apparence est à la fois imposante et accueillante, un phare d&#39;espoir dans ce monde de ténèbres. Alors que je me tiens devant lui, prêt à accomplir ce pour quoi je suis venu, je sens un lien indéfectible entre le phare, les esprits tourmentés qu&#39;il cherche à apaiser, et ma propre âme. Je suis prêt à affronter les défis qui m&#39;attendent, guidé par les leçons des rencontres mystérieuses et les échos des rêves qui m&#39;ont mené ici. C&#39;est dans ce moment de communion profonde avec le monde autour de moi que je trouve la force de poursuivre, conscient que la fin de ma quête est juste un nouveau commencement.
 
 &gt;[[Je ne suis pas prêt, je préfère faire demi-tour. -&gt;les Terres Frontalières.]] 
-&gt;[[Je m&#39;avance d&#39;un pas résolu vers le Phare-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="113" name="Suivre la silhouette" tags="" position="4300,1650" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je m&#39;avance d&#39;un pas résolu vers le Phare-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="113" name="Suivre la silhouette" tags="" position="3450,2575" size="100,100">_PassageAvantTirage: passage.name
 _Nuitveille:true
 --
 {embed image: &#39;./assets/Nuitveille_porte.webp&#39;}
@@ -1808,7 +1856,7 @@ Guidé par cet instinct naissant, je découvre que je peux percevoir les subtile
 Finalement, les ombres me mènent à une porte secrète, dissimulée derrière un voile d&#39;obscurité si profonde qu&#39;elle semble engloutir toute lumière. 
 
 &gt;[[Emprunter la porte-&gt;Sanctuaire]]
-&gt;[[Certains secret ne doivent pas être revelé, je continue ma route-&gt;Le marché de Nuitveille]]</tw-passagedata><tw-passagedata pid="114" name="Discuter silhouette" tags="" position="4375,1475" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Certains secret ne doivent pas être revelé, je continue ma route-&gt;Le marché de Nuitveille]]</tw-passagedata><tw-passagedata pid="114" name="Discuter silhouette" tags="" position="3525,2400" size="100,100">_PassageAvantTirage: passage.name
 _Nuitveille:true
 _Silhouette:true
 _Boussole:true
@@ -1831,7 +1879,7 @@ Ainsi commence mon exploration de Nuitveille, une quête non seulement de répon
 
 &gt;[[S&#39;enfoncer dans Nuitveille-&gt;Le marché de Nuitveille]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
-&gt;[[Scruter les ombres à la recherche de la silhouette-&gt;Suivre la silhouette]]</tw-passagedata><tw-passagedata pid="115" name="Sanctuaire" tags="" position="4300,1825" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Scruter les ombres à la recherche de la silhouette-&gt;Suivre la silhouette]]</tw-passagedata><tw-passagedata pid="115" name="Sanctuaire" tags="" position="3450,2750" size="100,100">_PassageAvantTirage: passage.name
 _Fragment: _Fragment +1
 --
 {embed image: &#39;./assets/Nuitveille_sanctuaire.webp&#39;}
@@ -1850,7 +1898,7 @@ Alors que je quitte le sanctuaire, les mots de Nébula résonnent en moi. Une pa
 
 &gt;[[S&#39;enfoncer dans les rues de Nuitveille-&gt;Le marché de Nuitveille]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
-&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="116" name="Le marché de Nuitveille" tags="" position="4600,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="116" name="Le marché de Nuitveille" tags="" position="3750,2475" size="100,100">_PassageAvantTirage: passage.name
 _MarcheNuitveille:true
 --
 {embed image: &#39;./assets/Nuitveille_marche.webp&#39;}
@@ -1861,7 +1909,7 @@ Alors que je déambule entre les étals, un vendeur, dissimulé sous un capuchon
 
 &gt;[[Demander à en savoir plus sur ses marchandises-&gt;S&#39;approcher du marchand]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
-&gt;[[Reprendre ma route-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="117" name="S&#39;approcher du marchand" tags="" position="4575,1700" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre ma route-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="117" name="S&#39;approcher du marchand" tags="" position="3725,2625" size="100,100">_PassageAvantTirage: passage.name
 _Marchandises:random.d4
 --
 {embed image: &#39;./assets/Nuitveille_marchand.webp&#39;}
@@ -1900,7 +1948,7 @@ _Marchandises:random.d4
 
 &gt;[[Demander à en savoir plus sur ses marchandises-&gt;S&#39;approcher du marchand]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
-&gt;[[S&#39;enfoncer dans Nuitveille-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="118" name="M&#39;enfoncer dans la forêt" tags="" position="4925,1675" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[S&#39;enfoncer dans Nuitveille-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="118" name="M&#39;enfoncer dans la forêt" tags="" position="4075,2600" size="100,100">_PassageAvantTirage: passage.name
 _ForetMiroir:true
 _PhareAmes:true
 --
@@ -1914,7 +1962,7 @@ C&#39;est là, au cœur de la Forêt des Miroirs, que je commence à comprendre 
 
 &gt;[[Continuer d&#39;observer le miroir]]
 &gt;[[Faire demi-tour et retourner à la croisée des chemins-&gt;mapp]]
-&gt;[[Reprendre la route de Nuitveille-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="119" name="Continuer d&#39;observer le miroir" tags="" position="4925,1800" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Reprendre la route de Nuitveille-&gt;Nuitveille]]</tw-passagedata><tw-passagedata pid="119" name="Continuer d&#39;observer le miroir" tags="" position="4075,2725" size="100,100">_PassageAvantTirage: passage.name
 _ForetMiroir:true
 _PhareAmesQui:&#39;Miroir&#39;
 _Fragment: _Fragment +1
@@ -1939,7 +1987,7 @@ Je regarde, fasciné, la voie céleste qui s&#39;ouvre devant moi, sentant dans 
 
 La vision s&#39;estompe, me laissant devant le miroir, les yeux humides et le cœur battant. Les paroles de mon grand-père résonnent en moi avec une clarté nouvelle. Je comprends maintenant que le chemin vers le Phare des Âmes était inscrit en moi depuis le début, un héritage familial que j&#39;avais oublié, mais jamais vraiment perdu.
 
-Armé de cette révélation, je sais ce qu&#39;il me reste à faire. Le sextant de mon grand-père, la ligne de lumière dans le ciel, tout me conduit vers ma véritable destinée. Le Phare des Âmes m&#39;attend, et avec lui, la réponse aux mystères de mon passé et la clé de mon avenir. [[Je dois suivre le chemin tracé par les étoiles-&gt;Phare des âmes]], un chemin qui mène non seulement au phare, mais aussi à la compréhension de ma place dans ce monde et dans l&#39;équilibre fragile entre les ombres et la lumière.</tw-passagedata><tw-passagedata pid="120" name="Contempler le ciel" tags="" position="4525,1850" size="100,100">_PassageAvantTirage: passage.name
+Armé de cette révélation, je sais ce qu&#39;il me reste à faire. Le sextant de mon grand-père, la ligne de lumière dans le ciel, tout me conduit vers ma véritable destinée. Le Phare des Âmes m&#39;attend, et avec lui, la réponse aux mystères de mon passé et la clé de mon avenir. [[Je dois suivre le chemin tracé par les étoiles-&gt;Phare des âmes]], un chemin qui mène non seulement au phare, mais aussi à la compréhension de ma place dans ce monde et dans l&#39;équilibre fragile entre les ombres et la lumière.</tw-passagedata><tw-passagedata pid="120" name="Contempler le ciel" tags="" position="3675,2775" size="100,100">_PassageAvantTirage: passage.name
 _Ciel:random.d4
 _Fin:9
 --
@@ -1978,7 +2026,7 @@ Face aux ruelles de Nuitveille, je lève les yeux vers le ciel encore une fois. 
 &gt;[[Contempler le ciel-&gt;Contempler le ciel]]
 &gt;[[Suivre la boussole-&gt;Forêt des Miroirs ]]
 &gt;[[Poursuivre ma route-&gt;Nuitveille]]
-&gt;[[Je décide que ma quête se termine ici, à Nuitveille-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="121" name=" La Diseuse de Bonne Aventure" tags="" position="5800,1575" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je décide que ma quête se termine ici, à Nuitveille-&gt;embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="121" name=" La Diseuse de Bonne Aventure" tags="" position="4950,2500" size="100,100">_PassageAvantTirage: passage.name
 _Crepusculine:true
 --
 [if !_BonneAventure]
@@ -1997,7 +2045,7 @@ Assise sous un auvent de velours pourpre, une table devant elle ornée de crista
 *&quot;Approchez, voyageur des ombres,&quot;* dit-elle d&#39;une voix douce, teintée d&#39;un accent étranger. *&quot;Laissez-moi lire les fils de votre avenir et révéler les secrets que votre cœur cherche à comprendre.&quot;*
 
 &gt;[[Demander à connaitre mon avenir-&gt;Tirage Crepusculine 2]]
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="122" name="Se rendre à la taverne" tags="" position="6075,1575" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="122" name="Se rendre à la taverne" tags="" position="5225,2500" size="100,100">_PassageAvantTirage: passage.name
 _Crepusculine:true
 --
 [if !_MiroirMagique]
@@ -2027,7 +2075,7 @@ Avec ces mots, il disparaît dans l&#39;ombre, me laissant seul avec le mystéri
 [Else]
 La lueur vacillante des chandelles projette des ombres dansantes sur les murs de la taverne, un havre pour les âmes nocturnes en quête de chaleur et de réconfort dans le cœur sombre de la cité. Le murmure des conversations se mêle à la mélodie mélancolique d&#39;une vielle à roue, jouée par un musicien dont le visage reste caché dans l&#39;ombre d&#39;un capuchon. L&#39;air est empreint d&#39;une odeur de bière épicée et de ragoût fumant, invitant les visiteurs à se détendre et à oublier pour un temps les mystères et les dangers qui se tapissent à l&#39;extérieur.
 
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="123" name="Se diriger vers l&#39;échoppe" tags="" position="5575,1550" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="123" name="Se diriger vers l&#39;échoppe" tags="" position="4725,2475" size="100,100">_PassageAvantTirage: passage.name
 _Crepusculine:true
 --
 [if !_Masque]
@@ -2046,7 +2094,7 @@ Derrière le comptoir sculpté,l&#39;homme me regarde à travers ses lunettes au
 
 &gt;[[Demander à en savoir plus sur son art-&gt;Art Masque]]
 &gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
-</tw-passagedata><tw-passagedata pid="124" name="Déballer l&#39;objet" tags="" position="6075,1725" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="124" name="Déballer l&#39;objet" tags="" position="5225,2650" size="100,100">_PassageAvantTirage: passage.name
 _MiroirMagique:true
 --
 Une fois le tissu noir soigneusement déroulé je trouve un petit miroir octogonal encadré de métal sombre, presque noir, incrusté de pierres qui semblent absorber la lumière environnante. 
@@ -2055,7 +2103,7 @@ Ce miroir, je le comprends rapidement, n&#39;est pas un simple objet de réflexi
 
 L&#39;homme au masque mentionné que cet artefact me permettrait de voir *&quot;ce qui reste caché aux yeux des mortels&quot;*. Je réalise alors que ce miroir est la clé pour naviguer les mystères de Crepusculine et, éventuellement, pour trouver mon chemin. Son pouvoir ne réside pas seulement dans la capacité de percer les secrets matériels, mais aussi de toucher aux vérités plus profondes, celles enfouies dans les cœurs et les esprits.
 
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="125" name="convaincre les mineurs" tags="" position="5200,1925" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="125" name="convaincre les mineurs" tags="" position="4350,2850" size="100,100">_PassageAvantTirage: passage.name
 --
 [if _EchecMasque]
 Revêtu du masque obtenu à Crepusculine, je m&#39;approche à nouveau des mineurs rassemblés à l&#39;entrée des Mines de Lune. L&#39;artefact, une œuvre d&#39;obscurité cristallisée et de lumière de lune, enveloppe mon visage d&#39;une aura de mystère et de puissance ancienne. Les mineurs, qui m&#39;avaient précédemment refusé l&#39;accès, observent avec une curiosité renouvelée la transformation que le masque opère sur ma présence.
@@ -2101,7 +2149,7 @@ Grâce à Calix et au masque de Crepusculine, mon voyage dans les Mines de Lune 
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="126" name="ne pas convaincre les mineurs" tags="" position="5375,1925" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="126" name="ne pas convaincre les mineurs" tags="" position="4525,2850" size="100,100">_PassageAvantTirage: passage.name
 _EchecMasque:true
 --
 La lumière vacillante des torches joue sur leurs visages marqués par le travail et la poussière. L&#39;air est chargé d&#39;une anticipation silencieuse alors que j&#39;explique mon désir d&#39;explorer les profondeurs des mines, espérant découvrir les secrets anciens enfouis sous la montagne.
@@ -2123,7 +2171,7 @@ La déception de cet échec pèse lourdement sur mes épaules alors que je m&#39
 &gt;[[Retourner à Nuitveille-&gt;Nuitveille]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="127" name="Masque" tags="" position="5500,1725" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Je décide re repartir vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="127" name="Masque" tags="" position="4650,2650" size="100,100">_PassageAvantTirage: passage.name
 _Masque:true
 --
 Je m&#39;approche, fasciné par la diversité des masques. *&quot;Je cherche un masque qui pourrait m&#39;aider à naviguer les ombres de Crepusculine,&quot;* dis-je, *&quot;quelque chose qui révélerait les vérités cachées et protégerait mon identité.&quot;*
@@ -2136,7 +2184,7 @@ L&#39;artisan sourit, ses yeux brillant derrière son masque. *&quot;Pour vous, 
 
 Acceptant le pacte tacite, je place le masque sur mon visage, sentant immédiatement une connexion, comme si une partie de moi longtemps endormie s&#39;éveillait. Je remercie l&#39;artisan et quitte l&#39;échoppe, armé d&#39;un nouvel outil pour explorer les mystères de Crepusculine, prêt à affronter les ombres avec une nouvelle perspective.
 
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="128" name="Art Masque" tags="" position="5650,1725" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="128" name="Art Masque" tags="" position="4800,2650" size="100,100">_PassageAvantTirage: passage.name
 _MasqueLien: _Masque &amp;&amp; _LienAme
 --
 Dans l&#39;atmosphère feutrée de sa boutique, l&#39;artisan des masques, ses yeux brillant derrière ses lunettes d&#39;ambre, me fait signe de m&#39;approcher. Autour de nous, des masques d&#39;une beauté envoûtante ornent les murs, chacun porteur d&#39;une histoire et d&#39;un pouvoir unique. Alors que je m&#39;immerge dans cet univers de mystère, l&#39;artisan commence à partager la science des masques et leur importance profonde pour ceux qui choisissent de les porter.
@@ -2154,7 +2202,7 @@ Dans l&#39;atmosphère feutrée de sa boutique, l&#39;artisan des masques, ses y
 &gt;[[Les liens d&#39;âmes ?]]
 &gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
 
-</tw-passagedata><tw-passagedata pid="129" name="Tirage Crepusculine" tags="" position="5775,1725" size="100,100">_PassageAvantTirage: passage.name
+</tw-passagedata><tw-passagedata pid="129" name="Tirage Crepusculine" tags="" position="4925,2650" size="100,100">_PassageAvantTirage: passage.name
 _Crepusculine:true
 _BonneAventure:true
 --
@@ -2166,7 +2214,7 @@ Elle pose sa main sur la mienne, son toucher est à la fois rassurant et électr
 
 La rencontre se termine avec plus de questions que de réponses, mais un sentiment de détermination renouvelée m&#39;envahit. Je la remercie pour ses mots énigmatiques et me lève, le cœur léger mais l&#39;esprit en ébullition, prêt à déchiffrer les mystères que Crepusculine et la nuit ont en réserve pour moi. Son dernier regard, pénétrant et mystérieux, m&#39;accompagne alors que je m&#39;éloigne, un rappel que le chemin de la découverte est souvent pavé d&#39;incertitudes et d&#39;espoirs étoilés.
 
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="130" name="Tirage Crepusculine 2" tags="" position="5900,1725" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="130" name="Tirage Crepusculine 2" tags="" position="5050,2650" size="100,100">_PassageAvantTirage: passage.name
 _Crepusculine:true
 _BonneAventure:true
 _Paragraphe:random.d4
@@ -2205,7 +2253,7 @@ La carte que je choisis est Le Magicien. Ses yeux semblent pénétrer les miens,
 
 *&quot;Le Magicien représente la maîtrise et la manifestation de la volonté. Ce tirage parle de ton pouvoir personnel et de ta capacité à influencer le monde autour de toi. Ton passé t&#39;a préparé à ce moment, où tu possèdes désormais toutes les ressources et le savoir nécessaires pour accomplir ta quête. Fais confiance à ton pouvoir intérieur, car tu es le maître de ton avenir et le créateur de ton destin.&quot;*
 
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="131" name="Les liens d&#39;âmes ?" tags="" position="5575,1900" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="131" name="Les liens d&#39;âmes ?" tags="" position="4725,2825" size="100,100">_PassageAvantTirage: passage.name
 _LienAme:true
 --
 Alors que l&#39;artisan des masques replace soigneusement un masque sur son étagère, je saisis l&#39;occasion pour approfondir ma compréhension de la magie qui imbibe les Terres d&#39;Écho. *&quot;Pourriez-vous m&#39;expliquer ce que sont exactement les Liens d&#39;âme ?&quot;* demandé-je, ma curiosité piquée par les récits de ses masques uniques.
@@ -2223,7 +2271,7 @@ Après une pause il reprend, son regard se perdant un instant dans la contemplat
 L&#39;artisan conclut : *&quot;La magie des Liens d&#39;âme est à la fois simple et infiniment complexe. Elle est la preuve que nous ne sommes jamais vraiment seuls, que nous faisons partie d&#39;un tout bien plus vaste. Chaque masque que je crée est une célébration de ces liens, un moyen de les explorer et de les honorer.&quot;*
 
 &gt;[[Merci, puis-je voir ce masque ?-&gt;Puis-je voir ce masque ?]]
-&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="132" name="Puis-je voir ce masque ?" tags="" position="5725,1900" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]</tw-passagedata><tw-passagedata pid="132" name="Puis-je voir ce masque ?" tags="" position="4875,2825" size="100,100">_PassageAvantTirage: passage.name
 _Paragraphe:random.d4
 --
 [if _Paragraphe === 1]
@@ -2257,6 +2305,291 @@ L&#39;artisan s&#39;arrête, me laissant absorber la portée de ses paroles. *&q
 [if _Masque]
 &gt;[[Puis-je voir ce masque ?]]
 &gt;[[Revenir à l&#39;entrée de la ville-&gt;Crepusculine]]
+
+</tw-passagedata><tw-passagedata pid="133" name="Approcher discrètement du port" tags="" position="4225,750" size="100,100">_PassageAvantTirage: passage.name
+_PortCendre:true
+--
+Je décide de la prudence, guidant mon embarcation vers un quai plus isolé. L&#39;obscurité m&#39;enveloppe, me permettant d&#39;observer l&#39;ambiance de Port-Cendre sans me faire remarquer. Le murmure des vagues se mêle aux sons lointains de l&#39;agitation du port. Un chat de gouttière, témoin curieux de mon arrivée, s&#39;éclipse soudainement dans une ruelle sombre.
+
+&gt;[[Suivre le chat]]
+&gt;[[Explorer les ruelles]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="134" name="Accoster au cœur de l&#39;activité" tags="" position="4600,850" size="100,100">_PassageAvantTirage: passage.name
+_RuePortCendre:3
+--
+Animé par un esprit d&#39;aventure, je me dirige vers le cœur du tumulte. Les quais bouillonnent de vie, où marins, marchands et pirates échangent histoires et biens. L&#39;odeur du rhum et la mélodie des violons m&#39;accueillent comme un vieux complice.
+
+Sur le quai de Port-Cendre, je me tiens là, les yeux écarquillés, absorbant le spectacle devant moi. La brise marine porte l&#39;odeur du sel et des aventures lointaines, tandis que les cris des mouettes se mêlent au brouhaha des marins et des marchands s&#39;affairant autour de moi. Des navires de toutes tailles et formes sont amarrés le long du quai, leurs mâts s&#39;élevant comme une forêt de bois vers le ciel azuré. Certains bateaux sont chargés de marchandises exotiques, d&#39;autres prêts à partir vers des terres inconnues, leurs voiles impatientes de capturer le vent.
+
+[if !_Jorik]
+&gt;[[Participer à une partie de cartes-&gt;Participer à une partie de cartes]]
+&gt;[[Entrer dans la première taverne que je croise-&gt;taverne Miranthia]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]
+
+[Else]
+&gt;[[Participer à une partie de cartes-&gt;Participer à une partie de cartes]]
+&gt;[[Offrir une tournée dans la taverne la plus proche-&gt;Jorik]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]</tw-passagedata><tw-passagedata pid="135" name="Héler un navire voisin" tags="" position="4800,800" size="100,100">_PassageAvantTirage: passage.name
+_PortCendre:true
+--
+Vous criez en direction d&#39;un navire voisin, attirant l&#39;attention d&#39;un marin balafré qui s&#39;approche, une lanterne à la main. *&quot;Qu&#39;est-ce qui amène un étranger à Port-Cendre à cette heure ?&quot;* Sa voix est rauque, mais pas dénuée de curiosité.
+
+&gt;[[Poser des questions sur les opportunités de travail]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]
+[if _PhareAmes]
+&gt;[[Demander des informations sur le Phare des âmes]]</tw-passagedata><tw-passagedata pid="136" name="Suivre le chat" tags="" position="4075,900" size="100,100">_PassageAvantTirage: passage.name
+_RuePortCendre:1
+--
+Je décide de suivre le chat, ce guide inattendu qui semble connaître les secrets de Port-Cendre mieux que quiconque. Ses pas silencieux me mènent à travers les ruelles étroites, loin du tumulte des quais. L&#39;ombre des bâtiments s&#39;étire sur le pavé et je me sens comme un intrus dans un monde où chaque pierre et chaque souffle de vent racontent une histoire ancienne.
+
+Le chat s&#39;arrête soudain devant une porte dérobée, presque dissimulée par l&#39;ombre. Une lumière tamisée filtre sous la porte, accompagnée d&#39;un murmure de voix. Intrigué, je pousse la porte et découvre un petit cabaret caché, un havre pour les âmes en quête de tranquillité loin de l&#39;agitation du port. Les murs sont tapissés de cartes maritimes et de portraits de marins légendaires, tandis qu&#39;une douce mélodie de violon enveloppe l&#39;espace.
+
+Les clients, un mélange hétéroclite de marins tatoués, d&#39;artisans locaux et de quelques visages qui trahissent leur noblesse déguisée, partagent des histoires autour de verres de rhum ambré. Au fond de la salle, un vieux marin, le visage creusé par le sel et le soleil, raconte avec passion une aventure en mer, captivant son auditoire. À côté de lui, une carte étalée sur la table semble indiquer la localisation d&#39;un trésor ou d&#39;une île inconnue.
+
+Je m&#39;approche du bar, où le barman, un homme à l&#39;air bourru mais aux yeux pétillants d&#39;intelligence, s&#39;affaire à préparer des boissons exotiques. Il me lance un regard curieux, comme s&#39;il pouvait lire en moi l&#39;âme d&#39;un aventurier. Je décide de commander une boisson, espérant engager la conversation et peut-être découvrir les secrets que ce lieu semble garder.
+
+Tandis que je savoure mon verre, j&#39;observe les interactions autour de moi, chaque geste et chaque échange me fournissant un aperçu plus profond de la vie à Port-Cendre. Il y a une magie ici, un sentiment d&#39;appartenance à une communauté de marginaux et de rêveurs, unis par l&#39;amour de la mer et la soif d&#39;aventure.
+
+Le chat, ayant apparemment accompli sa mission en me menant à ce lieu singulier, s&#39;est blotti sur une chaise voisine, les yeux mi-clos, surveillant la salle avec une sérénité royale. Je comprends alors que cette soirée inattendue est un cadeau de Port-Cendre, une invitation à plonger dans ses mystères et à embrasser son esprit de liberté.
+
+Dans cette enclave cachée, loin des regards indiscrets, je sens que ma quête dans les Cités Libres de Miranthia ne fait que commencer.
+
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]] 
+&gt;[[M&#39;approcher du vieux marins-&gt;Jorik]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="137" name="Explorer les ruelles" tags="" position="4250,900" size="100,100">_PassageAvantTirage: passage.name
+_RuePortCendre:2
+--
+Je choisis d&#39;explorer les ruelles sinueuses de Port-Cendre, m&#39;éloignant des lumières et des chants du port pour me plonger dans l&#39;inconnu. Le clair de lune filtre à travers les toits entrecroisés, éclairant mon chemin d&#39;une lumière fantomatique. Les pavés sous mes pieds résonnent de mes pas, et l&#39;air est empreint d&#39;un mélange d&#39;odeurs : mer, bois humide, et quelque chose de doucement épicé que je ne parviens pas à identifier.
+
+À mesure que je m&#39;avance, les sons du port s&#39;estompent, remplacés par le murmure discret de conversations étouffées et le claquement occasionnel d&#39;une fenêtre. Les maisons se pressent les unes contre les autres, leurs façades délavées par le sel et le temps racontant des histoires de tempêtes et de fortunes perdues et retrouvées.
+
+Soudain, une ruelle plus étroite attire mon attention. Bordée de petites boutiques fermées pour la nuit et de portes colorées menant à des demeures mystérieuses, elle semble promettre ses propres secrets. J&#39;y détecte un mouvement : une ombre qui s&#39;esquive rapidement au coin d&#39;une rue. La curiosité piquée, je décide de suivre.
+
+L&#39;ombre mène à un petit marché nocturne que je n&#39;aurais jamais imaginé trouver ici. Des lanternes suspendues jettent une lueur douce sur des étals regorgeant de marchandises exotiques : épices rares, tissus chatoyants, bijoux étranges et artefacts provenant de contrées lointaines. Les marchands, enveloppés dans leurs capes, me regardent passer avec un intérêt discret, murmurant des invitations à venir explorer leurs trésors.
+
+Je m&#39;arrête devant un étal particulièrement intrigant, où des objets de navigation anciens sont soigneusement disposés. Sextants, cartes maritimes aux itinéraires mystérieux, et boussoles d&#39;un autre âge me parlent d&#39;aventures en haute mer et de découvertes oubliées. Le marchand, un vieil homme aux yeux pétillants de malice, me fait signe d&#39;approcher, promettant des histoires derrière chaque objet.
+
+Alors que j&#39;écoute, fasciné, les récits du marchand, je prends conscience de la richesse cachée de Port-Cendre, de ses ruelles et de ses habitants. Chaque pas dans cette cité me révèle un monde plus complexe et enchanteur que je ne l&#39;aurais imaginé, un lieu où chaque coin de rue peut mener à une nouvelle aventure ou à une découverte inattendue.
+
+La nuit s&#39;approfondit, mais mon exploration ne fait que commencer. Port-Cendre, avec ses mystères et ses merveilles, m&#39;a capturé, et je sais que je ne pourrai me reposer tant que je n&#39;aurai pas dévoilé un peu plus de ses secrets cachés dans l&#39;ombre de ses ruelles.
+
+[if !_Jorik]
+&gt;[[Discuter avec le marchand]]
+&gt;[[Entrer dans la première taverne que je croise-&gt;Jorik]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]
+
+[if _Jorik]
+&gt;[[Discuter avec le marchand]]
+&gt;[[Entrer dans la première taverne que je croise-&gt;taverne Miranthia]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]</tw-passagedata><tw-passagedata pid="138" name="Participer à une partie de cartes" tags="" position="4525,975" size="100,100">_PassageAvantTirage: passage.name
+_PortCendre:true
+--
+Animé par un esprit d&#39;aventure, je me dirige vers le cœur du tumulte. Les quais bouillonnent de vie, où marins, marchands et pirates échangent histoires et biens. L&#39;odeur du rhum et la mélodie des violons m&#39;accueillent comme un vieux complice.
+
+[if !_Jorik]
+&gt;[[Participer à une partie de cartes-&gt;Partie de carte]]
+&gt;[[Entrer dans la première taverne que je croise-&gt;taverne Miranthia]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]
+
+[Else]
+&gt;[[Participer à une partie de cartes-&gt;Partie de carte]]
+&gt;[[Offrir une tournée dans la taverne la plus proche-&gt;Jorik]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]</tw-passagedata><tw-passagedata pid="139" name="Demander des informations sur le Phare des âmes" tags="" position="4750,950" size="100,100">_PassageAvantTirage: passage.name
+--
+*&quot;Excusez-moi,&quot;* ma voix porte à peine au-dessus du bruit des vagues et des cris des mouettes. *&quot;Je cherche des informations sur le Phare des âmes. Auriez-vous quelque chose à partager ?&quot;*
+
+Le marin, d&#39;abord surpris par ma question, me jette un regard scrutateur. Ses yeux, façonnés par le sel et les tempêtes, semblent peser le risque de partager de telles connaissances avec un étranger. Après un moment qui me semble une éternité, il souffle, l&#39;air de quelqu&#39;un qui prend une décision difficile.
+
+*&quot;Le Phare des âmes, hein ?&quot;* Sa voix est rauque, comme si les mots eux-mêmes étaient réticents à quitter ses lèvres. *&quot;C&#39;est un endroit que peu cherchent et encore moins trouvent. On dit qu&#39;il se trouve là où l&#39;horizon embrasse la mer sous le premier rayon de la pleine lune. Mais ce n&#39;est pas un voyage à entreprendre à la légère, jeune aventurier. Ceux qui naviguent vers le Phare ne reviennent pas toujours... ou alors, ils reviennent changés.&quot;*
+
+Son avertissement résonne en moi, mais loin de m&#39;ébranler, il alimente ma détermination. Le mystère du Phare des âmes n&#39;est pas seulement une énigme ; c&#39;est un appel.
+
+&gt;[[Je me ravise et lui demande s&#39;il y a des opportunités pour travailler-&gt;Poser des questions sur les opportunités de travail]]
+&gt;[[Ma résolution est sans faille et je l&#39;invite à poursuivre]]
+
+</tw-passagedata><tw-passagedata pid="140" name="Poser des questions sur les opportunités de travail" tags="" position="4975,975" size="100,100">_PassageAvantTirage: passage.name
+_RuePortCendre:4
+--
+Après avoir échangé quelques mots avec le marin robuste, ma curiosité me pousse à aller plus loin. *&quot;Connaissez-vous des opportunités de travail dans le coin ? Je suis prêt à mettre la main à la pâte,&quot;* dis-je, espérant que mon enthousiasme soit contagieux.
+
+Le marin me regarde un moment, évaluant ma sincérité, puis un sourire se dessine sur son visage marqué par le sel et le soleil. *&quot;Si c&#39;est le travail que tu cherches, tu devrais te diriger vers la taverne du Vieux Kraken. C&#39;est là que se retrouvent capitaines en quête d&#39;équipage et marchands cherchant des bras forts. Tu y trouveras peut-être ton bonheur, ou au moins, une piste à suivre.&quot;*
+
+Remerciant le marin pour son conseil,[[je me dirige vers la taverne du Vieux Kraken-&gt;Taverne Kraken]], guidé par l&#39;éclat des lanternes qui percent la tombée de la nuit. L&#39;air est empreint d&#39;une odeur de mer, d&#39;épices et de rhum, mélange enivrant qui me pousse à avancer.</tw-passagedata><tw-passagedata pid="141" name="Jorik" tags="" position="4125,1100" size="100,100">_PassageAvantTirage: passage.name
+_Jorik:true
+_Fin:10
+--
+[if _RuePortCendre === 1]
+Au centre de l&#39;animation, un homme à la stature imposante capte l&#39;attention de tous. C&#39;est le capitaine Jorik Œil-de-Tempête, une légende parmi les navigateurs, reconnaissable à son tatouage d&#39;un kraken qui semble danser sur son bras au rythme de ses histoires.
+
+*« Et là, au cœur du Lagon des Murmures, où le silence est si profond qu&#39;on peut entendre son propre cœur battre, une forme immense a surgi des profondeurs... »*, raconte-t-il, les yeux brillants d&#39;un mélange de frayeur et d&#39;excitation. Son récit, plein de tempêtes terrifiantes, de trésors cachés et de créatures marines inimaginables, est si vivant que je peux presque sentir l&#39;écume salée et voir les ombres menaçantes se mouvoir sous les vagues.
+
+Captivé, je me rapproche, poussé par une soif d&#39;aventure et une curiosité insatiable. Le capitaine, remarquant mon intérêt, me lance un regard pénétrant. *« Vous aussi, vous sentez l&#39;appel du large, n&#39;est-ce pas ? Le Lagon n&#39;est pas pour les cœurs faibles, mais c&#39;est là que se trouvent les plus grands secrets »*, me confie-t-il, baissant la voix comme pour partager un secret ancestral.
+
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]] 
+&gt;[[Embarquer pour le lagon des murmures-&gt;Lagon des Murmures]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]
+
+[if _RuePortCendre === 2]
+Après avoir quitté le marché nocturne, l&#39;esprit encore enivré de mystères et d&#39;épices exotiques, je pénètre dans une taverne en quête de repos et d&#39;un verre. La chaleur humaine qui s&#39;en dégage me réconforte, contrastant avec le froid mystérieux des ruelles de Port-Cendre. L&#39;atmosphère est électrisée par un homme au centre de la pièce, dont la voix tonitruante se fraye un chemin jusqu&#39;à mes oreilles.
+
+Il s&#39;agit du capitaine Jorik Œil-de-Tempête, un navigateur dont les aventures semblent aussi vastes que l&#39;océan lui-même. *« ...et alors que nous naviguions à travers le Lagon des Murmures, l&#39;eau s&#39;est mise à bouillonner autour de nous, comme si d&#39;anciens géants se réveillaient des abysses »*, narre-t-il, captivant l&#39;audience avec ses histoires de périls marins et de trésors enfouis.
+
+Intrigué, je m&#39;installe à une table non loin pour mieux écouter. Les yeux du capitaine scintillent d&#39;une passion indomptable, ses mains dessinant dans l&#39;air les contours d&#39;un monde regorgeant de dangers et de merveilles. *« Seuls ceux qui osent affronter le Lagon et ses mystères peuvent prétendre à la gloire et à la fortune »*, conclut-il, posant sur moi un regard qui semble sonder mon âme.
+
+Ce soir, loin de l&#39;obscurité des ruelles et de l&#39;émerveillement du marché secret, je trouve dans les récits du capitaine Jorik une nouvelle voie à explorer. Peut-être est-ce là le début de ma propre quête, une aventure qui m&#39;entraînera au-delà des cartes connues, vers le Lagon des Murmures et au-delà.
+
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]] 
+&gt;[[Embarquer pour le lagon des murmures-&gt;Lagon des Murmures]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]
+
+[if _RuePortCendre === 3]
+Dès que je pénètre dans la taverne, l&#39;atmosphère chaleureuse et le bourdonnement des conversations me saisissent. Les murs sont ornés de cartes marines et de trophées de la mer, témoignages silencieux d&#39;innombrables aventures. Les visages autour de moi racontent des histoires de vie en mer, de tempêtes bravées et de terres lointaines explorées. Inspiré par l&#39;esprit de camaraderie qui règne, je décide d&#39;offrir une tournée générale, souhaitant partager un moment de fraternité avec ces âmes vagabondes.
+
+*&quot;Une tournée pour tout le monde !&quot;*, annoncé-je d&#39;une voix forte, attirant l&#39;attention de l&#39;assemblée. Un murmure d&#39;approbation s&#39;élève, et des sourires se dessinent sur les visages burinés par le sel et le soleil. Le tavernier, un homme robuste au regard bienveillant, s&#39;active pour servir les boissons, et bientôt, les chopes se lèvent en un toast commun.
+
+C&#39;est alors que je remarque un homme dont la présence domine la salle. C&#39;est le capitaine Jorik Œil-de-Tempête, un navigateur légendaire dont le nom est murmuré avec respect et une pointe de crainte sur tous les quais des Cités Libres. Son regard perçant se pose sur moi, et il s&#39;avance avec l&#39;assurance de ceux qui ont affronté les caprices de l&#39;océan et en sont revenus pour raconter leur histoire.
+
+*&quot;À ton audace, étranger,&quot;* dit-il en levant sa chope en ma direction. Sa voix, profonde et marquée par le vent, porte en elle l&#39;écho des tempêtes. Je lève ma propre chope, touché par son geste. *&quot;À la mer et à ceux qui osent la défier,&quot;* réponds-je, conscient de l&#39;honneur qui m&#39;est accordé.
+
+Nous trinquons, et le capitaine m&#39;invite à sa table. Autour d&#39;un nouveau verre, il commence à partager ses récits, des histoires de monstres marins, de trésors cachés et d&#39;îles mystérieuses. Ses aventures sont si captivantes que le temps semble suspendu, chaque mot peignant un tableau vivant de courage, de perte et de découverte.
+
+Jorik évoque également les dangers du Lagon des Murmures, un lieu dit hanté par les voix des marins perdus. *&quot;C&#39;est un endroit où même les plus braves trouvent leur limite,&quot;* confie-t-il, son regard se perdant dans le vague. *&quot;Mais c&#39;est là aussi que se trouvent les plus grands secrets.&quot;*
+
+Notre conversation se poursuit, et je réalise que cette rencontre fortuite pourrait bien être le début d&#39;une nouvelle aventure. Le capitaine Jorik, avec ses histoires et ses avertissements, m&#39;ouvre une fenêtre sur un monde que je n&#39;ai fait qu&#39;effleurer jusqu&#39;à présent. Et tandis que la taverne s&#39;anime autour de nous, je sais que ma décision d&#39;offrir cette tournée a changé le cours de mon destin dans les Cités Libres de Miranthia.
+
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]] 
+&gt;[[Embarquer pour le lagon des murmures-&gt;Lagon des Murmures]]
+&gt;[[Naviguer vers la croisée des chemins-&gt;mapp]]
+
+[if _RuePortCendre === 4]
+Dans l&#39;atmosphère embrumée de la taverne du Vieux Kraken, je sirote mon rhum, laissant les conversations alentour me bercer de récits de mer et d&#39;aventures lointaines. Les ombres dansent sur les murs au rythme des lanternes oscillantes, et le bois du comptoir porte les marques de nombreux récits non dits. C&#39;est dans ce cadre que je me trouve, à l&#39;affût d&#39;une opportunité, d&#39;un signe qui me guiderait vers ma prochaine quête.
+
+Alors que je contemple mon verre, cherchant à déchiffrer mon avenir dans les reflets ambrés du liquide, une présence s&#39;impose à ma table. Je lève les yeux pour me trouver face à une figure imposante, dont la réputation précède chaque pas : le capitaine Jorik Œil-de-Tempête. Son regard, aussi profond et tumultueux que l&#39;océan qu&#39;il défie régulièrement, m&#39;examine avec une curiosité non dissimulée.
+
+*&quot;Je t&#39;ai vu arriver, jeune aventurier,&quot;* commence-t-il, sa voix évoquant le grondement lointain d&#39;une tempête en approche. *&quot;Tu cherches du travail, n&#39;est-ce pas ? La mer t&#39;appelle, mais sais-tu vraiment à quoi tu réponds ?&quot;*
+
+Sa question, posée avec une gravité teintée d&#39;amusement, me laisse un instant sans voix. Avant que je puisse formuler une réponse, Jorik s&#39;assoit en face de moi, commandant deux autres chopes de rhum.
+
+*&quot;La mer offre richesses et découvertes à ceux qui ont le courage de l&#39;affronter,&quot;* poursuit-il, scrutant mon visage à la lumière vacillante. *&quot;Mais elle exige aussi respect et humilité. J&#39;ai navigué sur des vagues plus hautes que ces murs, affronté des tempêtes qui feraient pâlir le plus hardi des marins.&quot;*
+
+Il marque une pause, comme pour laisser ses mots s&#39;insinuer dans mon esprit, puis ajoute :* &quot;Si c&#39;est une vie de défi que tu cherches, peut-être puis-je t&#39;offrir une place sur mon navire. Mais sache que naviguer sous mon commandement requiert plus qu&#39;un désir d&#39;aventure. Il faut aussi une volonté de fer et un cœur brave.&quot;*
+
+Le rhum arrive, et nous trinquons en silence, scellant un accord non formulé. Dans le regard de Jorik, je lis une promesse de défis à venir, mais aussi une opportunité de prouver ma valeur en mer. Je sens en lui non seulement un capitaine redouté mais aussi un mentor potentiel, quelqu&#39;un qui pourrait m&#39;enseigner les véritables voies de l&#39;océan.
+
+La taverne du Vieux Kraken, avec ses murmures et ses secrets, est devenue le théâtre d&#39;un tournant décisif dans ma vie. Sous le regard bienveillant du vieux Kraken peint au-dessus du bar, j&#39;entrevois [[mon avenir se dessiner-&gt;embrasser l&#39;oubli]], une toile vierge prête à être marquée par les récits de tempêtes braves et de terres inexplorées. Le capitaine Jorik Œil-de-Tempête, avec sa proposition inattendue, m&#39;ouvre la porte d&#39;un monde où chaque vague, chaque rafale de vent, est une note dans la symphonie sauvage de la mer.</tw-passagedata><tw-passagedata pid="142" name="Discuter avec le marchand" tags="" position="4300,1150" size="100,100">_PassageAvantTirage: passage.name
+_RuePortCendre:2
+--
+[if _sextant]
+Je m&#39;arrête devant l&#39;étal du marchand, captivé par l&#39;assortiment d&#39;objets qui semblent tout droit sortis des pages d&#39;un récit d&#39;aventures. Chaque pièce dispose d&#39;un caractère unique, marqué par le temps et les voyages. Je me penche pour mieux observer, conscient que chaque détail pourrait révéler une histoire encore plus fascinante.
+
+Mes yeux glissent d&#39;abord sur un compas ancien, dont le couvercle est gravé d&#39;images de monstres marins et de navires affrontant des tempêtes déchaînées. L&#39;objet, ouvert, révèle une rose des vents délicatement ouvragée, ses points cardinaux légèrement effacés par les doigts de nombreux navigateurs qui l&#39;ont tourné vers des destinations lointaines.
+
+À côté, une carte maritime attire mon attention. Elle est étendue, maintenue ouverte par de petites pierres polies à chaque coin. L&#39;encre bleue et dorée dépeint des îles exotiques et des courants océaniques, mais ce qui me frappe le plus, ce sont les zones marquées comme inexplorées, bordées d&#39;avertissements et de symboles mystérieux. Ces espaces vierges sur la carte murmurent l&#39;appel de l&#39;inconnu, des terres qui n&#39;attendent que d&#39;être découvertes.
+
+Je remarque ensuite une série de boussoles, chacune avec sa propre personnalité. L&#39;une d&#39;elles, particulièrement ornée, se distingue par ses gravures complexes qui racontent peut-être une histoire ou cachent un secret connu seulement de son ancien propriétaire. Les aiguilles, immobiles, attendent patiemment d&#39;être à nouveau en mouvement, de pointer vers de nouvelles aventures.
+
+Enfin, mon regard se pose sur une série de petits objets personnels : des médaillons, des pièces de monnaie provenant de royaumes oubliés, des pierres aux couleurs étranges, et des fragments de ce qui semble être d&#39;anciennes cartes ou de journaux de bord. Chacun pourrait être la clé d&#39;une histoire, d&#39;un amour perdu en mer, ou d&#39;un trésor enfoui.
+
+Je réalise que je suis plongé dans une contemplation profonde, chaque objet me tirant plus loin dans un monde de mystères et d&#39;histoires non racontées. Ce n&#39;est pas seulement un étal que j&#39;observe, mais une porte entrebâillée sur l&#39;immensité du monde et les innombrables aventures qui restent à vivre. Je me sens soudain connecté à toutes ces âmes qui ont navigué avant moi, partageant un instant leur soif d&#39;exploration et de découverte.
+
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Explorer les ruelles]]
+
+[if !_sextant]
+Le marchand derrière l&#39;étal, un homme d&#39;âge mûr à la barbe grisonnante et aux yeux pétillants d&#39;intelligence, m&#39;observe avec intérêt. Je m&#39;approche, intrigué par l&#39;étendue de sa collection : des compas anciens, des cartes maritimes détaillées aux itinéraires mystérieux, des sextants brillamment polis, et même quelques boussoles d&#39;un autre âge.
+
+*&quot;De beaux instruments pour ceux qui osent braver les mers,&quot;* dit-il en me saluant d&#39;un hochement de tête respectueux. *&quot;Chaque objet a une histoire, une aventure qu&#39;il a survécue. Vous cherchez quelque chose de particulier, ou peut-être une histoire à entendre?&quot;*
+
+Je lui souris, poussé par une curiosité grandissante. *&quot;Je suis fasciné par les histoires que ces objets pourraient raconter. Y en a-t-il un qui vous est particulièrement cher ?&quot;* demandé-je, mon regard balayant les artefacts devant moi.
+
+Le marchand, le visage s&#39;illuminant d&#39;un sourire nostalgique, saisit un sextant ornée de gravures complexes. *&quot;Cet objet, par exemple, a appartenu à un capitaine qui a navigué bien au-delà des Cartes Connues, dans des eaux où les étoiles dans le ciel ne sont plus les mêmes. Il raconte qu&#39;il a trouvé ce sextant sur une île cachée, guidé par un chant mélodieux entendu au cœur d&#39;une tempête. Croyez-le ou non, cette boussole l&#39;a ramené chez lui quand toutes les autres avaient perdu leur orientation.&quot;*
+
+Je suis captivé par l&#39;histoire, sentant le poids de l&#39;aventure et du mystère dans mes mains alors que je caresse doucement la surface de la boussole. *&quot;Combien pour ce sextant ?&quot;* demandé-je, déjà séduit par l&#39;idée de posséder un fragment d&#39;histoire si riche.
+
+&gt;[[Acheter le sextant]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Explorer les ruelles]]
+</tw-passagedata><tw-passagedata pid="143" name="Partie de carte" tags="" position="4450,1100" size="100,100">_PassageAvantTirage: passage.name
+_PortCendre:true
+_Carte:random.d10
+_Couleur:[&#39;Pique&#39;,&#39;Coeur&#39;,&#39;Tréfle&#39;,&#39;Carreau&#39;]
+_CarteFinal:_Carte +&#39; de &#39; +_Couleur[random.d4-1]
+--
+Je me dirige vers une table où une partie de cartes est sur le point de commencer. L&#39;air est chargé de tension et d&#39;excitation, le jeu étant un passe-temps favori parmi les marins et aventuriers de Port-Cendre. Les joueurs, des visages durs et marqués par le soleil, m&#39;accueillent avec un mélange de curiosité et de défi. Je m&#39;assois, conscient que je suis le nouveau venu, le mystère qui vient pimenter leur routine.
+
+La marrin tire une carte et me tend le paquet, [[je tire une carte]] incertain des enjeux.
+</tw-passagedata><tw-passagedata pid="144" name="je tire une carte" tags="" position="4500,1275" size="100,100">_PassageAvantTirage: passage.name
+_PortCendre:true
+_CarteJoueur:random.d10
+_CouleurJoueur:[&#39;Pique&#39;,&#39;Coeur&#39;,&#39;Tréfle&#39;,&#39;Carreau&#39;]
+_CarteFinalJoueur:_CarteJoueur +&#39; de &#39; +_CouleurJoueur[random.d4-1]
+--
+[if _CarteJoueur &gt; _Carte]
+Le marin dévoile la carte avec un air de suspense. L&#39;instant semble suspendu alors que tous les regards se tournent vers la table. Avec une dextérité qui trahit des années en mer, il retourne la carte — un simple {_CarteFinal}. Mon cœur bat la chamade alors que je révèle ma carte, un {_CarteFinalJoueur}. Un murmure d&#39;approbation parcourt la table.
+
+Le marin me regarde, un sourire en coin se dessinant sur son visage buriné par le sel et le soleil. *&quot;Bien joué,&quot;* admet-il, levant sa chope en signe de respect. *&quot;Il semble que la chance soit de ton côté ce soir.&quot;* Les autres joueurs, bien que déçus de ne pas avoir gagné eux-mêmes, ne peuvent s&#39;empêcher d&#39;exprimer leur admiration pour mon coup de chance.
+
+Dans ce moment de victoire, je ressens un lien indéfinissable avec ces gens de mer, une appartenance éphémère à leur monde de risque et d&#39;aventure. Le marin, impressionné, me glisse discrètement l&#39;information sur un trésor caché, une épave récemment découverte non loin de Port-Cendre. *&quot;Peut-être que ta chance te guidera là aussi,&quot;* murmure-t-il avec un clin d&#39;œil.
+
+[if _CarteJoueur &lt;= _Carte]
+Le marin, avec un sourire énigmatique, retourne sa carte — un {_CarteFinal}. Toute la table retient son souffle alors que je retourne lentement ma carte, révélant un {_CarteFinalJoueur}. Une ombre de déception traverse la table.
+
+Le marin éclate d&#39;un rire tonitruant, secouant la tête avec amusement. *&quot;Ah, mon ami, la mer est une maîtresse capricieuse, et il semble qu&#39;elle n&#39;ait pas favorisé ta chance ce soir.&quot;* Les autres joueurs rient avec lui, mais il n&#39;y a ni moquerie ni mépris dans leur attitude, juste l&#39;acceptation de la nature changeante de la fortune.
+
+Pourtant, malgré ma défaite, je ne me sens pas diminué. Le marin pose sa main sur mon épaule, son regard pénétrant traduisant une sorte de respect. *&quot;Chaque marin connaît le goût de la défaite, mais seuls les courageux continuent à naviguer.&quot;* Ses mots, plutôt que de m&#39;abattre, ravivent en moi une détermination ardente. Peut-être ai-je perdu cette bataille, mais la guerre contre les caprices du destin est loin d&#39;être terminée.
+
+La soirée continue, les chopes se lèvent et les histoires circulent, mais quelque chose en moi a changé. Ma défaite face au capitaine Jorik Œil-de-Tempête n&#39;est pas une fin, mais le début d&#39;une quête plus grande, un défi que je suis désormais déterminé à relever.
+
+[if _Jorik]
+&gt;[[Participer à une partie de cartes-&gt;Partie de carte]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]
+[if !_Jorik]
+&gt;[[Participer à une partie de cartes-&gt;Partie de carte]]
+&gt;[[Offrir une tournée dans la taverne la plus proche-&gt;Jorik]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]
+
+</tw-passagedata><tw-passagedata pid="145" name="Acheter le sextant" tags="" position="4300,1300" size="100,100">_PassageAvantTirage: passage.name
+_sextant:true
+--
+Le marchand me fixe, évaluant mon intérêt. *&quot;Pour un aventurier au cœur véritable, prêt à suivre les traces de ceux qui ont bravé l&#39;inconnu... Je pense que nous pouvons trouver un prix juste,&quot;* répond-il avec un clin d&#39;œil complice.
+
+Nous concluons l&#39;affaire, et alors que je continue mon exploration du marché, le sextant en poche, je me sens soudain plus proche du vaste monde de mystères et d&#39;aventures qui m&#39;attend. Cette rencontre, ce simple échange, a ravivé en moi une soif d&#39;exploration que je ne saurais ignorer.
+
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Explorer les ruelles]]</tw-passagedata><tw-passagedata pid="146" name="Ma résolution est sans faille et je l&#39;invite à poursuivre" tags="" position="4750,1075" size="100,100">_PassageAvantTirage: passage.name
+_PhareAmesQui:&#39;Marin&#39;
+--
+Voyant ma résolution inébranlable, le marin soupire et se rapproche. D&#39;une voix plus basse, presque un murmure, il ajoute : *&quot;Si tu es décidé à poursuivre cette quête, cherche la baie cachée par les falaises de l&#39;ouest. Là, un sentier serpente à travers la brume jusqu&#39;au Phare. Mais souviens-toi, ce que tu y découvriras pourrait te transformer à jamais.&quot;*
+
+Gratitude et curiosité m&#39;animent alors que je remercie le marin pour son conseil cryptique. Alors que je m&#39;éloigne, ses derniers mots résonnent en moi, écho lointain des légendes et des avertissements qui entourent le Phare des âmes.
+
+Avec les indications du marin gravées dans mon esprit, je me mets en route, le cœur battant à l&#39;idée de ce que je pourrais découvrir. [[La quête du Phare des âmes-&gt;Phare des âmes]] est désormais mienne, et chaque pas m&#39;entraîne plus profondément dans le mystère et l&#39;aventure.
+</tw-passagedata><tw-passagedata pid="147" name="taverne Miranthia" tags="" position="4400,850" size="100,100">_PassageAvantTirage: passage.name
+--
+La porte de la taverne du Vieux Kraken grince sur ses gonds alors que je m&#39;aventure à l&#39;intérieur, échappant à la brise salée de Port-Cendre pour me plonger dans un univers où le temps et la réalité semblent suspendus. L&#39;air est empli d&#39;un mélange enivrant d&#39;odeurs : le rhum épicé, le bois humide et le parfum subtil du tabac. Des lanternes diffusent une lumière tamisée, créant des ombres dansantes sur les murs ornés de filets de pêche, de cartes maritimes anciennes et de portraits de marins légendaires.
+
+Je m&#39;approche du comptoir, commandant une chope de la bière locale avant de trouver une place au bout d&#39;une table en bois usée, partagée par des visages burinés par le vent et le soleil. Autour de moi, les conversations se mêlent en une symphonie de récits d&#39;aventures : des histoires de tempêtes déchaînées, de trésors cachés et de rencontres avec des créatures mythiques des profondeurs marines.
+
+Un vieux marin, dont les yeux pétillent de malice sous son épaisse chevelure grisonnante, capte mon attention en racontant avec ferveur l&#39;histoire d&#39;une île fantôme qui apparaît seulement sous la pleine lune, gardienne d&#39;un trésor maudit protégé par les esprits des pirates déchus. À côté de lui, un jeune navigateur parle d&#39;une baleine gigantesque aux yeux comme des phares, guidant les marins perdus à travers les brumes pour les ramener à bon port.
+
+Plus loin, un groupe s&#39;anime autour du récit d&#39;une sirène au chant mélodieux, capable d&#39;apaiser les plus violentes des tempêtes, mais dont la rencontre signifie souvent un destin entrelacé de bonheur et de mélancolie. Et puis, il y a cette histoire d&#39;un capitaine qui, défiant les dieux de la mer, aurait navigué jusqu&#39;au bout du monde, là où l&#39;océan et le ciel se rejoignent en un horizon infini.
+
+Chaque histoire ajoute une couche de mystère et de magie à l&#39;atmosphère déjà chargée de la taverne, me faisant oublier le passage du temps. Je bois mes paroles autant que ma bière, me laissant emporter dans un monde où l&#39;imaginaire règne en maître.
+
+La taverne du Vieux Kraken n&#39;est pas seulement un lieu de repos pour les âmes fatiguées par la mer ; c&#39;est un carrefour de rêves et de légendes, un sanctuaire où les histoires de courage, d&#39;amour et d&#39;aventure sont éternellement préservées. En écoutant ces récits, je sens en moi grandir une soif d&#39;exploration, un désir ardent de naviguer au-delà des cartes, vers ces lieux où la frontière entre le réel et l&#39;imaginaire s&#39;estompe.
+
+Peut-être, un jour, serai-je moi-même le protagoniste de ces légendes murmurées dans l&#39;ombre du Vieux Kraken, ajoutant mon chapitre à l&#39;épopée sans fin des marins de Port-Cendre.
+
+&gt;[[Explorer les ruelles]]
+&gt;[[Reprendre mon exploration de Port-Cendre-&gt;Port-Cendre]]
+&gt;[[Participer à une partie de cartes-&gt;Partie de carte]]</tw-passagedata><tw-passagedata pid="148" name="Taverne Kraken" tags="" position="4975,1100" size="100,100">_PassageAvantTirage: passage.name
+_RuePortCendre:4
+--
+La taverne se dresse fièrement au milieu d&#39;une ruelle animée, sa façade ornée d&#39;une enseigne représentant un kraken aux tentacules déployées. En poussant la porte, je suis immédiatement accueilli par une cacophonie réconfortante : le cliquetis des tasses, les conversations animées et les rires chaleureux des habitués.
+
+L&#39;intérieur de la taverne est un tableau vivant de la vie maritime : des filets et des bouées suspendus aux murs, des cartes maritimes éclairées par des chandelles vacillantes et des visages burinés par le vent racontant des histoires de tempêtes et de trésors cachés.
+
+Je m&#39;approche du comptoir où le tavernier, un homme à la carrure imposante avec un regard aussi profond que l&#39;océan, s&#39;affaire. *&quot;Je cherche du travail,&quot;* dis-je, tentant de faire entendre ma voix au-dessus du brouhaha. *&quot;Le marin du quai m&#39;a dit que je pourrais trouver ici des opportunités.&quot;*
+
+Le tavernier me dévisage un instant, puis esquisse un sourire. *&quot;Tu as frappé à la bonne porte, mon garçon. Nous avons toujours besoin de mains pour les cargaisons ou de courageux prêts à naviguer vers des eaux inconnues. Reste un moment, prends un verre. Quelqu&#39;un aura bien une offre à te faire.&quot;*
+
+Rassuré par ses paroles, je commande une chope de rhum et prends place à une table près du comptoir, observant les allées et venues. C&#39;est ici, dans la chaleur et l&#39;effervescence de la taverne du Vieux Kraken, [[que commence ma quête pour un travail-&gt;Jorik]], une aventure, ou peut-être même les deux.
 
 </tw-passagedata></tw-storydata><script>!function(){"use strict";var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};function t(e){if(e.__esModule)return e;var t=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(n){var r=Object.getOwnPropertyDescriptor(e,n);Object.defineProperty(t,n,r.get?r:{enumerable:!0,get:function(){return e[n]}})})),t}var n="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{};function r(){throw new Error("setTimeout has not been defined")}function o(){throw new Error("clearTimeout has not been defined")}var i=r,a=o;function s(e){if(i===setTimeout)return setTimeout(e,0);if((i===r||!i)&&setTimeout)return i=setTimeout,setTimeout(e,0);try{return i(e,0)}catch(t){try{return i.call(null,e,0)}catch(t){return i.call(this,e,0)}}}"function"==typeof n.setTimeout&&(i=setTimeout),"function"==typeof n.clearTimeout&&(a=clearTimeout);var c,l=[],u=!1,f=-1;function p(){u&&c&&(u=!1,c.length?l=c.concat(l):f=-1,l.length&&d())}function d(){if(!u){var e=s(p);u=!0;for(var t=l.length;t;){for(c=l,l=[];++f<t;)c&&c[f].run();f=-1,t=l.length}c=null,u=!1,function(e){if(a===clearTimeout)return clearTimeout(e);if((a===o||!a)&&clearTimeout)return a=clearTimeout,clearTimeout(e);try{a(e)}catch(t){try{return a.call(null,e)}catch(t){return a.call(this,e)}}}(e)}}function h(e,t){this.fun=e,this.array=t}h.prototype.run=function(){this.fun.apply(null,this.array)};function g(){}var m=g,b=g,v=g,y=g,w=g,k=g,x=g;var S=n.performance||{},_=S.now||S.mozNow||S.msNow||S.oNow||S.webkitNow||function(){return(new Date).getTime()};var E=new Date;var C={nextTick:function(e){var t=new Array(arguments.length-1);if(arguments.length>1)for(var n=1;n<arguments.length;n++)t[n-1]=arguments[n];l.push(new h(e,t)),1!==l.length||u||s(d)},title:"browser",browser:!0,env:{},argv:[],version:"",versions:{},on:m,addListener:b,once:v,off:y,removeListener:w,removeAllListeners:k,emit:x,binding:function(e){throw new Error("process.binding is not supported")},cwd:function(){return"/"},chdir:function(e){throw new Error("process.chdir is not supported")},umask:function(){return 0},hrtime:function(e){var t=.001*_.call(S),n=Math.floor(t),r=Math.floor(t%1*1e9);return e&&(n-=e[0],(r-=e[1])<0&&(n--,r+=1e9)),[n,r]},platform:"browser",release:{},config:{},uptime:function(){return(new Date-E)/1e3}};function A(e){return null!=e&&(!!e._isBuffer||O(e)||function(e){return"function"==typeof e.readFloatLE&&"function"==typeof e.slice&&O(e.slice(0,0))}(e))}function O(e){return!!e.constructor&&"function"==typeof e.constructor.isBuffer&&e.constructor.isBuffer(e)}void 0===n.TYPED_ARRAY_SUPPORT||n.TYPED_ARRAY_SUPPORT;var T="function"==typeof Object.create?function(e,t){e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}})}:function(e,t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e};function j(e,t){var n={seen:[],stylize:L};return arguments.length>=3&&(n.depth=arguments[2]),arguments.length>=4&&(n.colors=arguments[3]),D(t)?n.showHidden=t:t&&J(n,t),R(n.showHidden)&&(n.showHidden=!1),R(n.depth)&&(n.depth=2),R(n.colors)&&(n.colors=!1),R(n.customInspect)&&(n.customInspect=!0),n.colors&&(n.stylize=z),N(n,e,n.depth)}function z(e,t){var n=j.styles[t];return n?"["+j.colors[n][0]+"m"+e+"["+j.colors[n][1]+"m":e}function L(e,t){return e}function N(e,t,n){if(e.customInspect&&t&&H(t.inspect)&&t.inspect!==j&&(!t.constructor||t.constructor.prototype!==t)){var r=t.inspect(n,e);return q(r)||(r=N(e,r,n)),r}var o=function(e,t){if(R(t))return e.stylize("undefined","undefined");if(q(t)){var n="'"+JSON.stringify(t).replace(/^"|"$/g,"").replace(/'/g,"\\'").replace(/\\"/g,'"')+"'";return e.stylize(n,"string")}if(r=t,"number"==typeof r)return e.stylize(""+t,"number");var r;if(D(t))return e.stylize(""+t,"boolean");if(P(t))return e.stylize("null","null")}(e,t);if(o)return o;var i=Object.keys(t),a=function(e){var t={};return e.forEach((function(e,n){t[e]=!0})),t}(i);if(e.showHidden&&(i=Object.getOwnPropertyNames(t)),U(t)&&(i.indexOf("message")>=0||i.indexOf("description")>=0))return $(t);if(0===i.length){if(H(t)){var s=t.name?": "+t.name:"";return e.stylize("[Function"+s+"]","special")}if(M(t))return e.stylize(RegExp.prototype.toString.call(t),"regexp");if(B(t))return e.stylize(Date.prototype.toString.call(t),"date");if(U(t))return $(t)}var c,l,u="",f=!1,p=["{","}"];(c=t,Array.isArray(c)&&(f=!0,p=["[","]"]),H(t))&&(u=" [Function"+(t.name?": "+t.name:"")+"]");return M(t)&&(u=" "+RegExp.prototype.toString.call(t)),B(t)&&(u=" "+Date.prototype.toUTCString.call(t)),U(t)&&(u=" "+$(t)),0!==i.length||f&&0!=t.length?n<0?M(t)?e.stylize(RegExp.prototype.toString.call(t),"regexp"):e.stylize("[Object]","special"):(e.seen.push(t),l=f?function(e,t,n,r,o){for(var i=[],a=0,s=t.length;a<s;++a)G(t,String(a))?i.push(I(e,t,n,r,String(a),!0)):i.push("");return o.forEach((function(o){o.match(/^\d+$/)||i.push(I(e,t,n,r,o,!0))})),i}(e,t,n,a,i):i.map((function(r){return I(e,t,n,a,r,f)})),e.seen.pop(),function(e,t,n){if(e.reduce((function(e,t){return t.indexOf("\n"),e+t.replace(/\u001b\[\d\d?m/g,"").length+1}),0)>60)return n[0]+(""===t?"":t+"\n ")+" "+e.join(",\n  ")+" "+n[1];return n[0]+t+" "+e.join(", ")+" "+n[1]}(l,u,p)):p[0]+u+p[1]}function $(e){return"["+Error.prototype.toString.call(e)+"]"}function I(e,t,n,r,o,i){var a,s,c;if((c=Object.getOwnPropertyDescriptor(t,o)||{value:t[o]}).get?s=c.set?e.stylize("[Getter/Setter]","special"):e.stylize("[Getter]","special"):c.set&&(s=e.stylize("[Setter]","special")),G(r,o)||(a="["+o+"]"),s||(e.seen.indexOf(c.value)<0?(s=P(n)?N(e,c.value,null):N(e,c.value,n-1)).indexOf("\n")>-1&&(s=i?s.split("\n").map((function(e){return"  "+e})).join("\n").substr(2):"\n"+s.split("\n").map((function(e){return"   "+e})).join("\n")):s=e.stylize("[Circular]","special")),R(a)){if(i&&o.match(/^\d+$/))return s;(a=JSON.stringify(""+o)).match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)?(a=a.substr(1,a.length-2),a=e.stylize(a,"name")):(a=a.replace(/'/g,"\\'").replace(/\\"/g,'"').replace(/(^"|"$)/g,"'"),a=e.stylize(a,"string"))}return a+": "+s}function D(e){return"boolean"==typeof e}function P(e){return null===e}function q(e){return"string"==typeof e}function R(e){return void 0===e}function M(e){return F(e)&&"[object RegExp]"===W(e)}function F(e){return"object"==typeof e&&null!==e}function B(e){return F(e)&&"[object Date]"===W(e)}function U(e){return F(e)&&("[object Error]"===W(e)||e instanceof Error)}function H(e){return"function"==typeof e}function Z(e){return null===e||"boolean"==typeof e||"number"==typeof e||"string"==typeof e||"symbol"==typeof e||void 0===e}function W(e){return Object.prototype.toString.call(e)}function J(e,t){if(!t||!F(t))return e;for(var n=Object.keys(t),r=n.length;r--;)e[n[r]]=t[n[r]];return e}function G(e,t){return Object.prototype.hasOwnProperty.call(e,t)}function V(e,t){if(e===t)return 0;for(var n=e.length,r=t.length,o=0,i=Math.min(n,r);o<i;++o)if(e[o]!==t[o]){n=e[o],r=t[o];break}return n<r?-1:r<n?1:0}j.colors={bold:[1,22],italic:[3,23],underline:[4,24],inverse:[7,27],white:[37,39],grey:[90,39],black:[30,39],blue:[34,39],cyan:[36,39],green:[32,39],magenta:[35,39],red:[31,39],yellow:[33,39]},j.styles={special:"cyan",number:"yellow",boolean:"yellow",undefined:"grey",null:"bold",string:"green",date:"magenta",regexp:"red"};var Y,X=Object.prototype.hasOwnProperty,K=Object.keys||function(e){var t=[];for(var n in e)X.call(e,n)&&t.push(n);return t},Q=Array.prototype.slice;function ee(){return void 0!==Y?Y:Y="foo"===function(){}.name}function te(e){return Object.prototype.toString.call(e)}function ne(e){return!A(e)&&("function"==typeof n.ArrayBuffer&&("function"==typeof ArrayBuffer.isView?ArrayBuffer.isView(e):!!e&&(e instanceof DataView||!!(e.buffer&&e.buffer instanceof ArrayBuffer))))}function re(e,t){e||le(e,!0,t,"==",ue)}var oe=/\s*function\s+([^\(\s]*)\s*/;function ie(e){if(H(e)){if(ee())return e.name;var t=e.toString().match(oe);return t&&t[1]}}function ae(e){this.name="AssertionError",this.actual=e.actual,this.expected=e.expected,this.operator=e.operator,e.message?(this.message=e.message,this.generatedMessage=!1):(this.message=function(e){return se(ce(e.actual),128)+" "+e.operator+" "+se(ce(e.expected),128)}(this),this.generatedMessage=!0);var t=e.stackStartFunction||le;if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var n=new Error;if(n.stack){var r=n.stack,o=ie(t),i=r.indexOf("\n"+o);if(i>=0){var a=r.indexOf("\n",i+1);r=r.substring(a+1)}this.stack=r}}}function se(e,t){return"string"==typeof e?e.length<t?e:e.slice(0,t):e}function ce(e){if(ee()||!H(e))return j(e);var t=ie(e);return"[Function"+(t?": "+t:"")+"]"}function le(e,t,n,r,o){throw new ae({message:n,actual:e,expected:t,operator:r,stackStartFunction:o})}function ue(e,t){e||le(e,!0,t,"==",ue)}function fe(e,t,n){e!=t&&le(e,t,n,"==",fe)}function pe(e,t,n){e==t&&le(e,t,n,"!=",pe)}function de(e,t,n){ge(e,t,!1)||le(e,t,n,"deepEqual",de)}function he(e,t,n){ge(e,t,!0)||le(e,t,n,"deepStrictEqual",he)}function ge(e,t,n,r){if(e===t)return!0;if(A(e)&&A(t))return 0===V(e,t);if(B(e)&&B(t))return e.getTime()===t.getTime();if(M(e)&&M(t))return e.source===t.source&&e.global===t.global&&e.multiline===t.multiline&&e.lastIndex===t.lastIndex&&e.ignoreCase===t.ignoreCase;if(null!==e&&"object"==typeof e||null!==t&&"object"==typeof t){if(ne(e)&&ne(t)&&te(e)===te(t)&&!(e instanceof Float32Array||e instanceof Float64Array))return 0===V(new Uint8Array(e.buffer),new Uint8Array(t.buffer));if(A(e)!==A(t))return!1;var o=(r=r||{actual:[],expected:[]}).actual.indexOf(e);return-1!==o&&o===r.expected.indexOf(t)||(r.actual.push(e),r.expected.push(t),function(e,t,n,r){if(null==e||null==t)return!1;if(Z(e)||Z(t))return e===t;if(n&&Object.getPrototypeOf(e)!==Object.getPrototypeOf(t))return!1;var o=me(e),i=me(t);if(o&&!i||!o&&i)return!1;if(o)return ge(e=Q.call(e),t=Q.call(t),n);var a,s,c=K(e),l=K(t);if(c.length!==l.length)return!1;for(c.sort(),l.sort(),s=c.length-1;s>=0;s--)if(c[s]!==l[s])return!1;for(s=c.length-1;s>=0;s--)if(!ge(e[a=c[s]],t[a],n,r))return!1;return!0}(e,t,n,r))}return n?e===t:e==t}function me(e){return"[object Arguments]"==Object.prototype.toString.call(e)}function be(e,t,n){ge(e,t,!1)&&le(e,t,n,"notDeepEqual",be)}function ve(e,t,n){ge(e,t,!0)&&le(e,t,n,"notDeepStrictEqual",ve)}function ye(e,t,n){e!==t&&le(e,t,n,"===",ye)}function we(e,t,n){e===t&&le(e,t,n,"!==",we)}function ke(e,t){if(!e||!t)return!1;if("[object RegExp]"==Object.prototype.toString.call(t))return t.test(e);try{if(e instanceof t)return!0}catch(e){}return!Error.isPrototypeOf(t)&&!0===t.call({},e)}function xe(e,t,n,r){var o;if("function"!=typeof t)throw new TypeError('"block" argument must be a function');"string"==typeof n&&(r=n,n=null),o=function(e){var t;try{e()}catch(e){t=e}return t}(t),r=(n&&n.name?" ("+n.name+").":".")+(r?" "+r:"."),e&&!o&&le(o,n,"Missing expected exception"+r);var i="string"==typeof r,a=!e&&o&&!n;if((!e&&U(o)&&i&&ke(o,n)||a)&&le(o,n,"Got unwanted exception"+r),e&&o&&n&&!ke(o,n)||!e&&o)throw o}function Se(e,t,n){xe(!0,e,t,n)}function _e(e,t,n){xe(!1,e,t,n)}function Ee(e){if(e)throw e}re.AssertionError=ae,T(ae,Error),re.fail=le,re.ok=ue,re.equal=fe,re.notEqual=pe,re.deepEqual=de,re.deepStrictEqual=he,re.notDeepEqual=be,re.notDeepStrictEqual=ve,re.strictEqual=ye,re.notStrictEqual=we,re.throws=Se,re.doesNotThrow=_e,re.ifError=Ee;var Ce=t(Object.freeze({__proto__:null,default:re,AssertionError:ae,fail:le,ok:ue,assert:ue,equal:fe,notEqual:pe,deepEqual:de,deepStrictEqual:he,notDeepEqual:be,notDeepStrictEqual:ve,strictEqual:ye,notStrictEqual:we,throws:Se,doesNotThrow:_e,ifError:Ee})),Ae=Ce,Oe="undefined"!=typeof window;function Te(e){this.hasWindow=e,this.hasIdle=this.hasWindow&&window.requestIdleCallback,this.method=this.hasIdle?window.requestIdleCallback.bind(window):this.setTimeout,this.scheduled=!1,this.queue=[]}Te.prototype.push=function(e){Ae.equal(typeof e,"function","nanoscheduler.push: cb should be type function"),this.queue.push(e),this.schedule()},Te.prototype.schedule=function(){if(!this.scheduled){this.scheduled=!0;var e=this;this.method((function(t){for(;e.queue.length&&t.timeRemaining()>0;)e.queue.shift()(t);e.scheduled=!1,e.queue.length&&e.schedule()}))}},Te.prototype.setTimeout=function(e){setTimeout(e,0,{timeRemaining:function(){return 1}})};var je,ze=function(){var e;return Oe?(window._nanoScheduler||(window._nanoScheduler=new Te(!0)),e=window._nanoScheduler):e=new Te,e},Le=ze(),Ne=Ce;Ie.disabled=!0;try{je=window.performance,Ie.disabled="true"===window.localStorage.DISABLE_NANOTIMING||!je.mark}catch(e){}var $e=Ie;function Ie(e){if(Ne.equal(typeof e,"string","nanotiming: name should be type string"),Ie.disabled)return De;var t=(1e4*je.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;je.mark(o),Le.push((function(){var i=null;try{var a=e+" ["+t+"]";je.measure(a,n,o),je.clearMarks(n),je.clearMarks(o)}catch(e){i=e}r&&r(i,e)}))}return je.mark(n),r.uuid=t,r}function De(e){e&&Le.push((function(){e(new Error("nanotiming: performance API unavailable"))}))}var Pe,qe=Ce;Re.disabled=!0;try{Pe=require("perf_hooks").performance,Re.disabled=C.env.DISABLE_NANOTIMING||!Pe.mark}catch(e){}function Re(e){if("undefined"!=typeof window)return $e(e);if(qe.equal(typeof e,"string","nanotiming: name should be type string"),Re.disabled)return Me;var t=(1e4*Pe.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;Pe.mark(o);var i=null;try{var a=e+" ["+t+"]";Pe.measure(a,n,o),Pe.clearMarks(n),Pe.clearMarks(o)}catch(e){i=e}r&&r(i,e)}return Pe.mark(n),r.uuid=t,r}function Me(e){e&&e(new Error("nanotiming: performance API unavailable"))}var Fe=function(e,t,n){var r,o=e.length;if(!(t>=o||0===n)){var i=o-(n=t+n>o?o-t:n);for(r=t;r<i;++r)e[r]=e[r+n];e.length=i}},Be=Re,Ue=Ce,He=Ze;function Ze(e){if(!(this instanceof Ze))return new Ze(e);this._name=e||"nanobus",this._starListeners=[],this._listeners={}}Ze.prototype.emit=function(e){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.emit: eventName should be type string or symbol");for(var t=[],n=1,r=arguments.length;n<r;n++)t.push(arguments[n]);var o=Be(this._name+"('"+e.toString()+"')"),i=this._listeners[e];return i&&i.length>0&&this._emit(this._listeners[e],t),this._starListeners.length>0&&this._emit(this._starListeners,e,t,o.uuid),o(),this},Ze.prototype.on=Ze.prototype.addListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.on: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.on: listener should be type function"),"*"===e?this._starListeners.push(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].push(t)),this},Ze.prototype.prependListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependListener: listener should be type function"),"*"===e?this._starListeners.unshift(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].unshift(t)),this},Ze.prototype.once=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.once: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.once: listener should be type function");var n=this;return this.on(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.prependOnceListener=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependOnceListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependOnceListener: listener should be type function");var n=this;return this.prependListener(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.removeListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.removeListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.removeListener: listener should be type function"),"*"===e?(this._starListeners=this._starListeners.slice(),n(this._starListeners,t)):(void 0!==this._listeners[e]&&(this._listeners[e]=this._listeners[e].slice()),n(this._listeners[e],t));function n(e,t){if(e){var n=e.indexOf(t);return-1!==n?(Fe(e,n,1),!0):void 0}}},Ze.prototype.removeAllListeners=function(e){return e?"*"===e?this._starListeners=[]:this._listeners[e]=[]:(this._starListeners=[],this._listeners={}),this},Ze.prototype.listeners=function(e){var t="*"!==e?this._listeners[e]:this._starListeners,n=[];if(t)for(var r=t.length,o=0;o<r;o++)n.push(t[o]);return n},Ze.prototype._emit=function(e,t,n,r){if(void 0!==e&&0!==e.length){void 0===n&&(n=t,t=null),t&&(n=void 0!==r?[t].concat(n,r):[t].concat(n));for(var o=e.length,i=0;i<o;i++){var a=e[i];a.apply(a,n)}}};var We=He();function Je(e){return Je="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},Je(e)}function Ge(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function Ve(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function Ye(e,t,n){return t&&Ve(e.prototype,t),n&&Ve(e,n),Object.defineProperty(e,"prototype",{writable:!1}),e}function Xe(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),Object.defineProperty(e,"prototype",{writable:!1}),t&&Qe(e,t)}function Ke(e){return Ke=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},Ke(e)}function Qe(e,t){return Qe=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},Qe(e,t)}function et(e,t){if(t&&("object"==typeof t||"function"==typeof t))return t;if(void 0!==t)throw new TypeError("Derived constructors may only return object or undefined");return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e)}function tt(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r=Ke(e);if(t){var o=Ke(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return et(this,n)}}function nt(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null==n)return;var r,o,i=[],a=!0,s=!1;try{for(n=n.call(e);!(a=(r=n.next()).done)&&(i.push(r.value),!t||i.length!==t);a=!0);}catch(e){s=!0,o=e}finally{try{a||null==n.return||n.return()}finally{if(s)throw o}}return i}(e,t)||ot(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function rt(e){return function(e){if(Array.isArray(e))return it(e)}(e)||function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}(e)||ot(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function ot(e,t){if(e){if("string"==typeof e)return it(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?it(e,t):void 0}}function it(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function at(e,t){var n="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!n){if(Array.isArray(e)||(n=ot(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var r=0,o=function(){};return{s:o,n:function(){return r>=e.length?{done:!0}:{done:!1,value:e[r++]}},e:function(e){throw e},f:o}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var i,a=!0,s=!1;return{s:function(){n=n.call(e)},n:function(){var e=n.next();return a=e.done,e},e:function(e){s=!0,i=e},f:function(){try{a||null==n.return||n.return()}finally{if(s)throw i}}}}
 /*!

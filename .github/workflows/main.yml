@@ -1,0 +1,5 @@
+---
+name: itch.io
+
+env:
+  itch_project: cleguyadec/les-terres-decho
